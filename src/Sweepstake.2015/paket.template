@@ -1,0 +1,23 @@
+type project
+owners
+    Neph
+authors 
+    Neph
+projectUrl
+    http://github.com/aornota/Sweepstake.2015
+iconUrl
+    https://raw.githubusercontent.com/aornota/Sweepstake.2015/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/aornota/Sweepstake.2015/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    
+summary
+    The inaugural world-famous Rugby World Cup sweepstake
+description
+    Description not set
+
+
