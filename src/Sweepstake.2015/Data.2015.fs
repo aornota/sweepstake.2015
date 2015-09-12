@@ -23,7 +23,7 @@ module ``Data 2015`` =
     let whitelockSam = { Name = "Sam Whitelock"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let caneSam = { Name = "Sam Cane"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let kainoJerome = { Name = "Jerome Kaino"; Team = newZealand; Type = Forward; Status = OriginalSquad }
-    let mcCawRichie = { Name = "Richie McCaw "; Team = newZealand; Type = Forward; Status = OriginalSquad }
+    let mcCawRichie = { Name = "Richie McCaw"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let messamLiam = { Name = "Liam Messam"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let readKieran = { Name = "Kieran Read"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let vitoVictor = { Name = "Victor Vito"; Team = newZealand; Type = Forward; Status = OriginalSquad }
@@ -224,7 +224,7 @@ module ``Data 2015`` =
     let mcGrathJack = { Name = "Jack McGrath"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let rossMike = { Name = "Mike Ross"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let hendersonIain = { Name = "Iain Henderson"; Team = ireland; Type = Forward; Status = OriginalSquad }
-    let o'ConnellPaul = { Name = "Paul O'Connell "; Team = ireland; Type = Forward; Status = OriginalSquad }
+    let o'ConnellPaul = { Name = "Paul O'Connell"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let ryanDonnacha = { Name = "Donnacha Ryan"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let tonerDevin = { Name = "Devin Toner"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let henryChris = { Name = "Chris Henry"; Team = ireland; Type = Forward; Status = OriginalSquad }
@@ -261,16 +261,16 @@ module ``Data 2015`` =
     let matu'uMotu = { Name = "Motu Matu'u"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let afatiaViliamu = { Name = "Viliamu Afatia"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let greyJake = { Name = "Jake Grey"; Team = samoa; Type = Forward; Status = OriginalSquad }
-    let mulipolaLogovi'i = { Name = "Logovi'i Mulipola"; Team = samoa; Type = Forward; Status = OriginalSquad }
+    let johnstonCensus = { Name = "Census Johnston"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let pereniseAnthony = { Name = "Anthony Perenise"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let taulafoSakaria = { Name = "Sakaria Taulafo"; Team = samoa; Type = Forward; Status = OriginalSquad }
-    let lemaluFa'atiga = { Name = "Fa'atiga Lemalu"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let pauloFilo = { Name = "Filo Paulo"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let tekoriJoe = { Name = "Joe Tekori"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let thompsonKane = { Name = "Kane Thompson"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let fa'asavaluMaurie = { Name = "Maurie Fa'asavalu"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let faosilivaAlafoti = { Name = "Alafoti Faosiliva"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let lamJack = { Name = "Jack Lam"; Team = samoa; Type = Forward; Status = OriginalSquad }
+    let levaveFaifili = { Name = "Faifili Levave"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let treviranusOfisa = { Name = "Ofisa Treviranus"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let ioaneTJ = { Name = "TJ Ioane"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let tuilagiSaneleVavae = { Name = "Sanele Vavae Tuilagi"; Team = samoa; Type = Forward; Status = OriginalSquad }
@@ -289,9 +289,9 @@ module ``Data 2015`` =
     let nanaiWilliamsTim = { Name = "Tim Nanai-Williams"; Team = samoa; Type = Back; Status = OriginalSquad }
 
     let samoaSquad = { Team = samoa
-                       Players = [ aveiOle; leiatauaManu; matu'uMotu; afatiaViliamu; greyJake; mulipolaLogovi'i; pereniseAnthony
-                                   taulafoSakaria; lemaluFa'atiga; pauloFilo; tekoriJoe; thompsonKane; fa'asavaluMaurie
-                                   faosilivaAlafoti; lamJack; treviranusOfisa; ioaneTJ; tuilagiSaneleVavae; afemaiVavao; fotuali'iKahn
+                       Players = [ aveiOle; leiatauaManu; matu'uMotu; afatiaViliamu; greyJake; johnstonCensus; pereniseAnthony
+                                   taulafoSakaria; pauloFilo; tekoriJoe; thompsonKane; fa'asavaluMaurie; faosilivaAlafoti; lamJack
+                                   levaveFaifili; treviranusOfisa; ioaneTJ; tuilagiSaneleVavae; afemaiVavao; fotuali'iKahn
                                    fa'apalePatrick; pisiTusi; stanleyMichael; leeLoRey; leotaJohnny; perezPaul; pisiGeorge
                                    autagavaiaFa'atoina; pisiKen; tuilagiAlesana; nanaiWilliamsTim ] }
 
@@ -357,10 +357,9 @@ module ``Data 2015`` =
     let warburtonSam = { Name = "Sam Warburton"; Team = wales; Type = Forward; Status = OriginalSquad }
     let faletauTaulupe = { Name = "Taulupe Faletau"; Team = wales; Type = Forward; Status = OriginalSquad }
     let daviesGareth = { Name = "Gareth Davies"; Team = wales; Type = Back; Status = OriginalSquad }
-    let webbRhys = { Name = "Rhys Webb"; Team = wales; Type = Back; Status = OriginalSquad }
+    let phillipsMike = { Name = "Mike Phillips"; Team = wales; Type = Back; Status = OriginalSquad }
     let williamsLloyd = { Name = "Lloyd Williams"; Team = wales; Type = Back; Status = OriginalSquad }
     let biggarDan = { Name = "Dan Biggar"; Team = wales; Type = Back; Status = OriginalSquad }
-    let morganMatthew = { Name = "Matthew Morgan"; Team = wales; Type = Back; Status = OriginalSquad }
     let priestlandRhys = { Name = "Rhys Priestland"; Team = wales; Type = Back; Status = OriginalSquad }
     let allenCory = { Name = "Cory Allen"; Team = wales; Type = Back; Status = OriginalSquad }
     let robertsJamie = { Name = "Jamie Roberts"; Team = wales; Type = Back; Status = OriginalSquad }
@@ -368,15 +367,16 @@ module ``Data 2015`` =
     let amosHallam = { Name = "Hallam Amos"; Team = wales; Type = Back; Status = OriginalSquad }
     let cuthbertAlex = { Name = "Alex Cuthbert"; Team = wales; Type = Back; Status = OriginalSquad }
     let northGeorge = { Name = "George North"; Team = wales; Type = Back; Status = OriginalSquad }
-    let halfpennyLeigh = { Name = "Leigh Halfpenny"; Team = wales; Type = Back; Status = OriginalSquad }
+    let walkerEli = { Name = "Eli Walker"; Team = wales; Type = Back; Status = OriginalSquad }
     let williamsLiam = { Name = "Liam Williams"; Team = wales; Type = Back; Status = OriginalSquad }
+    let morganMatthew = { Name = "Matthew Morgan"; Team = wales; Type = Back; Status = OriginalSquad }
 
     let walesSquad = { Team = wales
                        Players = [ baldwinScott; owensKen; francisTomas; jamesPaul; jarvisAaron; jenkinsGethin; leeSamson; ballJake
                                    charterisLuke; daviesBradley; dayDominic; jonesAlunWyn; kingJames; lydiateDan; tipuricJustin
-                                   warburtonSam; faletauTaulupe; daviesGareth; webbRhys; williamsLloyd; biggarDan; morganMatthew
-                                   priestlandRhys; allenCory; robertsJamie; williamsScott; amosHallam; cuthbertAlex; northGeorge
-                                   halfpennyLeigh; williamsLiam ] }
+                                   warburtonSam; faletauTaulupe; daviesGareth; phillipsMike; williamsLloyd; biggarDan; priestlandRhys
+                                   allenCory; robertsJamie; williamsScott; amosHallam; cuthbertAlex; northGeorge; walkerEli
+                                   williamsLiam; morganMatthew ] }
 
     let italy = { Name = "Italy"; Status = Active; Seeding = Some 10; Coach = "Jacques Brunel" }
 
@@ -403,10 +403,10 @@ module ``Data 2015`` =
     let violiMarcello = { Name = "Marcello Violi"; Team = italy; Type = Back; Status = OriginalSquad }
     let allanTommaso = { Name = "Tommaso Allan"; Team = italy; Type = Back; Status = OriginalSquad }
     let cannaCarlo = { Name = "Carlo Canna"; Team = italy; Type = Back; Status = OriginalSquad }
+    let bacchinEnrico = { Name = "Enrico Bacchin"; Team = italy; Type = Back; Status = OriginalSquad }
     let benvenutiTommaso = { Name = "Tommaso Benvenuti"; Team = italy; Type = Back; Status = OriginalSquad }
     let campagnaroMichele = { Name = "Michele Campagnaro"; Team = italy; Type = Back; Status = OriginalSquad }
     let garciaGonzalo = { Name = "Gonzalo Garcia"; Team = italy; Type = Back; Status = OriginalSquad }
-    let morisiLuca = { Name = "Luca Morisi"; Team = italy; Type = Back; Status = OriginalSquad }
     let sartoLeonardo = { Name = "Leonardo Sarto"; Team = italy; Type = Back; Status = OriginalSquad }
     let vendittiGiovanbattista = { Name = "Giovanbattista Venditti"; Team = italy; Type = Back; Status = OriginalSquad }
     let masiAndrea = { Name = "Andrea Masi"; Team = italy; Type = Back; Status = OriginalSquad }
@@ -416,8 +416,8 @@ module ``Data 2015`` =
                        Players = [ ghiraldiniLeonardo; giazzonDavide; maniciAndrea; agueroMatias; castrogiovanniMartin; chistoliniDario
                                    cittadiniLorenzo; rizzoMichele; bernaboValerio; furnoJoshua; fuserMarco; geldenhuysQuintin
                                    bergamascoMauro; favaroSimone; mintoFrancesco; vunisaSamuela; zanniAlessandro; parisseSergio; goriEdoardo
-                                   palazzaniGuglielmo; violiMarcello; allanTommaso; cannaCarlo; benvenutiTommaso; campagnaroMichele
-                                   garciaGonzalo; morisiLuca; sartoLeonardo; vendittiGiovanbattista; masiAndrea; mcLeanLuke ] }
+                                   palazzaniGuglielmo; violiMarcello; allanTommaso; cannaCarlo; bacchinEnrico; benvenutiTommaso
+                                   campagnaroMichele; garciaGonzalo; sartoLeonardo; vendittiGiovanbattista; masiAndrea; mcLeanLuke ] }
 
     let tonga = { Name = "Tonga"; Status = Active; Seeding = Some 11; Coach = "Mana Otai" }
 
@@ -726,7 +726,7 @@ module ``Data 2015`` =
     let duPlessisTinus = { Name = "Tinus du Plessis"; Team = namibia; Type = Forward; Status = OriginalSquad }
     let kitshoffRohan = { Name = "Rohan Kitshoff"; Team = namibia; Type = Forward; Status = OriginalSquad }
     let damensLeneve = { Name = "Leneve Damens"; Team = namibia; Type = Forward; Status = OriginalSquad }
-    let vanLillPJ = { Name = "PJ van Lill"; Team = namibia; Type = Forward; Status = OriginalSquad }
+    let vanLillPieterJan = { Name = "Pieter-Jan van Lill"; Team = namibia; Type = Forward; Status = OriginalSquad }
     let buitendagEniell = { Name = "Eniell Buitendag"; Team = namibia; Type = Back; Status = OriginalSquad }
     let jantjiesEugene = { Name = "Eugene Jantjies"; Team = namibia; Type = Back; Status = OriginalSquad }
     let stevensDamian = { Name = "Damian Stevens"; Team = namibia; Type = Back; Status = OriginalSquad }
@@ -745,9 +745,9 @@ module ``Data 2015`` =
     let namibiaSquad = { Team = namibia
                          Players = [ vanJaarsveldTorsten; vanderWesthuizenLouis; coetzeeAranos; deKlerkAJ; engelsJaco; larsonRaoul
                                      redelinghuysJohnny; viviersCasper; uaniviTjiuee; venterJanco; bothmaRenaldo; burgerJacques;
-                                     conradieWian; duPlessisTinus; kitshoffRohan; damensLeneve; vanLillPJ; buitendagEniell; jantjiesEugene
-                                     stevensDamian; kotzeTheuns; delaHarpeDarryl; deyselJohan; greylingJC; vanWykDanie; maraisConrad
-                                     philanderDavid; smithHeinrich; vanWykRussell; bothaChrysander; trompJohan ] }
+                                     conradieWian; duPlessisTinus; kitshoffRohan; damensLeneve; vanLillPieterJan; buitendagEniell
+                                     jantjiesEugene; stevensDamian; kotzeTheuns; delaHarpeDarryl; deyselJohan; greylingJC; vanWykDanie
+                                     maraisConrad; philanderDavid; smithHeinrich; vanWykRussell; bothaChrysander; trompJohan ] }
 
     let canada = { Name = "Canada"; Status = Active; Seeding = None; Coach = "Kieran Crowley" }
 
@@ -755,7 +755,7 @@ module ``Data 2015`` =
     let carpenterAaron = { Name = "Aaron Carpenter"; Team = canada; Type = Forward; Status = OriginalSquad }
     let pifferoBenoit = { Name = "Benoit Piffero"; Team = canada; Type = Forward; Status = OriginalSquad }
     let buydensHubert = { Name = "Hubert Buydens"; Team = canada; Type = Forward; Status = OriginalSquad }
-    let marshallJason = { Name = "Jason Marshall"; Team = canada; Type = Forward; Status = OriginalSquad }
+    let ilnickiJake = { Name = "Jake Ilnicki"; Team = canada; Type = Forward; Status = OriginalSquad }
     let searsDucDjustice = { Name = "Djustice Sears-Duru"; Team = canada; Type = Forward; Status = OriginalSquad }
     let tiedemannAndrew = { Name = "Andrew Tiedemann"; Team = canada; Type = Forward; Status = OriginalSquad }
     let wooldridgeDoug = { Name = "Doug Wooldridge"; Team = canada; Type = Forward; Status = OriginalSquad }
@@ -784,7 +784,7 @@ module ``Data 2015`` =
     let jonesHarry = { Name = "Harry Jones"; Team = canada; Type = Back; Status = OriginalSquad }
 
     let canadaSquad = { Team = canada
-                        Players = [ barkwillRay; carpenterAaron; pifferoBenoit; buydensHubert; marshallJason; searsDucDjustice
+                        Players = [ barkwillRay; carpenterAaron; pifferoBenoit; buydensHubert; ilnickiJake; searsDucDjustice
                                     tiedemannAndrew; wooldridgeDoug; beukeboomBrett; cudmoreJamie; olmsteadEvan; dalaNanyak; gilmourKyle
                                     moonlightJohn; sinclairJebb; ardronTyler; thorpeRichard; mackPhil; mackenzieJamie; mcRorieGordon
                                     hirayamaNathan; underwoodLiam; blevinsNick; braidConnor; hearnCiaran; trainorConor; hasslerJeff
@@ -806,13 +806,13 @@ module ``Data 2015`` =
     let vanHeerdenJohannes = { Name = "Johannes van Heerden"; Team = romania; Type = Forward; Status = OriginalSquad }
     let burceaStelian = { Name = "Stelian Burcea"; Team = romania; Type = Forward; Status = OriginalSquad }
     let lucaciViorel = { Name = "Viorel Lucaci"; Team = romania; Type = Forward; Status = OriginalSquad }
-    let macoveiMihai = { Name = "Mihai Macovei "; Team = romania; Type = Forward; Status = OriginalSquad }
+    let macoveiMihai = { Name = "Mihai Macovei"; Team = romania; Type = Forward; Status = OriginalSquad }
     let carpoDaniel = { Name = "Daniel Carpo"; Team = romania; Type = Forward; Status = OriginalSquad }
-    let tonitaOvidiu = { Name = "Ovidiu Tonița"; Team = romania; Type = Forward; Status = OriginalSquad }
+    let tonitaOvidiu = { Name = "Ovidiu Toniţa"; Team = romania; Type = Forward; Status = OriginalSquad }
     let bratuTudorel = { Name = "Tudorel Bratu"; Team = romania; Type = Back; Status = OriginalSquad }
     let calafeteanuValentin = { Name = "Valentin Calafeteanu"; Team = romania; Type = Back; Status = OriginalSquad }
     let surugiuFlorin = { Name = "Florin Surugiu"; Team = romania; Type = Back; Status = OriginalSquad }
-    let dumbravaDanut = { Name = "Dănuț Dumbravă"; Team = romania; Type = Back; Status = OriginalSquad }
+    let dumbravaDanut = { Name = "Dănuţ Dumbravă"; Team = romania; Type = Back; Status = OriginalSquad }
     let wiringiMichael = { Name = "Michael Wiringi"; Team = romania; Type = Back; Status = OriginalSquad }
     let galCsaba = { Name = "Csaba Gál"; Team = romania; Type = Back; Status = OriginalSquad }
     let kinikinilauPaula = { Name = "Paula Kinikinilau"; Team = romania; Type = Back; Status = OriginalSquad }

@@ -4,6 +4,7 @@ open System
 
 open AOrNotA.Sweepstake2015.Domain
 open AOrNotA.Sweepstake2015.``Data 2011``
+open AOrNotA.Sweepstake2015.``Data 2015``
 open AOrNotA.Sweepstake2015.Sweepstake
 
 module Console =
@@ -26,10 +27,10 @@ module Console =
         top15Backs
         |> List.iter (fun (player, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" player.Name player.Team.Name score)) *)
 
-        let teamScores = getTotalScorePerTeam teams matches
+        (* let teamScores = getTotalScorePerTeam teams matches
         Console.WriteLine "\nTeams:"
         teamScores
-        |> List.iter (fun (team, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" team.Name team.Coach score))
+        |> List.iter (fun (team, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" team.Name team.Coach score)) *)
 
         // TODO [NMB]: More statistics...
 

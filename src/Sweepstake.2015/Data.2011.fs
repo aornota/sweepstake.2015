@@ -12,7 +12,7 @@ module ``Data 2011`` =
 
     let flynnCorey = { Name = "Corey Flynn"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let horeAndrew = { Name = "Andrew Hore"; Team = newZealand; Type = Forward; Status = OriginalSquad }
-    let mealamuKevin = { Name = "Kevin Mealamu"; Team = newZealand; Type = Forward; Status = OriginalSquad }
+    let mealamuKeven = { Name = "Keven Mealamu"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let afoaJohn = { Name = "John Afoa"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let franksBen = { Name = "Ben Franks"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let franksOwen = { Name = "Owen Franks"; Team = newZealand; Type = Forward; Status = OriginalSquad }
@@ -45,7 +45,7 @@ module ``Data 2011`` =
     let gearHosea = { Name = "Hosea Gear"; Team = newZealand; Type = Back; Status = Replacement (Some (DateTime (2011, 10, 9))) }
 
     let newZealandSquad = { Team = newZealand
-                            Players = [ flynnCorey; horeAndrew; mealamuKevin; afoaJohn; franksBen; franksOwen; woodcockTony
+                            Players = [ flynnCorey; horeAndrew; mealamuKeven; afoaJohn; franksBen; franksOwen; woodcockTony
                                         boricAnthony; thornBrad; whitelockSam; williamsAli; kainoJerome; mcCawRichie; thomsonAdam
                                         readKieran; vitoVictor; cowanJimmy; ellisAndy; weepuPiri; kahuiRichard; nonuMa'a; smithConrad
                                         williamsSonnyBill; guildfordZac; janeCory; daggIsrael; toeavaIsaia; carterDan; muliainaMils
@@ -315,7 +315,7 @@ module ``Data 2011`` =
     let ryanDonnacha = { Name = "Donnacha Ryan"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let ferrisStephen = { Name = "Stephen Ferris"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let jenningsShane = { Name = "Shane Jennings"; Team = ireland; Type = Forward; Status = OriginalSquad }
-    let o'BrienSean = { Name = "Sean O'Brien"; Team = ireland; Type = Forward; Status = OriginalSquad }
+    let o'BrienSean = { Name = "Seán O'Brien"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let heaslipJamie = { Name = "Jamie Heaslip"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let leamyDenis = { Name = "Denis Leamy"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let bossIsaac = { Name = "Isaac Boss"; Team = ireland; Type = Back; Status = OriginalSquad }
@@ -530,7 +530,7 @@ module ``Data 2011`` =
     let scholzMike = { Name = "Mike Scholz"; Team = canada; Type = Back; Status = OriginalSquad }
     let smithRyan = { Name = "Ryan Smith"; Team = canada; Type = Back; Status = OriginalSquad }
     let trainorConor = { Name = "Conor Trainor"; Team = canada; Type = Back; Status = OriginalSquad }
-    let vanderMerweDTH = { Name = "DTH van der Merwe"; Team = canada; Type = Back; Status = OriginalSquad }
+    let vanderMerweDTH = { Name = "D. T. H. van der Merwe"; Team = canada; Type = Back; Status = OriginalSquad }
     let hearnCiaran = { Name = "Ciaran Hearn"; Team = canada; Type = Back; Status = OriginalSquad }
     let mackenziePhil = { Name = "Phil Mackenzie"; Team = canada; Type = Back; Status = OriginalSquad }
     let parisTaylor = { Name = "Taylor Paris"; Team = canada; Type = Back; Status = OriginalSquad }
@@ -631,11 +631,11 @@ module ``Data 2011`` =
     let zebegaBogdan = { Name = "Bogdan Zebega"; Team = romania; Type = Forward; Status = OriginalSquad }
     let dimaDragos = { Name = "Dragoş Dima"; Team = romania; Type = Forward; Status = OriginalSquad }
     let floreaSilviu = { Name = "Silviu Florea"; Team = romania; Type = Forward; Status = OriginalSquad }
-    let ionPaulica = { Name = "Paulică Ion"; Team = romania; Type = Forward; Status = OriginalSquad }
+    let paulicaIon = { Name = "Ion Paulică"; Team = romania; Type = Forward; Status = OriginalSquad }
     let lazarMihaita = { Name = "Mihaita Lazăr"; Team = romania; Type = Forward; Status = OriginalSquad }
     let nereNicolae = { Name = "Nicolae Nere"; Team = romania; Type = Forward; Status = OriginalSquad }
     let petreCristian = { Name = "Cristian Petre"; Team = romania; Type = Forward; Status = OriginalSquad }
-    let popirlanValentin = { Name = "Valentin Popirlan"; Team = romania; Type = Forward; Status = OriginalSquad }
+    let popirlanValentin = { Name = "Valentin Popîrlan"; Team = romania; Type = Forward; Status = OriginalSquad }
     let ratiuCosmin = { Name = "Cosmin Raţiu"; Team = romania; Type = Forward; Status = OriginalSquad }
     let ursacheValentin = { Name = "Valentin Ursache"; Team = romania; Type = Forward; Status = OriginalSquad }
     let burceaStelian = { Name = "Stelian Burcea"; Team = romania; Type = Forward; Status = OriginalSquad }
@@ -659,7 +659,7 @@ module ``Data 2011`` =
     let vlaicuFlorin = { Name = "Florin Vlaicu"; Team = romania; Type = Back; Status = OriginalSquad }
 
     let romaniaSquad = { Team = romania
-                         Players = [ tincuMarius; zebegaBogdan; dimaDragos; floreaSilviu; ionPaulica; lazarMihaita; nereNicolae
+                         Players = [ tincuMarius; zebegaBogdan; dimaDragos; floreaSilviu; paulicaIon; lazarMihaita; nereNicolae
                                      petreCristian; popirlanValentin; ratiuCosmin; ursacheValentin; burceaStelian; ianusDaniel
                                      macoveiMihai; carpoDaneil; tonitaOvidiu; calafeteanuValentin; sirbuLucian; surugiuFlorin
                                      dimofteIonut; dumbravaDanut; cazanIonel; galCsaba; ghearaConstantin; apostolAdrian
@@ -918,7 +918,7 @@ module ``Data 2011`` =
                                                Try (smithConrad, Some 4<min>) (* newZealand *)
                                                Try (kahuiRichard, Some 16<min>)
                                                Try (kainoJerome, Some 21<min>)
-                                               Try (mealamuKevin, Some 30<min>)
+                                               Try (mealamuKeven, Some 30<min>)
                                                Try (ellisAndy, Some 34<min>)
                                                Try (sladeColin, Some 36<min>)
                                                Try (kahuiRichard, Some 45<min>)
