@@ -50,14 +50,14 @@ module TeamsContent =
                 let teamHtml (team: Team) =
                     let teamRow = tr ( [ td (getTeamTextWithStrike team team.Coach)
                                          td (getTeamSeeding team)
-                                         td (italic (getTeamScore2011 team))
+                                         td (italic (getTeamScoreText2011 team))
                                          td (getTeamPickedBy team)
-                                         td (getTeamScore2015 team) ] )
+                                         td (getTeamScoreText2015 team) ] )
                     let playerRow player = tr ( [ td (getPlayerNameWithStrike player)
                                                   td (getPlayerTypeAndStatus player)
-                                                  td (italic (getPlayerScore2011 player))
+                                                  td (italic (getPlayerScoreText2011 player))
                                                   td (getPlayerPickedBy player)
-                                                  td (getPlayerScore2015 player) ] )
+                                                  td (getPlayerScoreText2015 player) ] )
                     let players = players |> List.filter (fun player -> player.Team = team)
                     [ h3 (anchor team.Name (getTeamTextWithStrike team (getTeamNameWithSeeding team))) ] @
                     table (Some 80) (teamHeaderRow @ teamRow) @

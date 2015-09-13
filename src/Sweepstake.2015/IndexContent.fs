@@ -27,20 +27,38 @@ module IndexContent =
                                             td (linkToAnchor "Best-unpicked-forwards" "forwards")
                                             td (linkToAnchor "Best-unpicked-backs" "backs") ] ))
 
-    let getIndexLinksHtml () = (* TEMP [NMB]: Remove sweepstakeLinksHtml | para until real data is available...
-                               sweepstakerLinksHtml @
-                               [ para "" ] @ *)
+    let getIndexLinksHtml () = (* TEMP [NMB]: Remove sweepstakeLinksHtml | para until real data is available... *)
+                               sweepstakerLinksHtml @ [ para "" ] @
                                linksHtml
                                |> concatenateWithNewLine
-    
-    // TODO [NMB]...
-    let standingsHtml = [ h2 (anchor "Standings" "Standings") ]
+
+    let sweepstakerTeamScore sweepstaker =
+        match sweepstaker.CoachTeam with | Some team' -> getTeamScore2015 team' | None -> 0<score>
+
+    let sweepstakerPlayersScore sweepstaker =
+        sweepstaker.Picks |> List.map (fun pick -> getPlayerScore2015 pick.Player)
+                          |> List.sum
+
+    let sweepstakerScore sweepstaker = sweepstakerTeamScore sweepstaker + sweepstakerPlayersScore sweepstaker
+
+    let standingsHtml =
+        let standingsHeaderRow = tr ( [ td (bold "Name")
+                                        // TODO [NMB]: CoachTeam Status [and strikethrough?]? Players remaining?...
+                                        td (bold "Score") ] )
+        let sweepstakersHtml =
+            let sweepstakerRow (sweepstaker, score) = tr ( [ td (getParticipant sweepstaker)
+                                                             // TODO [NMB]: See above...
+                                                             td (sprintf "%d" score) ] )
+            let sweepstakerScores = sweepstakers |> List.map (fun sweepstaker -> sweepstaker, sweepstakerScore sweepstaker)
+                                                 |> List.sortBy (fun (_, score) -> -score)
+            table (Some 40) (standingsHeaderRow @ (sweepstakerScores |> List.collect sweepstakerRow))
+        [ h2 (anchor "Standings" "Standings") ] @
+        sweepstakersHtml
 
     // TODO [NMB]...
     let sweepstakerTeamsHtml = [ h3 (anchor "Neph" "Neph")
                                  h3 (anchor "Jack" "Jack")
-                                 h3 (anchor "Rosie" "Rosie")
-                                 h3 (anchor "Hugh" "Hugh") ]
+                                 h3 (anchor "Rosie" "Rosie") ]
 
     let unpickedAnchorText unpicked = match unpicked with | true -> "Best-unpicked" | false -> "Top"
     let unpickedText unpicked = match unpicked with | true -> "Best unpicked" | false -> "Top"
@@ -56,7 +74,7 @@ module IndexContent =
                                     td (bold "Seeding")
                                     td (bold "Coach") ] @
                                   (if unpicked then [] else [ td (bold "Picked by") ] ) @
-                                  [ td (bold "2015 score") ] )
+                                  [ td (bold "Score") ] )
         let teamsHtml teamScores =
             let teamRow (team, score) = tr ( [ td (getTeamTextWithStrike team team.Name)
                                                td (getTeamSeeding team)
@@ -80,7 +98,7 @@ module IndexContent =
                                       td (bold "Team") ] @
                                     (if playerType.IsSome then [ td "" ] else [ td (bold "Type") ] ) @
                                     (if unpicked then [] else [ td (bold "Picked by") ] ) @
-                                    [ td (bold "2015 score") ] )
+                                    [ td (bold "Score") ] )
         let playersHtml playerScores =
             let playerRow (player, score) = tr ( [ td (getPlayerNameWithStrike player)
                                                    td (getTeamTextWithStrike player.Team player.Team.Name) ] @
@@ -107,8 +125,8 @@ module IndexContent =
                      (sprintf "%s %s" (unpickedText unpicked) (playerTypeText playerType))) ] @
         scoresHtml
 
-    let getIndexHtml () = (* TEMP [NMB]: Remove standingsHtml | sweepstakerTeamsHtml until real data is available...
-                          standingsHtml @ sweepstakerTeamsHtml @ *)
+    let getIndexHtml () = (* TEMP [NMB]: Remove standingsHtml | sweepstakerTeamsHtml until real data is available... *)
+                          standingsHtml @ sweepstakerTeamsHtml @
                           teamScoresHtml false @
                           playerScoresHtml false None @
                           playerScoresHtml false (Some Forward) @

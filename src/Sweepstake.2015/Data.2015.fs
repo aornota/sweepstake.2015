@@ -339,7 +339,7 @@ module ``Data 2015`` =
                                        delaFuenteJeronimo; hernandezJuanMartin; moronoMatias; socinoJuanPablo; agullaHoracio
                                        corderoSantiago; imhoffJuan; amorosinoLucasGonzalez; tuculetJoaquin ] }
 
-    (* TEMP [NMB]: test data...
+    (* TEMP [NMB]: test data... *)
     let wales = { Name = "Wales"; Status = Active; Seeding = Some 9; Coach = "Warren Gatland" }
 
     let baldwinScott = { Name = "Scott Baldwin"; Team = wales; Type = Forward; Status = OriginalSquad }
@@ -381,9 +381,8 @@ module ``Data 2015`` =
                                    faletauTaulupe; daviesGareth; phillipsMike; williamsLloyd; biggarDan; priestlandRhys; allenCory
                                    robertsJamie; williamsScott; amosHallam; cuthbertAlex; northGeorge; walkerEli; williamsLiam
                                    morganMatthew; tipuricJustin; theEngineIvor ] }
-    *)
 
-    let wales = { Name = "Wales"; Status = Active; Seeding = Some 9; Coach = "Warren Gatland" }
+    (* TEMP [NMB]... let wales = { Name = "Wales"; Status = Active; Seeding = Some 9; Coach = "Warren Gatland" }
 
     let baldwinScott = { Name = "Scott Baldwin"; Team = wales; Type = Forward; Status = OriginalSquad }
     let owensKen = { Name = "Ken Owens"; Team = wales; Type = Forward; Status = OriginalSquad }
@@ -422,7 +421,7 @@ module ``Data 2015`` =
                                    charterisLuke; daviesBradley; dayDominic; jonesAlunWyn; kingJames; lydiateDan; tipuricJustin
                                    warburtonSam; faletauTaulupe; daviesGareth; phillipsMike; williamsLloyd; biggarDan; priestlandRhys
                                    allenCory; robertsJamie; williamsScott; amosHallam; cuthbertAlex; northGeorge; walkerEli
-                                   williamsLiam; morganMatthew ] }
+                                   williamsLiam; morganMatthew ] } *)
 
     let italy = { Name = "Italy"; Status = Active; Seeding = Some 10; Coach = "Jacques Brunel" }
 
@@ -895,7 +894,7 @@ module ``Data 2015`` =
 
     // Group A matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_Pool_A...
 
-    (* TEMP [NMB]: test data...
+    (* TEMP [NMB]: test data... *)
     let groupAEnglandVsFiji = { Team1Points = TeamPoints (england, 32<point>); Team2Points = TeamPoints (fiji, 31<point>)
                                 Stage = groupA; KickOff = DateTime (2015, 9, 11, 20, 0, 0)
                                 Events = [ ManOfTheMatch nadoloNemani
@@ -924,7 +923,7 @@ module ``Data 2015`` =
     let groupAWalesVsUruguay = { Team1Points = TeamPoints (wales, 54<point>); Team2Points = TeamPoints (uruguay, 8<point>)
                                  Stage = groupA; KickOff = DateTime (2015, 9, 13, 14, 30, 0) 
                                  Events = [ ManOfTheMatch jenkinsGethin
-                                            Try ((* TODO [NMB]: Replace with jonesAlunWync... *)tipuricJustin, Some 3<min>) (* wales *)
+                                            Try ((* TODO [NMB]: Replace with jonesAlunWyn... *)tipuricJustin, Some 3<min>) (* wales *)
                                             Try (northGeorge, Some 27<min>)
                                             Try (northGeorge, Some 37<min>)
                                             Try (jenkinsGethin, Some 49<min>)
@@ -947,9 +946,8 @@ module ``Data 2015`` =
                                             MissedConversion berchisiFelipe
                                             Penalty berchisiFelipe
                                             RedCard (etcheverryJeronimo, Some 67<min>) ] }
-    *)
 
-    let groupAEnglandVsFiji = { Team1Points = TeamPoints (england, (*TODO*)0<point>); Team2Points = TeamPoints (fiji, (*TODO*)0<point>)
+    (* TEMP [NMB]... let groupAEnglandVsFiji = { Team1Points = TeamPoints (england, (*TODO*)0<point>); Team2Points = TeamPoints (fiji, (*TODO*)0<point>)
                                 Stage = groupA; KickOff = DateTime (2015, 9, 18, 20, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* england *)
@@ -961,7 +959,7 @@ module ``Data 2015`` =
                                  Events = [ (*ManOfTheMatch ...*)
                                             (* TODO *) (* wales *)
                                             (* TODO *) (* uruguay *)
-                                             ] }
+                                             ] } *)
 
     let groupAAustraliaVsFiji = { Team1Points = TeamPoints (australia, (*TODO*)0<point>); Team2Points = TeamPoints (fiji, (*TODO*)0<point>)
                                   Stage = groupA; KickOff = DateTime (2015, 9, 23, 16, 45, 0) 

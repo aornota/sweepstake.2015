@@ -24,7 +24,7 @@ module ScoringContent =
             let teamRow (team: Team) = tr ( [ td team.Name
                                               td (getTeamSeeding team)
                                               td team.Coach
-                                              td (getTeamScore2011 team) ] )
+                                              td (getTeamScoreText2011 team) ] )
             table (Some 80) (teamHeaderRow @
                              (teamScores2011 |> List.collect (fun (team, _) -> teamRow team)))
         [ h3 (anchor "2011-team-scores" "2011 team scores") ] @
@@ -39,7 +39,7 @@ module ScoringContent =
             let playerRow (player: Player) = tr ( [ td player.Name
                                                     td player.Team.Name
                                                     td (getPlayerTypeAndStatus player)
-                                                    td (getPlayerScore2011 player) ] )
+                                                    td (getPlayerScoreText2011 player) ] )
             table (Some 100) (playerHeaderRow @
                              (playerScores2011 |> List.filter (fun (_, score) -> score <> 0<score>)
                                                |> List.collect (fun (player, _) -> playerRow player)))

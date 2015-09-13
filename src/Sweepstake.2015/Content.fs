@@ -69,10 +69,14 @@ module Content =
     let teamScores2015 = getTotalScorePerTeam ``Data 2015``.teams ``Data 2015``.matches
     let getTeamScore (teamScores: (Team * int<score>) list) (team: Team) =
         match teamScores |> List.filter (fun (team', _) -> team'.Name = team.Name) with
-        | h :: _ -> sprintf "%d" (snd h)
-        | _ -> ""
+        | h :: _ -> snd h
+        | _ -> 0<score>
+    let getTeamScoreText teamScores team = match getTeamScore teamScores team with | 0<score> -> ""
+                                                                                   | score -> sprintf "%d" score
     let getTeamScore2011 team = getTeamScore teamScores2011 team
     let getTeamScore2015 team = getTeamScore teamScores2015 team
+    let getTeamScoreText2011 team = getTeamScoreText teamScores2011 team
+    let getTeamScoreText2015 team = getTeamScoreText teamScores2015 team
     let getTeamPickedBy team =
         match ``Sweepstake 2015``.sweepstakers |> List.filter (fun sweepstaker ->
                                                                    match sweepstaker.CoachTeam with
@@ -83,14 +87,20 @@ module Content =
 
     let players2011 = ``Data 2011``.players |> List.map (fun player -> player, None)
     let playerScores2011 = getTotalScorePerPlayer players2011 ``Data 2011``.matches
+    (* TODO [NMB]: Replace None with OnlyScoresFrom (based on Picks) - but might need to rethink this (since want "player score" and
+                   and "pick score" as separate things... *)          
     let players2015 = ``Data 2015``.players |> List.map (fun player -> player, None)
     let playerScores2015 = getTotalScorePerPlayer players2015 ``Data 2015``.matches
     let getPlayerScore playerScores player =
         match playerScores |> List.filter (fun (player', _) -> player'.Name = player.Name) with
-        | h :: _ -> sprintf "%d" (snd h)
-        | _ -> ""
+        | h :: _ -> snd h
+        | _ -> 0<score>
+    let getPlayerScoreText playerScores player = match getPlayerScore playerScores player with | 0<score> -> ""
+                                                                                               | score -> sprintf "%d" score
     let getPlayerScore2011 player = getPlayerScore playerScores2011 player
     let getPlayerScore2015 player = getPlayerScore playerScores2015 player
+    let getPlayerScoreText2011 player = getPlayerScoreText playerScores2011 player
+    let getPlayerScoreText2015 player = getPlayerScoreText playerScores2015 player
     let getPlayerPickedBy player =
         match ``Sweepstake 2015``.pickedPlayers |> List.filter (fun (pick, _) -> pick.Player = player) with
         | h :: _ -> let pickedBy = snd h

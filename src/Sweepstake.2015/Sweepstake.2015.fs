@@ -15,7 +15,7 @@ module ``Sweepstake 2015`` =
 
     let participants = [ neph; jack; rosie; hugh ]
 
-    (* TEMP [NMB]: test data...
+    (* TEMP [NMB]: test data... *)
     let nephPicks = { Participant = neph;
                       CoachTeam = Some wales
                       Picks = [ { Player = mayJonny (* Back *); OnlyScoresFrom = None }
@@ -45,9 +45,8 @@ module ``Sweepstake 2015`` =
                                  { Player = warburtonSam (* Forward *); OnlyScoresFrom = None } ] }
 
     let sweepstakers = [ nephPicks; jackPicks; rosiePicks ]
-    *)
 
-    let sweepstakers: Sweepstaker list = [ (* TODO *) ]
+    (* TEMP [NMB]... let sweepstakers: Sweepstaker list = [ (* TODO *) ] *)
 
     let pickedCoachTeams = sweepstakers |> List.choose (fun sweepstaker -> sweepstaker.CoachTeam)
 
