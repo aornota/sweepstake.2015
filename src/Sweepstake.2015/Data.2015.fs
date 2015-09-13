@@ -925,70 +925,70 @@ module ``Data 2015`` =
     // Group B matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_Pool_B...
 
     let groupBSouthAfricaVsJapan = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (japan, (*TODO*)0<point>)
-                                     Stage = groupA; KickOff = DateTime (2015, 9, 19, 16, 45, 0)
+                                     Stage = groupB; KickOff = DateTime (2015, 9, 19, 16, 45, 0)
                                      Events = [ (*ManOfTheMatch ...*)
                                                 (* TODO *) (* southAfrica *)
                                                 (* TODO *) (* japan *)
                                                  ] }
 
     let groupBSamoaVsUnitedStates = { Team1Points = TeamPoints (samoa, (*TODO*)0<point>); Team2Points = TeamPoints (unitedStates, (*TODO*)0<point>)
-                                      Stage = groupA; KickOff = DateTime (2015, 9, 20, 12, 0, 0)
+                                      Stage = groupB; KickOff = DateTime (2015, 9, 20, 12, 0, 0)
                                       Events = [ (*ManOfTheMatch ...*)
                                                  (* TODO *) (* samoa *)
                                                  (* TODO *) (* unitedStates *)
                                                   ] }
 
     let groupBScotlandVsJapan = { Team1Points = TeamPoints (scotland, (*TODO*)0<point>); Team2Points = TeamPoints (japan, (*TODO*)0<point>)
-                                  Stage = groupA; KickOff = DateTime (2015, 9, 23, 14, 30, 0)
+                                  Stage = groupB; KickOff = DateTime (2015, 9, 23, 14, 30, 0)
                                   Events = [ (*ManOfTheMatch ...*)
                                              (* TODO *) (* scotland *)
                                              (* TODO *) (* japan *)
                                               ] }
 
     let groupBSouthAfricaVsSamoa = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (samoa, (*TODO*)0<point>)
-                                     Stage = groupA; KickOff = DateTime (2015, 9, 26, 16, 45, 0)
+                                     Stage = groupB; KickOff = DateTime (2015, 9, 26, 16, 45, 0)
                                      Events = [ (*ManOfTheMatch ...*)
                                                 (* TODO *) (* southAfrica *)
                                                 (* TODO *) (* samoa *)
                                                  ] }
 
     let groupBScotlandVsUnitedStates = { Team1Points = TeamPoints (scotland, (*TODO*)0<point>); Team2Points = TeamPoints (unitedStates, (*TODO*)0<point>)
-                                         Stage = groupA; KickOff = DateTime (2015, 9, 27, 14, 30, 0)
+                                         Stage = groupB; KickOff = DateTime (2015, 9, 27, 14, 30, 0)
                                          Events = [ (*ManOfTheMatch ...*)
                                                     (* TODO *) (* scotland *)
                                                     (* TODO *) (* unitedStates *)
                                                      ] }
 
     let groupBSamoaVsJapan = { Team1Points = TeamPoints (samoa, (*TODO*)0<point>); Team2Points = TeamPoints (japan, (*TODO*)0<point>)
-                               Stage = groupA; KickOff = DateTime (2015, 10, 3, 14, 30, 0)
+                               Stage = groupB; KickOff = DateTime (2015, 10, 3, 14, 30, 0)
                                Events = [ (*ManOfTheMatch ...*)
                                           (* TODO *) (* samoa *)
                                           (* TODO *) (* japan *)
                                            ] }
 
     let groupBSouthAfricaVsScotland = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
-                                        Stage = groupA; KickOff = DateTime (2015, 10, 3, 16, 45, 0)
+                                        Stage = groupB; KickOff = DateTime (2015, 10, 3, 16, 45, 0)
                                         Events = [ (*ManOfTheMatch ...*)
                                                    (* TODO *) (* southAfrica *)
                                                    (* TODO *) (* scotland *)
                                                     ] }
 
     let groupBSouthAfricaVsUnitedStates = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (unitedStates, (*TODO*)0<point>)
-                                            Stage = groupA; KickOff = DateTime (2015, 10, 7, 16, 45, 0)
+                                            Stage = groupB; KickOff = DateTime (2015, 10, 7, 16, 45, 0)
                                             Events = [ (*ManOfTheMatch ...*)
                                                        (* TODO *) (* southAfrica *)
                                                        (* TODO *) (* unitedStates *)
                                                         ] }
 
     let groupBSamoaVsScotland = { Team1Points = TeamPoints (samoa, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
-                                  Stage = groupA; KickOff = DateTime (2015, 10, 10, 14, 30, 0)
+                                  Stage = groupB; KickOff = DateTime (2015, 10, 10, 14, 30, 0)
                                   Events = [ (*ManOfTheMatch ...*)
                                              (* TODO *) (* samoa *)
                                              (* TODO *) (* scotland *)
                                               ] }
 
     let groupBUnitedStatesVsJapan = { Team1Points = TeamPoints (unitedStates, (*TODO*)0<point>); Team2Points = TeamPoints (japan, (*TODO*)0<point>)
-                                      Stage = groupA; KickOff = DateTime (2015, 10, 11, 20, 0, 0)
+                                      Stage = groupB; KickOff = DateTime (2015, 10, 11, 20, 0, 0)
                                       Events = [ (*ManOfTheMatch ...*)
                                                  (* TODO *) (* unitedStates *)
                                                  (* TODO *) (* japan *)
@@ -1000,70 +1000,70 @@ module ``Data 2015`` =
     // Group C matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_Pool_C...
 
     let groupCTongaVsGeorgia = { Team1Points = TeamPoints (tonga, (*TODO*)0<point>); Team2Points = TeamPoints (georgia, (*TODO*)0<point>)
-                                 Stage = groupA; KickOff = DateTime (2015, 9, 19, 12, 0, 0)
+                                 Stage = groupC; KickOff = DateTime (2015, 9, 19, 12, 0, 0)
                                  Events = [ (*ManOfTheMatch ...*)
                                             (* TODO *) (* tonga *)
                                             (* TODO *) (* georgia *)
                                              ] }
 
     let groupCNewZealandVsArgentina = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
-                                        Stage = groupA; KickOff = DateTime (2015, 9, 20, 16, 45, 0)
+                                        Stage = groupC; KickOff = DateTime (2015, 9, 20, 16, 45, 0)
                                         Events = [ (*ManOfTheMatch ...*)
                                                    (* TODO *) (* newZealand *)
                                                    (* TODO *) (* argentina *)
                                                     ] }
 
     let groupCNewZealandVsNamibia = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (namibia, (*TODO*)0<point>)
-                                      Stage = groupA; KickOff = DateTime (2015, 9, 24, 20, 0, 0)
+                                      Stage = groupC; KickOff = DateTime (2015, 9, 24, 20, 0, 0)
                                       Events = [ (*ManOfTheMatch ...*)
                                                  (* TODO *) (* newZealand *)
                                                  (* TODO *) (* namibia *)
                                                   ] }
 
     let groupCArgentinaVsGeorgia = { Team1Points = TeamPoints (argentina, (*TODO*)0<point>); Team2Points = TeamPoints (georgia, (*TODO*)0<point>)
-                                     Stage = groupA; KickOff = DateTime (2015, 9, 25, 16, 45, 0)
+                                     Stage = groupC; KickOff = DateTime (2015, 9, 25, 16, 45, 0)
                                      Events = [ (*ManOfTheMatch ...*)
                                                 (* TODO *) (* argentina *)
                                                 (* TODO *) (* georgia *)
                                                  ] }
 
     let groupCTongaVsNamibia = { Team1Points = TeamPoints (tonga, (*TODO*)0<point>); Team2Points = TeamPoints (namibia, (*TODO*)0<point>)
-                                 Stage = groupA; KickOff = DateTime (2015, 9, 29, 16, 45, 0)
+                                 Stage = groupC; KickOff = DateTime (2015, 9, 29, 16, 45, 0)
                                  Events = [ (*ManOfTheMatch ...*)
                                             (* TODO *) (* tonga *)
                                             (* TODO *) (* namibia *)
                                              ] }
 
     let groupCNewZealandVsGeorgia = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (georgia, (*TODO*)0<point>)
-                                      Stage = groupA; KickOff = DateTime (2015, 10, 2, 20, 0, 0)
+                                      Stage = groupC; KickOff = DateTime (2015, 10, 2, 20, 0, 0)
                                       Events = [ (*ManOfTheMatch ...*)
                                                  (* TODO *) (* newZealand *)
                                                  (* TODO *) (* georgia *)
                                                   ] }
 
     let groupCArgentinaVsTonga = { Team1Points = TeamPoints (argentina, (*TODO*)0<point>); Team2Points = TeamPoints (tonga, (*TODO*)0<point>)
-                                   Stage = groupA; KickOff = DateTime (2015, 10, 4, 14, 30, 0)
+                                   Stage = groupC; KickOff = DateTime (2015, 10, 4, 14, 30, 0)
                                    Events = [ (*ManOfTheMatch ...*)
                                               (* TODO *) (* argentina *)
                                               (* TODO *) (* tonga *)
                                                ] }
 
     let groupCNamibiaVsGeorgia = { Team1Points = TeamPoints (namibia, (*TODO*)0<point>); Team2Points = TeamPoints (georgia, (*TODO*)0<point>)
-                                   Stage = groupA; KickOff = DateTime (2015, 10, 7, 20, 0, 0)
+                                   Stage = groupC; KickOff = DateTime (2015, 10, 7, 20, 0, 0)
                                    Events = [ (*ManOfTheMatch ...*)
                                               (* TODO *) (* namibia *)
                                               (* TODO *) (* georgia *)
                                                ] }
 
     let groupCNewZealandVsTonga = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (tonga, (*TODO*)0<point>)
-                                    Stage = groupA; KickOff = DateTime (2015, 10, 9, 20, 0, 0)
+                                    Stage = groupC; KickOff = DateTime (2015, 10, 9, 20, 0, 0)
                                     Events = [ (*ManOfTheMatch ...*)
                                                (* TODO *) (* newZealand *)
                                                (* TODO *) (* tonga *)
                                                 ] }
 
     let groupCArgentinaVsNamibia = { Team1Points = TeamPoints (argentina, (*TODO*)0<point>); Team2Points = TeamPoints (namibia, (*TODO*)0<point>)
-                                     Stage = groupA; KickOff = DateTime (2015, 10, 11, 12, 0, 0)
+                                     Stage = groupC; KickOff = DateTime (2015, 10, 11, 12, 0, 0)
                                      Events = [ (*ManOfTheMatch ...*)
                                                 (* TODO *) (* argentina *)
                                                 (* TODO *) (* namibia *)
@@ -1075,70 +1075,70 @@ module ``Data 2015`` =
     // Group D matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_Pool_D...
 
     let groupDIrelandVsCanada = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (canada, (*TODO*)0<point>)
-                                  Stage = groupA; KickOff = DateTime (2015, 9, 19, 14, 30, 0)
+                                  Stage = groupD; KickOff = DateTime (2015, 9, 19, 14, 30, 0)
                                   Events = [ (*ManOfTheMatch ...*)
                                              (* TODO *) (* ireland *)
                                              (* TODO *) (* canada *)
                                               ] }
 
     let groupDFranceVsItaly = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (italy, (*TODO*)0<point>)
-                                Stage = groupA; KickOff = DateTime (2015, 9, 19, 20, 0, 0)
+                                Stage = groupD; KickOff = DateTime (2015, 9, 19, 20, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* france *)
                                            (* TODO *) (* italy *)
                                             ] }
 
     let groupDFranceVsRomania = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
-                                  Stage = groupA; KickOff = DateTime (2015, 9, 23, 20, 0, 0)
+                                  Stage = groupD; KickOff = DateTime (2015, 9, 23, 20, 0, 0)
                                   Events = [ (*ManOfTheMatch ...*)
                                              (* TODO *) (* france *)
                                              (* TODO *) (* romania *)
                                               ] }
 
     let groupDItalyVsCanada = { Team1Points = TeamPoints (italy, (*TODO*)0<point>); Team2Points = TeamPoints (canada, (*TODO*)0<point>)
-                                Stage = groupA; KickOff = DateTime (2015, 9, 26, 14, 30, 0)
+                                Stage = groupD; KickOff = DateTime (2015, 9, 26, 14, 30, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* italy *)
                                            (* TODO *) (* canada *)
                                             ] }
 
     let groupDIrelandVsRomania = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
-                                   Stage = groupA; KickOff = DateTime (2015, 9, 27, 16, 45, 0)
+                                   Stage = groupD; KickOff = DateTime (2015, 9, 27, 16, 45, 0)
                                    Events = [ (*ManOfTheMatch ...*)
                                               (* TODO *) (* ireland *)
                                               (* TODO *) (* romania *)
                                                ] }
 
     let groupDFranceVsCanada = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (canada, (*TODO*)0<point>)
-                                 Stage = groupA; KickOff = DateTime (2015, 10, 1, 20, 0, 0)
+                                 Stage = groupD; KickOff = DateTime (2015, 10, 1, 20, 0, 0)
                                  Events = [ (*ManOfTheMatch ...*)
                                             (* TODO *) (* france *)
                                             (* TODO *) (* canada *)
                                              ] }
 
     let groupDIrelandVsItaly = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (italy, (*TODO*)0<point>)
-                                 Stage = groupA; KickOff = DateTime (2015, 10, 4, 16, 45, 0)
+                                 Stage = groupD; KickOff = DateTime (2015, 10, 4, 16, 45, 0)
                                  Events = [ (*ManOfTheMatch ...*)
                                             (* TODO *) (* ireland *)
                                             (* TODO *) (* italy *)
                                              ] }
 
     let groupDCanadaVsRomania = { Team1Points = TeamPoints (canada, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
-                                  Stage = groupA; KickOff = DateTime (2015, 10, 6, 16, 45, 0)
+                                  Stage = groupD; KickOff = DateTime (2015, 10, 6, 16, 45, 0)
                                   Events = [ (*ManOfTheMatch ...*)
                                              (* TODO *) (* canada *)
                                              (* TODO *) (* romania *)
                                               ] }
 
     let groupDItalyVsRomania = { Team1Points = TeamPoints (italy, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
-                                 Stage = groupA; KickOff = DateTime (2015, 10, 11, 14, 30, 0)
+                                 Stage = groupD; KickOff = DateTime (2015, 10, 11, 14, 30, 0)
                                  Events = [ (*ManOfTheMatch ...*)
                                             (* TODO *) (* italy *)
                                             (* TODO *) (* romania *)
                                              ] }
 
     let groupDFranceVsIreland = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (ireland, (*TODO*)0<point>)
-                                  Stage = groupA; KickOff = DateTime (2015, 10, 11, 16, 45, 0)
+                                  Stage = groupD; KickOff = DateTime (2015, 10, 11, 16, 45, 0)
                                   Events = [ (*ManOfTheMatch ...*)
                                              (* TODO *) (* france *)
                                              (* TODO *) (* ireland *)

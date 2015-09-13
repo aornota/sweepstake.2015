@@ -1313,7 +1313,7 @@ module ``Data 2011`` =
     // Group C matches: https://en.wikipedia.org/wiki/2011_Rugby_World_Cup_Pool_C...
 
     let groupCAustraliaVsItaly = { Team1Points = TeamPoints (australia, 32<point>); Team2Points = TeamPoints (italy, 6<point>)
-                                   Stage = groupB; KickOff = DateTime (2011, 9, 11)
+                                   Stage = groupC; KickOff = DateTime (2011, 9, 11)
                                    Events = [ ManOfTheMatch horwillJames
                                               Try (alexanderBen, Some 50<min>) (* australia *)
                                               Try (ashleyCooperAdam, Some 55<min>)
@@ -1331,7 +1331,7 @@ module ``Data 2011`` =
                                               MissedPenalty bergamascoMirco ] }
 
     let groupCIrelandVsUnitedStates = { Team1Points = TeamPoints (ireland, 22<point>); Team2Points = TeamPoints (unitedStates, 10<point>)
-                                        Stage = groupB; KickOff = DateTime (2011, 9, 11)
+                                        Stage = groupC; KickOff = DateTime (2011, 9, 11)
                                         Events = [ ManOfTheMatch o'ConnellPaul
                                                    Try (boweTommy, Some 40<min>) (* ireland *)
                                                    Try (bestRory, Some 56<min>)
@@ -1350,7 +1350,7 @@ module ``Data 2011`` =
                                                    MissedPenalty patersonJames ] }
 
     let groupCRussiaVsUnitedStates = { Team1Points = TeamPoints (russia, 6<point>); Team2Points = TeamPoints (unitedStates, 13<point>)
-                                       Stage = groupB; KickOff = DateTime (2011, 9, 15)
+                                       Stage = groupC; KickOff = DateTime (2011, 9, 15)
                                        Events = [ ManOfTheMatch macDonaldMike
                                                   Penalty kushnarevYuri (* russia *)
                                                   Penalty rachkovKonstantin
@@ -1366,7 +1366,7 @@ module ``Data 2011`` =
                                                   MissedPenalty wylesChris ] }
 
     let groupCAustraliaVsIreland = { Team1Points = TeamPoints (australia, 6<point>); Team2Points = TeamPoints (ireland, 15<point>)
-                                     Stage = groupB; KickOff = DateTime (2011, 9, 17)
+                                     Stage = groupC; KickOff = DateTime (2011, 9, 17)
                                      Events = [ ManOfTheMatch healyCian
                                                 Penalty o'ConnorJames (* australia *)
                                                 Penalty o'ConnorJames
@@ -1382,7 +1382,7 @@ module ``Data 2011`` =
                                                 DropGoal sextonJonathan ] }
 
     let groupCItalyVsRussia = { Team1Points = TeamPoints (italy, 53<point>); Team2Points = TeamPoints (russia, 17<point>)
-                                Stage = groupB; KickOff = DateTime (2011, 9, 20)
+                                Stage = groupC; KickOff = DateTime (2011, 9, 20)
                                 Events = [ ManOfTheMatch gresevVictor
                                            Try (parisseSergio, Some 6<min>) (* italy *)
                                            Try (toniolattiGiulio, Some 13<min>)
@@ -1411,7 +1411,7 @@ module ``Data 2011`` =
                                            MissedConversion rachkovKonstantin ] }
 
     let groupCAustraliaVsUnitedStates = { Team1Points = TeamPoints (australia, 67<point>); Team2Points = TeamPoints (unitedStates, 5<point>)
-                                          Stage = groupB; KickOff = DateTime (2011, 9, 23)
+                                          Stage = groupC; KickOff = DateTime (2011, 9, 23)
                                           Events = [ ManOfTheMatch ashleyCooperAdam
                                                      Try (horneRob, Some 8<min>) (* australia *)
                                                      Try (elsomRocky, Some 11<min>)
@@ -1440,7 +1440,7 @@ module ``Data 2011`` =
                                                      YellowCard (scullyBlaine, Some 75<min>) ] }
 
     let groupCIrelandVsRussia = { Team1Points = TeamPoints (ireland, 62<point>); Team2Points = TeamPoints (russia, 12<point>)
-                                  Stage = groupB; KickOff = DateTime (2011, 9, 25)
+                                  Stage = groupC; KickOff = DateTime (2011, 9, 25)
                                   Events = [ ManOfTheMatch o'GaraRonan
                                              Try (mcFaddenFergus, Some 10<min>) (* ireland *)
                                              Try (o'BrienSean, Some 13<min>)
@@ -1468,7 +1468,7 @@ module ``Data 2011`` =
                                              YellowCard (rachkovKonstantin, Some 8<min>) ] }
 
     let groupCItalyVsUnitedStates = { Team1Points = TeamPoints (italy, 27<point>); Team2Points = TeamPoints (unitedStates, 10<point>)
-                                      Stage = groupB; KickOff = DateTime (2011, 9, 27)
+                                      Stage = groupC; KickOff = DateTime (2011, 9, 27)
                                       Events = [ ManOfTheMatch castrogiovanniMartin
                                                  Try (parisseSergio, Some 3<min>) (* italy *)
                                                  Try (orqueraLuciano, Some 30<min>)
@@ -1485,7 +1485,7 @@ module ``Data 2011`` =
                                                  YellowCard (stanfillLouis, Some 59<min>) ] }
 
     let groupCAustraliaVsRussia = { Team1Points = TeamPoints (australia, 68<point>); Team2Points = TeamPoints (russia, 22<point>)
-                                    Stage = groupB; KickOff = DateTime (2011, 10, 1)
+                                    Stage = groupC; KickOff = DateTime (2011, 10, 1)
                                     Events = [ ManOfTheMatch gresevVictor
                                                Try (barnesBerrick, Some 7<min>) (* australia *)
                                                Try (mitchellDrew, Some 9<min>)
@@ -1516,7 +1516,7 @@ module ``Data 2011`` =
                                                Penalty rachkovKonstantin ] }
 
     let groupCIrelandVsItaly = { Team1Points = TeamPoints (ireland, 36<point>); Team2Points = TeamPoints (italy, 6<point>)
-                                 Stage = groupB; KickOff = DateTime (2011, 10, 2)
+                                 Stage = groupC; KickOff = DateTime (2011, 10, 2)
                                  Events = [ ManOfTheMatch o'BrienSean
                                             Try (o'DriscollBrian, Some 47<min>) (* ireland *)
                                             Try (earlsKeith, Some 52<min>)
@@ -1540,7 +1540,7 @@ module ``Data 2011`` =
     // Group D matches: https://en.wikipedia.org/wiki/2011_Rugby_World_Cup_Pool_D...
 
     let groupDFijiVsNamibia = { Team1Points = TeamPoints (fiji, 49<point>); Team2Points = TeamPoints (namibia, 25<point>)
-                                Stage = groupB; KickOff = DateTime (2011, 9, 10)
+                                Stage = groupD; KickOff = DateTime (2011, 9, 10)
                                 Events = [ ManOfTheMatch gonevaVereniki
                                            Try (gonevaVereniki, Some 6<min>) (* fiji *)
                                            Try (nakarawaLeone, Some 18<min>)
@@ -1569,7 +1569,7 @@ module ``Data 2011`` =
                                            DropGoal kotzeTheuns ] }
 
     let groupDSouthAfricaVsWales = { Team1Points = TeamPoints (southAfrica, 17<point>); Team2Points = TeamPoints (wales, 16<point>)
-                                     Stage = groupB; KickOff = DateTime (2011, 9, 11)
+                                     Stage = groupD; KickOff = DateTime (2011, 9, 11)
                                      Events = [ ManOfTheMatch warburtonSam
                                                 Try (steynFrancois, Some 3<min>) (* southAfrica *)
                                                 Try (hougaardFrancois, Some 65<min>)
@@ -1585,7 +1585,7 @@ module ``Data 2011`` =
                                                 MissedPenalty hookJames ] }
 
     let groupDSamoaVsNamibia = { Team1Points = TeamPoints (samoa, 49<point>); Team2Points = TeamPoints (namibia, 12<point>)
-                                 Stage = groupB; KickOff = DateTime (2011, 9, 14)
+                                 Stage = groupD; KickOff = DateTime (2011, 9, 14)
                                  Events = [ ManOfTheMatch stowersGeorge
                                             Try (fotuali'iKahn, Some 1<min>) (* samoa *)
                                             Try (tuilagiAlesana, Some 17<min>)
@@ -1610,7 +1610,7 @@ module ``Data 2011`` =
                                             YellowCard (kitschoffRohan, Some 66<min>) ] }
 
     let groupDSouthAfricaVsFiji = { Team1Points = TeamPoints (southAfrica, 49<point>); Team2Points = TeamPoints (fiji, 3<point>)
-                                    Stage = groupB; KickOff = DateTime (2011, 9, 17)
+                                    Stage = groupD; KickOff = DateTime (2011, 9, 17)
                                     Events = [ ManOfTheMatch rossouwDanie
                                                Try (steenkampGurthro, Some 26<min>) (* southAfrica *)
                                                Try (fourieJaque, Some 34<min>)
@@ -1632,7 +1632,7 @@ module ``Data 2011`` =
                                                Penalty baiSeremaia (* fiji *) ] }
 
     let groupDWalesVsSamoa = { Team1Points = TeamPoints (wales, 17<point>); Team2Points = TeamPoints (samoa, 10<point>)
-                               Stage = groupB; KickOff = DateTime (2011, 9, 18)
+                               Stage = groupD; KickOff = DateTime (2011, 9, 18)
                                Events = [ ManOfTheMatch jonesAlunWyn
                                           Try (williamsShane, Some 67<min>) (* wales *)
                                           MissedConversion priestlandRhys
@@ -1648,7 +1648,7 @@ module ``Data 2011`` =
                                           MissedPenalty williamsPaul ] }
 
     let groupDSouthAfricaVsNamibia = { Team1Points = TeamPoints (southAfrica, 87<point>); Team2Points = TeamPoints (namibia, 0<point>)
-                                       Stage = groupB; KickOff = DateTime (2011, 9, 22)
+                                       Stage = groupD; KickOff = DateTime (2011, 9, 22)
                                        Events = [ ManOfTheMatch albertsWillem
                                                   Try (aplonGio, Some 7<min>) (* southAfrica *)
                                                   Try (habanaBryan, Some 22<min>)
@@ -1678,7 +1678,7 @@ module ``Data 2011`` =
                                                   (* namibia *) ] }
 
     let groupDFijiVsSamoa = { Team1Points = TeamPoints (fiji, 7<point>); Team2Points = TeamPoints (samoa, 27<point>)
-                              Stage = groupB; KickOff = DateTime (2011, 9, 25)
+                              Stage = groupD; KickOff = DateTime (2011, 9, 25)
                               Events = [ ManOfTheMatch williamsPaul
                                          Try (taleiNetani, Some 67<min>) (* fiji *)
                                          Conversion luveniyaliWaisea
@@ -1695,7 +1695,7 @@ module ``Data 2011`` =
                                          DropGoal pisiTusi ] }
 
     let groupDWalesVsNamibia = { Team1Points = TeamPoints (wales, 81<point>); Team2Points = TeamPoints (namibia, 7<point>)
-                                 Stage = groupB; KickOff = DateTime (2011, 9, 26)
+                                 Stage = groupD; KickOff = DateTime (2011, 9, 26)
                                  Events = [ ManOfTheMatch duPlessisTinus
                                             Try (williamsScott, Some 8<min>) (* wales *)
                                             Try (brewAled, Some 14<min>)
@@ -1727,7 +1727,7 @@ module ``Data 2011`` =
                                             YellowCard (larsonRaoul, Some 59<min>) ] }
 
     let groupDSouthAfricaVsSamoa = { Team1Points = TeamPoints (southAfrica, 13<point>); Team2Points = TeamPoints (samoa, 5<point>)
-                                     Stage = groupB; KickOff = DateTime (2011, 9, 30)
+                                     Stage = groupD; KickOff = DateTime (2011, 9, 30)
                                      Events = [ ManOfTheMatch burgerSchalk
                                                 Try (habanaBryan, Some 9<min>) (* southAfrica *)
                                                 Conversion steynMorne
@@ -1742,7 +1742,7 @@ module ``Data 2011`` =
                                                 RedCard (williamsPaul, Some 70<min>) ] }
 
     let groupDWalesVsFiji = { Team1Points = TeamPoints (wales, 66<point>); Team2Points = TeamPoints (fiji, 0<point>)
-                              Stage = groupB; KickOff = DateTime (2011, 10, 2)
+                              Stage = groupD; KickOff = DateTime (2011, 10, 2)
                               Events = [ ManOfTheMatch northGeorge
                                          Try (robertsJamie, Some 6<min>) (* wales *)
                                          Try (williamsScott, Some 17<min>)

@@ -3,7 +3,7 @@
 open System
 
 open AOrNotA.Sweepstake2015.Domain
-open AOrNotA.Sweepstake2015.``Data 2011``
+//open AOrNotA.Sweepstake2015.``Data 2011``
 open AOrNotA.Sweepstake2015.``Data 2015``
 open AOrNotA.Sweepstake2015.Sweepstake
 
@@ -31,8 +31,6 @@ module Console =
         Console.WriteLine "\nTeams:"
         teamScores
         |> List.iter (fun (team, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" team.Name team.Coach score)) *)
-
-        // TODO [NMB]: More statistics...
 
         Console.Write "\nPress any key to exit..."
         Console.ReadKey () |> ignore

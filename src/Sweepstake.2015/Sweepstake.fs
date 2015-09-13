@@ -17,6 +17,8 @@ module Sweepstake =
 
     type MatchResult = | Win | Draw | Lose
 
+    let getParticipant sweepstaker = match sweepstaker.Participant with | Participant name -> name
+
     let getTeamScoreForMatch team ``match`` =
         let getMatchEventScore team matchEvents =
             matchEvents
@@ -58,6 +60,7 @@ module Sweepstake =
             matchResultScore + bonusPointScore
         let team1, team2 = getTeam ``match``.Team1Points, getTeam ``match``.Team2Points
         if team <> team1 && team <> team2 then 0<score>
+        else if ``match``.KickOff > DateTime.Now then 0<score>
         else getMatchEventScore team ``match``.Events + getResultScore team team1 team2 ``match``
 
     let getPlayerScoreForMatch (player: Player) (onlyScoresFrom: DateTime option) ``match`` =

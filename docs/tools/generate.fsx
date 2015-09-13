@@ -36,6 +36,7 @@ open System.IO
 open Fake.FileHelper
 open FSharp.Literate
 open FSharp.MetadataFormat
+open FSharp.Markdown
 
 // When called from 'build.fsx', use the public project URL as <root>
 // otherwise, use the current 'output' directory.
@@ -109,12 +110,26 @@ let buildReference () =
 // Build documentation from `fsx` and `md` files in `docs/content`
 let buildDocumentation () =
 
+  let fsi = FsiEvaluator()
+
+  fsi.RegisterTransformation (fun (o, ty) ->
+    if ty = typeof<string> then
+      Some [ Paragraph [ Literal (o.ToString()) ] ]
+    else if ty.IsGenericType && ty.GetGenericTypeDefinition() = typedefof<list<_>> then
+      let items = 
+        [ for it in Seq.cast<obj> (unbox o) -> 
+          [ Paragraph [ Literal (it.ToString()) ] ] ]
+      Some [ ListBlock (MarkdownListKind.Unordered, items) ]
+    else None
+  )
+
   // First, process files which are placed in the content root directory.
 
   Literate.ProcessDirectory
     ( content, docTemplate, output, replacements = ("root", root)::info,
       layoutRoots = layoutRootsAll.["en"],
-      generateAnchors = true,
+      fsiEvaluator = fsi,
+      generateAnchors = false,
       processRecursive = false)
 
   // And then process files which are placed in the sub directories
@@ -134,7 +149,8 @@ let buildDocumentation () =
     Literate.ProcessDirectory
       ( dir, docTemplate, output @@ dirname, replacements = ("root", root)::info,
         layoutRoots = layoutRoots,
-        generateAnchors = true )
+        fsiEvaluator = fsi,
+        generateAnchors = false )
 
 // Generate
 copyFiles()

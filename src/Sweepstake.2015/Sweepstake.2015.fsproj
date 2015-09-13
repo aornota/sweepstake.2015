@@ -50,6 +50,7 @@
     <Compile Include="Data.2015.fs" />
     <Compile Include="Sweepstake.fs" />
     <Compile Include="Sweepstake.2015.fs" />
+    <Compile Include="HtmlContent.fs" />
     <None Include="paket.references" />
     <None Include="paket.template" />
   </ItemGroup>
