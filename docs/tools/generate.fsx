@@ -115,11 +115,11 @@ let buildDocumentation () =
   fsi.RegisterTransformation (fun (o, ty) ->
     if ty = typeof<string> then
       Some [ Paragraph [ Literal (o.ToString()) ] ]
-    else if ty.IsGenericType && ty.GetGenericTypeDefinition() = typedefof<list<_>> then
+    (* else if ty.IsGenericType && ty.GetGenericTypeDefinition() = typedefof<list<_>> then
       let items = 
         [ for it in Seq.cast<obj> (unbox o) -> 
           [ Paragraph [ Literal (it.ToString()) ] ] ]
-      Some [ ListBlock (MarkdownListKind.Unordered, items) ]
+      Some [ ListBlock (MarkdownListKind.Unordered, items) ] *)
     else None
   )
 

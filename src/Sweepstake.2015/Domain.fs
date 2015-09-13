@@ -91,8 +91,9 @@ module Domain =
         let team1, team2 = getTeam ``match``.Team1Points, getTeam ``match``.Team2Points
         let team1TriesBonus = getTryCount team1 ``match``.Events >= 4
         let team2TriesBonus = getTryCount team2 ``match``.Events >= 4
-        let team1Score, team2Score = getPoints ``match``.Team1Points, getPoints ``match``.Team1Points
+        let team1Score, team2Score = getPoints ``match``.Team1Points, getPoints ``match``.Team2Points
         let team1LossBonus = team1Score < team2Score && team2Score - team1Score <= 7<point>
         let team2LossBonus = team2Score < team1Score && team1Score - team2Score <= 7<point>
+        System.Diagnostics.Debug.WriteLine (sprintf "%s %A %A %s %A %A" team1.Name team1TriesBonus team1LossBonus team2.Name team2TriesBonus team2LossBonus) 
         (team1, getBonusCount team1TriesBonus team1LossBonus), (team2, getBonusCount team2TriesBonus team2LossBonus)
 

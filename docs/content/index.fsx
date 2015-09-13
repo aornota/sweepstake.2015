@@ -2,9 +2,11 @@
 #I "../../src/Sweepstake.2015/bin/Release"
 
 #r "Sweepstake.2015.dll"
-open AOrNotA.Sweepstake2015.HtmlContent
+open AOrNotA.Sweepstake2015.Content
+open AOrNotA.Sweepstake2015.IndexContent
 
-let lastUpdated = getLastUpdated()
+let lastUpdated = getLastUpdated ()
+let indexLinksHtml = getIndexLinksHtml ()
 let indexHtml = getIndexHtml ()
 
 (**
@@ -14,7 +16,11 @@ Latest news
 
 (*** include-value: lastUpdated ***)
 
+(*** include-value: indexLinksHtml ***)
+
 (**
+## Update #1
+
 After various problems - lack of reliable broadband for the last week; technical challenges too numerous to detail; &c. - progress has been 
 made ;~D
 
@@ -27,7 +33,7 @@ match](teams.html#Group-A-fixtures) kicks-off on Friday evening.
 Before submitting your picks for the first draft, you may wish to review the [scoring system](scoring.html) and the [teams, fixtures and 
 results](teams.html).
 
-##First draft
+### First draft
 
 Once the entire draft process has been completed, each sweepstake team will consist of a team/coach, 8 forwards and 7 backs.
 

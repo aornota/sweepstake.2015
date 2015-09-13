@@ -14,22 +14,24 @@ module Console =
         
         Console.WriteLine "Work in progress..."
 
-        (* let players' = players |> List.map (fun player -> player, None)
-        let playerScores = getTotalScorePerPlayer players' matches
-        let top15Forwards = playerScores |> List.filter (fun (player, _) -> match player.Type with | Back -> false | Forward -> true)
-                                         |> List.take 15
-        let top15Backs = playerScores |> List.filter (fun (player, _) -> match player.Type with | Back -> true | Forward -> false)
-                                      |> List.take 15
-        Console.WriteLine "\nTop 15 Forwards:"
-        top15Forwards
+        (* let playerScores = getTotalScorePerPlayer (players |> List.map (fun player -> player, None)) matches
+        let forwards = playerScores |> List.filter (fun (player, _) -> match player.Type with | Back -> false | Forward -> true)
+                                    |> List.filter (fun (_, score) -> score <> 0<score>)
+                                    (* |> Seq.ofList |> Seq.take 15 |> List.ofSeq *)
+        let backs = playerScores |> List.filter (fun (player, _) -> match player.Type with | Back -> true | Forward -> false)
+                                 |> List.filter (fun (_, score) -> score <> 0<score>)
+                                 (* |> Seq.ofList |> Seq.take 15 |> List.ofSeq *)
+        Console.WriteLine "\nScoring forwards:"
+        forwards
         |> List.iter (fun (player, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" player.Name player.Team.Name score))
-        Console.WriteLine "\nTop 15 Backs:"
-        top15Backs
-        |> List.iter (fun (player, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" player.Name player.Team.Name score)) *)
+        Console.WriteLine "\nScoring backs:"
+        backs
+        |> List.iter (fun (player, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" player.Name player.Team.Name score))
 
-        (* let teamScores = getTotalScorePerTeam teams matches
-        Console.WriteLine "\nTeams:"
+        let teamScores = getTotalScorePerTeam teams matches
+        Console.WriteLine "\nScoring teams:"
         teamScores
+        |> List.filter (fun (_, score) -> score <> 0<score>)
         |> List.iter (fun (team, score) -> Console.WriteLine (sprintf "\t%s [%s]: %d" team.Name team.Coach score)) *)
 
         Console.Write "\nPress any key to exit..."

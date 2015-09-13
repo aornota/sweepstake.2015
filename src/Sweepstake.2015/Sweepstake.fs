@@ -13,7 +13,7 @@ module Sweepstake =
 
     type Pick = { Player: Player; OnlyScoresFrom: DateTime option }
 
-    type Sweepstaker = { Participant: Participant; CoachTeam: Team; Picks: Pick list }
+    type Sweepstaker = { Participant: Participant; CoachTeam: Team option; Picks: Pick list }
 
     type MatchResult = | Win | Draw | Lose
 
@@ -40,7 +40,6 @@ module Sweepstake =
             let matchResult = if teamPoints > opponentPoints then Win
                               else if teamPoints = opponentPoints then Draw
                               else Lose
-            // TODO [NMB]: Base on Seeding differential instead? and/or Stage?...
             let matchResultScore = match matchResult, teamIsTop8, opponentIsTop8 with
                                    | Win, false, true -> 10<score>
                                    | Win, true, false -> 6<score>
@@ -49,7 +48,6 @@ module Sweepstake =
                                    | Draw, true, false -> 3<score>
                                    | Draw, _, _ -> 4<score>
                                    | _ -> 0<score>
-            // TODO [NMB]: Should bonus points only be scored during Group Matches?...
             let (_, team1BonusCount), (_, team2BonusCount) = getTeamBonusCounts ``match``
             let teamBonusCount = if team = team1 then team1BonusCount else team2BonusCount
             let bonusMultiplier = match teamIsTop8, opponentIsTop8 with
@@ -87,14 +85,12 @@ module Sweepstake =
         teams |> List.map (fun team -> let score = matches |> List.map (getTeamScoreForMatch team)
                                                            |> List.sum
                                        team, score)
-              |> List.sortBy snd
-              |> List.rev
+              |> List.sortBy (fun (_ , score) -> -score)
 
     let getTotalScorePerPlayer (players: (Player * DateTime option) list) matches =
         players |> List.map (fun (player, onlyScoresFrom) -> let score = matches
                                                                          |> List.map (getPlayerScoreForMatch player onlyScoresFrom)
                                                                          |> List.sum
                                                              player, score)
-                |> List.sortBy snd
-                |> List.rev
+                |> List.sortBy (fun (_, score) -> -score)
 
