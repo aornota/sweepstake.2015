@@ -23,7 +23,7 @@ module Sweepstake =
         let getMatchEventScore team matchEvents =
             matchEvents
             |> List.map (fun matchEvent -> match matchEvent with
-                                           | PenaltyTry (team', _) when team' = team -> 4<score>
+                                           | PenaltyTry (team', _) when team' = team -> 6<score>
                                            | YellowCard (player, _) when player.Team = team -> -2<score>
                                            | RedCard (player, _) when player.Team = team -> -4<score>
                                            | _ -> 0<score>)
@@ -67,13 +67,13 @@ module Sweepstake =
         let getScore player matchEvents =
             matchEvents
             |> List.map (fun matchEvent -> match matchEvent with
-                                           | Try (player', _) when player' = player -> 8<score>
+                                           | Try (player', _) when player' = player -> 9<score>
                                            | Conversion player' when player' = player -> 2<score>
-                                           | Penalty player' when player' = player -> 2<score>
+                                           | Penalty player' when player' = player -> 3<score>
                                            | DropGoal player' when player' = player -> 3<score>
-                                           | ManOfTheMatch player' when player' = player -> 6<score>
+                                           | ManOfTheMatch player' when player' = player -> 10<score>
                                            | MissedConversion player' when player' = player -> -1<score>
-                                           | MissedPenalty player' when player' = player -> -1<score>
+                                           | MissedPenalty player' when player' = player -> -2<score>
                                            | YellowCard (player', _) when player' = player -> -3<score>
                                            | RedCard (player', _) when player' = player -> -6<score>
                                            | _ -> 0<score>)

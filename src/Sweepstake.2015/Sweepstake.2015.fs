@@ -2,8 +2,8 @@
 
 open System
 
-open AOrNotA.Sweepstake2015.Domain
 open AOrNotA.Sweepstake2015.``Data 2015``
+open AOrNotA.Sweepstake2015.Domain
 open AOrNotA.Sweepstake2015.Sweepstake
 
 module ``Sweepstake 2015`` =

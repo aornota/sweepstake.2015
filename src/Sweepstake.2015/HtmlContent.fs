@@ -103,9 +103,8 @@ module HtmlContent =
     let players = ``Data 2015``.players
     let matches = ``Data 2015``.matches
 
-    // TODO [NMB]...
-    let getIndexHtml () = [ getLastUpdated () ]
-                          @ [ h2 "Coming soon..." ]
+    // TODO [NMB]: Sweepstakers (picks and standings) | top teams | top players | best unpicked | ...
+    let getIndexHtml () = [ h3 "Details of sweepstake teams and scores to follow..." ]
                           |> concatenateWithNewLine
 
     let linksHtml =
@@ -157,7 +156,7 @@ module HtmlContent =
                                                   td (getPlayerScore2015 player) ] )
                     let players = players |> List.filter (fun player -> player.Team = team)
                     [ h3 (anchor team.Name (getTeamTextWithStrike team (getTeamNameWithSeeding team))) ]
-                    @ table (Some 60) (teamHeaderRow @ teamRow)
+                    @ table (Some 80) (teamHeaderRow @ teamRow)
                     @ table (Some 100) (playersHeaderRow @ (players |> List.collect playerRow))
                 getGroupTeams group |> List.collect teamHtml
             let label = getGroupLabel group
@@ -174,20 +173,53 @@ module HtmlContent =
         let fixturesHtml = matches |> List.filter (fun ``match`` -> getGroupLabel ``match``.Stage = "")
                                    |> List.sortBy (fun ``match`` -> ``match``.KickOff)
                                    |> List.collect fixtureHtml
-        [ h2 (anchor "Knockout-fixtures" "Knockout fixtures") ]
+        [ h3 (anchor "Knockout-fixtures" "Knockout fixtures") ]
         @ table (Some 100) fixturesHtml
 
-    let getTeamsHtml () = [ getLastUpdated () ]
-                          @ linksHtml @ groupsHtml @ knockoutFixturesHtml
+    let getTeamsHtml () = linksHtml @ groupsHtml @ knockoutFixturesHtml
                           |> concatenateWithNewLine
 
-    // TODO [NMB]...
-    let getScoringHtml () = [ getLastUpdated () ]
-                            @ [ h2 "Coming soon..." ]
+    let getTeamScores2011Html =
+        let teamHeaderRow = tr ( [ td (bold "Team")
+                                   td (bold "Seeding")
+                                   td (bold "Coach")
+                                   td (bold "2011 score") ] )
+        let teamsHtml =
+            let teamRow (team: Team) = tr ( [ td team.Name
+                                              td (getTeamSeeding team)
+                                              td team.Coach
+                                              td (getTeamScore2011 team) ] )
+            table (Some 80) (teamHeaderRow
+                             @ (teamScores2011 |> List.collect (fun (team, _) -> teamRow team)))
+        [ h3 (anchor "2011-team-scores" "2011 team scores") ]
+        @ teamsHtml
+
+    let getPlayerScores2011Html =
+        let playerHeaderRow = tr ( [ td (bold "Name")
+                                     td (bold "Team")
+                                     td (bold "Type")
+                                     td (bold "2011 score") ] )
+        let playersHtml =
+            let playerRow (player: Player) = tr ( [ td player.Name
+                                                    td player.Team.Name
+                                                    td (getPlayerTypeAndStatus player)
+                                                    td (getPlayerScore2011 player) ] )
+            table (Some 100) (playerHeaderRow
+                             @ (playerScores2011 |> List.filter (fun (_, score) -> score <> 0<score>)
+                                                 |> List.collect (fun (player, _) -> playerRow player)))
+        let nonScoringHtml =
+            let nonScoring = playerScores2011 |> List.filter (fun (_, score) -> score = 0<score>)
+                                              |> List.length
+            [ para (sprintf "%d players scored 0 points" nonScoring) ]
+        [ h3 (anchor "2011-player-scores" "2011 player scores (non-zero only)") ]
+        @ playersHtml
+        @ nonScoringHtml
+
+
+    let getScoringHtml () = getTeamScores2011Html @ getPlayerScores2011Html
                             |> concatenateWithNewLine
 
-    // TODO [NMB]...
-    let getDraftHtml () = [ getLastUpdated () ]
-                          @ [ h2 "Coming soon..." ]
+    // TODO [NMB]: Step-by-step output of first (and subsequent) drafts?...
+    let getDraftHtml () = [ h3 "Coming soon..." ]
                           |> concatenateWithNewLine
 
