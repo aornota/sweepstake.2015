@@ -169,8 +169,10 @@ $RECYCLE.BIN/
 # NuGet Packages Directory
 packages/
 
-# Generated documentation folder
-docs/output/
+# Generated documentation folders
+docs/output/content
+docs/output/img
+docs/output/reference
 
 # Temp folder used for publishing docs
 temp/
