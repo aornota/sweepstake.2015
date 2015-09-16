@@ -47,18 +47,23 @@ module Content =
 
     let getTeamSeeding team = match team.Seeding with | Some seeding -> sprintf "%d" seeding | None -> "N/A"
     let getTeamNameWithSeeding (team: Team) = sprintf "%s (%s)" team.Name (getTeamSeeding team)
+    let getTeamNameWithCoach (team: Team) = sprintf "%s (%s)" team.Name team.Coach
     let getTeamTextWithStrike (team: Team) text = match team.Status with | Active -> text | Eliminated -> strike text
 
-    let getPlayerNameWithStrike (player: Player) =
+    let getPlayerIsActive (player: Player) =
         match player.Team.Status, player.Status with
-        | Eliminated, _ -> strike player.Name
-        | _, Withdrawn _ -> strike player.Name
-        | _ -> player.Name
+        | Eliminated, _ -> false
+        | _, Withdrawn _ -> false
+        | _ -> true
+    let getPlayerNameWithStrike (player: Player) =
+        match getPlayerIsActive player with
+        | true -> player.Name
+        | false -> strike player.Name
     let getPlayerType player = match player.Type with | Forward -> "Forward" | Back -> "Back"
     let getPlayerStatus player = match player.Status with
-                                 | Withdrawn date when date.IsSome -> Some (sprintf "Withdrawn (%s)" (date.Value.ToString ("dd-MMM-yyyy")))
+                                 | Withdrawn date when date.IsSome -> Some (sprintf "Withdrawn (%s)" (date.Value.ToString ("dd-MMM")))
                                  | Withdrawn _ -> Some "Withdrawn"
-                                 | Replacement date when date.IsSome -> Some (sprintf "Replacement (%s)" (date.Value.ToString ("dd-MMM-yyyy")))
+                                 | Replacement date when date.IsSome -> Some (sprintf "Replacement (%s)" (date.Value.ToString ("dd-MMM")))
                                  | Replacement _ -> Some "Replacement"
                                  | _ -> None
     let getPlayerTypeAndStatus player =
@@ -69,10 +74,10 @@ module Content =
     let teamScores2015 = getTotalScorePerTeam ``Data 2015``.teams ``Data 2015``.matches
     let getTeamScore (teamScores: (Team * int<score>) list) (team: Team) =
         match teamScores |> List.filter (fun (team', _) -> team'.Name = team.Name) with
-        | h :: _ -> snd h
-        | _ -> 0<score>
-    let getTeamScoreText teamScores team = match getTeamScore teamScores team with | 0<score> -> ""
-                                                                                   | score -> sprintf "%d" score
+        | h :: _ -> Some (snd h)
+        | _ -> None
+    let getTeamScoreText teamScores team = match getTeamScore teamScores team with | Some score -> sprintf "%d" score
+                                                                                   | None -> "n/a"
     let getTeamScore2011 team = getTeamScore teamScores2011 team
     let getTeamScore2015 team = getTeamScore teamScores2015 team
     let getTeamScoreText2011 team = getTeamScoreText teamScores2011 team
@@ -87,32 +92,42 @@ module Content =
 
     let players2011 = ``Data 2011``.players |> List.map (fun player -> player, None)
     let playerScores2011 = getTotalScorePerPlayer players2011 ``Data 2011``.matches
-    (* TODO [NMB]: Replace None with OnlyScoresFrom (based on Picks) - but might need to rethink this (since want "player score" and
-                   and "pick score" as separate things... *)          
     let players2015 = ``Data 2015``.players |> List.map (fun player -> player, None)
+    let playerPicks2015 = ``Sweepstake 2015``.pickedPlayers |> List.map (fun (pick, _) -> pick.Player, pick.OnlyScoresFrom)
     let playerScores2015 = getTotalScorePerPlayer players2015 ``Data 2015``.matches
+    let playerPickScores2015 = getTotalScorePerPlayer playerPicks2015 ``Data 2015``.matches
     let getPlayerScore playerScores player =
         match playerScores |> List.filter (fun (player', _) -> player'.Name = player.Name) with
-        | h :: _ -> snd h
-        | _ -> 0<score>
-    let getPlayerScoreText playerScores player = match getPlayerScore playerScores player with | 0<score> -> ""
-                                                                                               | score -> sprintf "%d" score
+        | h :: _ -> Some (snd h)
+        | _ -> None
+    let getPlayerScoreText playerScores player = match getPlayerScore playerScores player with | Some score -> sprintf "%d" score
+                                                                                               | None -> "n/a"
     let getPlayerScore2011 player = getPlayerScore playerScores2011 player
     let getPlayerScore2015 player = getPlayerScore playerScores2015 player
+    let getPlayerPickScore2015 player = getPlayerScore playerPickScores2015 player
     let getPlayerScoreText2011 player = getPlayerScoreText playerScores2011 player
     let getPlayerScoreText2015 player = getPlayerScoreText playerScores2015 player
+    let getPlayerPickScoreText2015 player = getPlayerScoreText playerPickScores2015 player
+    let getPickOnlyScoresFrom pick = match pick.OnlyScoresFrom with | Some date -> sprintf "(from %s)" (date.ToString ("dd-MMM"))
+                                                                    | None -> ""
     let getPlayerPickedBy player =
         match ``Sweepstake 2015``.pickedPlayers |> List.filter (fun (pick, _) -> pick.Player = player) with
-        | h :: _ -> let pickedBy = snd h
-                    match (fst h).OnlyScoresFrom with
-                    | Some date -> sprintf "%s (from %s)" pickedBy (date.ToString ("dd-MMM-yyyy"))
-                    | None -> pickedBy
-        | _ -> ""
+        | h :: _ -> Some (snd h, (fst h).OnlyScoresFrom)
+        | _ -> None
+    let getPlayerPickedByText player =
+        match getPlayerPickedBy player with
+        | Some (pickedBy, onlyScoresFrom) ->
+            match onlyScoresFrom with | Some date -> sprintf "%s (from %s)" pickedBy (date.ToString ("dd-MMM"))
+                                      | None -> pickedBy
+        | None -> ""
+    let getPlayerAndPickScoreText2015 player =
+        match getPlayerPickedBy player with
+        | Some (pickedBy, _) -> let playerScoreText2015 = getPlayerScoreText2015 player
+                                let playerPickScoreText2015 = getPlayerPickScoreText2015 player
+                                if playerScoreText2015 = playerPickScoreText2015 then playerScoreText2015
+                                else sprintf "%s (%s for %s)" playerScoreText2015 playerPickScoreText2015 pickedBy
+        | None -> getPlayerScoreText2015 player
 
-    (* let groups = [ ``Data 2011``.groupA; ``Data 2011``.groupB; ``Data 2011``.groupC; ``Data 2011``.groupD ]
-    let players = ``Data 2011``.players
-    let matches = ``Data 2011``.matches *)
-    let groups = [ ``Data 2015``.groupA; ``Data 2015``.groupB; ``Data 2015``.groupC; ``Data 2015``.groupD ]
-    let players = ``Data 2015``.players
-    let matches = ``Data 2015``.matches
+    let groups2015 = [ ``Data 2015``.groupA; ``Data 2015``.groupB; ``Data 2015``.groupC; ``Data 2015``.groupD ]
+    let matches2015 = ``Data 2015``.matches
 

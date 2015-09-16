@@ -18,7 +18,7 @@ module TeamsContent =
                 teamCells @
                 [ td (linkToAnchor (sprintf "Group-%s-fixtures" label) "fixtures") ]
             tr groupCells
-        table (Some 100) (groups |> List.collect groupRow) @
+        table (Some 100) (groups2015 |> List.collect groupRow) @
         [ para (linkToAnchor "Knockout-fixtures" "Knockout fixtures") ]
 
     let getTeamsLinksHtml () = linksHtml
@@ -56,27 +56,28 @@ module TeamsContent =
                     let playerRow player = tr ( [ td (getPlayerNameWithStrike player)
                                                   td (getPlayerTypeAndStatus player)
                                                   td (italic (getPlayerScoreText2011 player))
-                                                  td (getPlayerPickedBy player)
-                                                  td (getPlayerScoreText2015 player) ] )
-                    let players = players |> List.filter (fun player -> player.Team = team)
+                                                  td (getPlayerPickedByText player)
+                                                  td (getPlayerAndPickScoreText2015 player) ] )
+                    let players = players2015 |> List.filter (fun (player, _) -> player.Team = team)
+                                              |> List.map (fun (player, _) -> player)
                     [ h3 (anchor team.Name (getTeamTextWithStrike team (getTeamNameWithSeeding team))) ] @
                     table (Some 80) (teamHeaderRow @ teamRow) @
                     table (Some 100) (playersHeaderRow @ (players |> List.collect playerRow))
                 getGroupTeams group |> List.collect teamHtml
             let label = getGroupLabel group
-            let fixturesHtml = matches |> List.filter (fun ``match`` -> getGroupLabel ``match``.Stage = label)
-                                       |> List.sortBy (fun ``match`` -> ``match``.KickOff)
-                                       |> List.collect fixtureHtml
+            let fixturesHtml = matches2015 |> List.filter (fun ``match`` -> getGroupLabel ``match``.Stage = label)
+                                           |> List.sortBy (fun ``match`` -> ``match``.KickOff)
+                                           |> List.collect fixtureHtml
             [ h2 (sprintf "Group %s" label) ] @
             teamsHtml @
             [ h3 (anchor (sprintf "Group-%s-fixtures" label) (sprintf "Group %s fixtures" label)) ] @
             table (Some 80) fixturesHtml
-        groups |> List.collect groupHtml
+        groups2015 |> List.collect groupHtml
 
     let knockoutFixturesHtml =
-        let fixturesHtml = matches |> List.filter (fun ``match`` -> getGroupLabel ``match``.Stage = "")
-                                   |> List.sortBy (fun ``match`` -> ``match``.KickOff)
-                                   |> List.collect fixtureHtml
+        let fixturesHtml = matches2015 |> List.filter (fun ``match`` -> getGroupLabel ``match``.Stage = "")
+                                       |> List.sortBy (fun ``match`` -> ``match``.KickOff)
+                                       |> List.collect fixtureHtml
         [ h3 (anchor "Knockout-fixtures" "Knockout fixtures") ] @
         table (Some 100) fixturesHtml
 

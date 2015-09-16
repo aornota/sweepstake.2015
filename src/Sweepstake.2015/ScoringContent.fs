@@ -46,7 +46,7 @@ module ScoringContent =
         let nonScoringHtml =
             let nonScoring = playerScores2011 |> List.filter (fun (_, score) -> score = 0<score>)
                                               |> List.length
-            [ para (sprintf "%d players scored 0 points" nonScoring) ]
+            [ para (italic (sprintf "%d players scored 0 points" nonScoring)) ]
         [ h3 (anchor "2011-player-scores" "2011 player scores (non-zero only)") ] @
         playersHtml @
         nonScoringHtml

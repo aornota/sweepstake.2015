@@ -19,52 +19,23 @@ Latest news
 (*** include-value: indexLinksHtml ***)
 
 (**
-## Update #1
+## Update #2
 
-After various problems - lack of reliable broadband for the last week; technical challenges too numerous to detail; &c. - progress has been 
-made ;~D
+Thanks everyone for submitting your first draft picks in a timely fashion - even if some of you didn't quite understand my instructions ;)
 
-Given the delays, the deadline for the [first draft](#First-draft) has been changed to **8pm** (UK time) on **Tuesday 14th September**. The 
-outcome of this first draft will be available by Wednesday morning at the latest.
+Processing of the first draft is running a bit behind schedule. (I wasn't intending to do any real work today but a minor crisis put paid 
+tothat plan.) The algorithm will be implemented over the next few hours; I'll send an e-mail to let y'all know when the results are in...
 
-The provisional deadline for the second draft is 8pm on the Thursday. If required, a third draft will happen before the [first 
-match](teams.html#Group-A-fixtures) kicks-off on Friday evening.
+Having seen everyone's picks, I can say that some teams/coaches and players have been more popular than others (unsurpisingly), so in all 
+likelihood, you'll only get assigned a relatively small number of players each.
 
-Before submitting your picks for the first draft, you may wish to review the [scoring system](scoring.html) and the [teams, fixtures and 
-results](teams.html).
+The arrangements for the second draft will be confirmed once the outcome of the first draft is known - and once I've had time to discuss 
+with Rosie. A provisional deadline of 8pm on Thursday still seems likely (and should allow for a quick third draft if required). The second 
+draft will again involve an **ordered** list of picks - but I'm tempted to say that you can submit as many picks as you like because that 
+should minimize the need for subsequent drafts. (After all, it's only fifty or so hours until the 
+[first match](teams.html#Group-A-fixtures) kicks-off.)
 
-### First draft
-
-Once the entire draft process has been completed, each sweepstake team will consist of a team/coach, 8 forwards and 7 backs.
-
-For the first draft, each participant will need to supply an **ordered** list of **20** picks. These can include more than one team/coach 
-(though listing all 20 teams/coaches would be perverse).
-
-For example:
-
- 1. [Canada](teams.html#Canada) (Kieran Crowley)
- 2. Jeronimo Etcheverry ([Uruguay](teams.html#Uruguay))
- 3. Frans Malherbe ([South Africa](teams.html#South Africa))
- 4. Craig Wing ([Japan](teams.html#Japan))
- 5. Matekitonga Moeakiola ([United States](teams.html#United States))
- 6. Jack Lam ([Samoa](teams.html#Samoa))
- 7. Jack Ram ([Tonga](teams.html#Tonga))
- 8. Hale T-Pole ([Tonga](teams.html#Tonga))
- 9. Djustice Sears-Duru ([Canada](teams.html#Canada))
- 10. John Moonlight ([Canada](teams.html#Canada))
- 11. &c.
-
-(Disclaimer: I wouldn't recommend those particular picks - though they are some of my favourite names...)
-
-An algorithm will assign teams/coaches and players [forwards and backs] to sweepstakers. (Roughly, if no-one else has the same top 
-selection as you, you'll get it; otherwise, the selection will be assigned randomly. And similarly for second selections, though if your 
-second selection was assigned to someone else in the first round, your third [or fourth &c.] will be used on the second round. [If you've 
-already filled your quota of forwards, any further forwards will likewise be ignored.] And for the second and subsequent rounds, where 
-multiple participants have the same selection, priority will be given to the one with the most "unsuccessful" picks up to that point. And 
-so on...)
-
-Please e-mail your list of 20 picks to **djnarration@gmail.com** before 8pm on Tuesday. Thanks!
-
+The payout structure will also be confirmed once I've consulted with Rosie.
 *)
 
 (*** include-value: indexHtml ***)
