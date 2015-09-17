@@ -1,7 +1,6 @@
 ﻿namespace AOrNotA.Sweepstake2015
 
 open System
-open System.Text
 
 open AOrNotA.Sweepstake2015.Content
 open AOrNotA.Sweepstake2015.Domain
@@ -60,7 +59,7 @@ module TeamsContent =
                                                   td (getPlayerAndPickScoreText2015 player) ] )
                     let players = players2015 |> List.filter (fun (player, _) -> player.Team = team)
                                               |> List.map (fun (player, _) -> player)
-                    [ h3 (anchor team.Name (getTeamTextWithStrike team (getTeamNameWithSeeding team))) ] @
+                    [ h3 (anchor2 team.Name (getTeamTextWithStrike team (getTeamNameWithSeeding team))) ] @
                     table (Some 80) (teamHeaderRow @ teamRow) @
                     table (Some 100) (playersHeaderRow @ (players |> List.collect playerRow))
                 getGroupTeams group |> List.collect teamHtml
@@ -70,7 +69,7 @@ module TeamsContent =
                                            |> List.collect fixtureHtml
             [ h2 (sprintf "Group %s" label) ] @
             teamsHtml @
-            [ h3 (anchor (sprintf "Group-%s-fixtures" label) (sprintf "Group %s fixtures" label)) ] @
+            [ h3 (anchor2 (sprintf "Group-%s-fixtures" label) (sprintf "Group %s fixtures" label)) ] @
             table (Some 80) fixturesHtml
         groups2015 |> List.collect groupHtml
 
@@ -78,7 +77,7 @@ module TeamsContent =
         let fixturesHtml = matches2015 |> List.filter (fun ``match`` -> getGroupLabel ``match``.Stage = "")
                                        |> List.sortBy (fun ``match`` -> ``match``.KickOff)
                                        |> List.collect fixtureHtml
-        [ h3 (anchor "Knockout-fixtures" "Knockout fixtures") ] @
+        [ h3 (anchor2 "Knockout-fixtures" "Knockout fixtures") ] @
         table (Some 100) fixturesHtml
 
     let getTeamsHtml () = groupsHtml @ knockoutFixturesHtml

@@ -19,23 +19,35 @@ Latest news
 (*** include-value: indexLinksHtml ***)
 
 (**
-## Update #2
+## Update #3
 
-Thanks everyone for submitting your first draft picks in a timely fashion - even if some of you didn't quite understand my instructions ;)
+Well, that took a lot longer than intended - not helped by my perfectionist tendencies ;) - but the first draft has now been completed: 
+[submitted picks](draft.html#Draft 1 picks), [draft process](draft.html#Draft 1 process) and [outcome](draft.html#Draft 1 outcome).
 
-Processing of the first draft is running a bit behind schedule. (I wasn't intending to do any real work today but a minor crisis put paid 
-tothat plan.) The algorithm will be implemented over the next few hours; I'll send an e-mail to let y'all know when the results are in...
+Hopefully everyone will be reasonably happy with the results. (Some players have ended up with more players than others - either as a 
+result of including plenty of forwards in their first draft picks, or of picking less popular players. Or, indeed, of doing both and 
+picking a half-Irish team...)
 
-Having seen everyone's picks, I can say that some teams/coaches and players have been more popular than others (unsurpisingly), so in all 
-likelihood, you'll only get assigned a relatively small number of players each.
+The deadline for the second draft will be **8pm** (UK time) on **Thursday**.
 
-The arrangements for the second draft will be confirmed once the outcome of the first draft is known - and once I've had time to discuss 
-with Rosie. A provisional deadline of 8pm on Thursday still seems likely (and should allow for a quick third draft if required). The second 
-draft will again involve an **ordered** list of picks - but I'm tempted to say that you can submit as many picks as you like because that 
-should minimize the need for subsequent drafts. (After all, it's only fifty or so hours until the 
-[first match](teams.html#Group-A-fixtures) kicks-off.)
+Please again e-mail djnarration@gmail.com with an **ordered** list of players - including teams/coaches if you still need one of those 
+(which Chad, Hugh and Martyn do). 
 
-The payout structure will also be confirmed once I've consulted with Rosie.
+The [teams](teams.html) page has up-to-date details of which players &c. are still available.
+
+For this second draft, you can submit as many picks as you like. Given that you'll be picking less well-know players, there should be 
+a smaller risk of everyone picking the same ones - but as time is against us and I'm really keen to avoid having to squeeze in a third 
+draft on Friday, please err on the side of picking more players than you think you need. (At a guess, I'd suggest picking at least 
+twice as many players as you need; maybe even three times as many.)
+
+And now that I've got the necessary code in place, I'm confident that processing the second draft will be significantly quicker.
+
+(If a third draft does turn out to be required, the provisional deadline for that will be 6pm on Friday.)
+
+### Payout structure
+
+The payout structure will be: fifty quid for first place; thirty quid for second place; and twenty quid for third place. (Sorry, Denis, 
+no wooden spoon prize this time.)
 *)
 
 (*** include-value: indexHtml ***)

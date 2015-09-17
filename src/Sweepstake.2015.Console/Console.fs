@@ -2,10 +2,12 @@
 
 open System
 
-open AOrNotA.Sweepstake2015.Domain
 //open AOrNotA.Sweepstake2015.``Data 2011``
 open AOrNotA.Sweepstake2015.``Data 2015``
+open AOrNotA.Sweepstake2015.Domain
+open AOrNotA.Sweepstake2015.DraftContent
 open AOrNotA.Sweepstake2015.Sweepstake
+open AOrNotA.Sweepstake2015.``Sweepstake 2015``
 
 module Console =
 
@@ -13,6 +15,12 @@ module Console =
     let main argv = 
         
         Console.WriteLine "Work in progress..."
+
+        (* let sweepstakers, processHtml = processDraft 1 draft1Seed sweepstakers draft1
+        let postDraftHtml = sweepstakersPostDraftHtml 1 sweepstakers
+
+        processHtml |> List.iter (fun line -> Console.WriteLine line)
+        postDraftHtml |> List.iter (fun line -> Console.WriteLine line) *)
 
         (* let playerScores = getTotalScorePerPlayer (players |> List.map (fun player -> player, None)) matches
         let forwards = playerScores |> List.filter (fun (player, _) -> match player.Type with | Back -> false | Forward -> true)

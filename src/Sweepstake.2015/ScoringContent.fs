@@ -1,7 +1,6 @@
 ﻿namespace AOrNotA.Sweepstake2015
 
 open System
-open System.Text
 
 open AOrNotA.Sweepstake2015.Content
 open AOrNotA.Sweepstake2015.Domain
@@ -27,7 +26,7 @@ module ScoringContent =
                                               td (getTeamScoreText2011 team) ] )
             table (Some 80) (teamHeaderRow @
                              (teamScores2011 |> List.collect (fun (team, _) -> teamRow team)))
-        [ h3 (anchor "2011-team-scores" "2011 team scores") ] @
+        [ h3 (anchor2 "2011-team-scores" "2011 team scores") ] @
         teamsHtml
 
     let getPlayerScores2011Html =
@@ -47,7 +46,7 @@ module ScoringContent =
             let nonScoring = playerScores2011 |> List.filter (fun (_, score) -> score = 0<score>)
                                               |> List.length
             [ para (italic (sprintf "%d players scored 0 points" nonScoring)) ]
-        [ h3 (anchor "2011-player-scores" "2011 player scores (non-zero only)") ] @
+        [ h3 (anchor2 "2011-player-scores" "2011 player scores (non-zero only)") ] @
         playersHtml @
         nonScoringHtml
 

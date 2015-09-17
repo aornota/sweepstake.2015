@@ -1,7 +1,6 @@
 ﻿namespace AOrNotA.Sweepstake2015
 
 open System
-open System.Text
 
 open AOrNotA.Sweepstake2015.Content
 open AOrNotA.Sweepstake2015.Domain
@@ -61,10 +60,12 @@ module IndexContent =
             let sweepstakerScores = sweepstakers |> List.map (fun sweepstaker -> sweepstaker, getSweepstakerScore sweepstaker)
                                                  |> List.sortBy (fun (_, score) -> -score)
             table (Some 80) (standingsHeaderRow @ (sweepstakerScores |> List.collect sweepstakerRow))
-        [ h2 (anchor "Standings" "Standings") ] @
+        [ h2 (anchor "Standings") ] @
         sweepstakersHtml
 
     let sweepstakersHtml =
+        let isForward pick = match pick.Player.Type with | Forward -> true | Back -> false
+        let pluralize noun count = if count = 1 then noun else sprintf "%ss" noun
         let picksHeaderRow = tr ( [ td (bold "Name")
                                     td (bold "Team")
                                     td (bold "Type")
@@ -79,17 +80,29 @@ module IndexContent =
                                                 tr ( [ td (getTeamWithCoach sweepstaker)
                                                        td (getTeamSeeding team)
                                                        td (sprintf "%d" (getSweepstakerTeamScore sweepstaker)) ] ))
-                | None -> [ para (italic "Team/coach not picked...") ]
+                | None -> [ para (italic "Team/coach still to be picked...") ]
             let picksHtml sweepstaker =
                 let pickRow pick = tr ( [ td (getPlayerNameWithStrike pick.Player)
                                           td (getTeamTextWithStrike pick.Player.Team pick.Player.Team.Name)
                                           td (getPlayerTypeAndStatus pick.Player)
                                           td (getPickOnlyScoresFrom pick)
                                           td (getPlayerPickScoreText2015 pick.Player) ] )
+                let forwards = sweepstaker.Picks |> List.filter (fun pick -> isForward pick)
+                                                 |> List.filter (fun pick -> getPlayerIsActive pick.Player)
+                let backs = sweepstaker.Picks |> List.filter (fun pick -> not (isForward pick))
+                                              |> List.filter (fun pick -> getPlayerIsActive pick.Player)
+                let forwardsToPick = requiredForwards - (forwards |> List.length)
+                let backsToPick = requiredBacks - (backs |> List.length)
+                let toPickHtml = match forwardsToPick, backsToPick with
+                                 | 0, 0 -> [ para (italic "The required number of backs and forwards have been picked") ]
+                                 | _, 0 -> [ para (italic (sprintf "%d %s still to be picked..." forwardsToPick (pluralize "forward" forwardsToPick))) ]
+                                 | 0, _ -> [ para (italic (sprintf "%d %s still to be picked..." backsToPick (pluralize "back" backsToPick))) ]
+                                 | _ -> [ para (italic (sprintf "%d %s and %d %s still to be picked..." forwardsToPick (pluralize "forward" forwardsToPick) backsToPick (pluralize "back" backsToPick))) ]
                 let sorted = sweepstaker.Picks |> List.sortBy (fun pick -> not (getPlayerIsActive pick.Player))
-                match sorted |> List.length with | 0 -> [ para (italic "No players picked...") ]
-                                                 | _ -> table (Some 80) (picksHeaderRow @ (sorted |> List.collect pickRow))
-            [ h3 (anchor (getParticipant sweepstaker) (getParticipant sweepstaker)) ] @
+                (match sorted |> List.length with | 0 -> []
+                                                  | _ -> table (Some 80) (picksHeaderRow @ (sorted |> List.collect pickRow))) @
+                toPickHtml
+            [ h3 (anchor (getParticipant sweepstaker)) ] @
             coachHtml sweepstaker @
             picksHtml sweepstaker
         sweepstakers |> List.collect (fun sweepstaker -> sweepstakerHtml sweepstaker)
@@ -124,7 +137,7 @@ module IndexContent =
                                         |> topN 10
         let scoresHtml = if topScoring |> List.length = 0 then [ para (italic "Coming soon...") ]
                          else topScoring |> teamsHtml
-        [ h3 (anchor (sprintf "%s-teams" (unpickedAnchorText unpicked)) (sprintf "%s teams/coaches" (unpickedText unpicked))) ] @
+        [ h3 (anchor2 (sprintf "%s-teams" (unpickedAnchorText unpicked)) (sprintf "%s teams/coaches" (unpickedText unpicked))) ] @
         scoresHtml
 
     let playerScoresHtml unpicked (playerType: PlayerType option) =
@@ -156,7 +169,7 @@ module IndexContent =
                                           |> topN 20
         let scoresHtml = if topScoring |> List.length = 0 then [ para (italic "Coming soon...") ]
                          else topScoring |> playersHtml
-        [ h3 (anchor (sprintf "%s-%s" (unpickedAnchorText unpicked) (playerTypeText playerType))
+        [ h3 (anchor2 (sprintf "%s-%s" (unpickedAnchorText unpicked) (playerTypeText playerType))
                      (sprintf "%s %s" (unpickedText unpicked) (playerTypeText playerType))) ] @
         scoresHtml
 

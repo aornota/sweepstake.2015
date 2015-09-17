@@ -18,7 +18,11 @@ module Content =
     let para text = sprintf "<p>%s</p>" text
     let bold text = sprintf "<b>%s</b>" text
     let italic text = sprintf "<i>%s</i>" text
-    let anchor name text = sprintf """<a name="%s">%s</a>""" name text
+    let orderedList items = [ "<ol>" ] @ items @ [ "</ol>" ]
+    let unorderedList items = [ "<ul>" ] @ items @ [ "</ul>" ]
+    let listItem text = sprintf "<li>%s</li>" text
+    let anchor2 name text = sprintf """<a name="%s">%s</a>""" name text
+    let anchor nameAndText = anchor2 nameAndText nameAndText
     let link content anchor text = match content, anchor with
                                    | Some content', Some anchor' -> sprintf """<a href="%s.html#%s">%s</a>""" content' anchor' text
                                    | Some content', None -> sprintf """<a href="%s.html">%s</a>""" content' text
@@ -33,6 +37,11 @@ module Content =
         [ tag ] @ rows @ [ "</table>" ]
     let tr cells = [ "<tr>" ] @ cells @ [ "</tr>"]
     let td text = sprintf "\t\t<td>%s</td>" text
+
+    [<Literal>]
+    let requiredForwards = 8
+    [<Literal>]
+    let requiredBacks = 7
 
     let getLastUpdated () = para (italic (sprintf "Last updated: %s" (DateTime.Now.ToString ("dd-MMM-yyyy HH:mm:ss"))))
 

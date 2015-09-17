@@ -6,7 +6,8 @@ open AOrNotA.Sweepstake2015.Content
 open AOrNotA.Sweepstake2015.DraftContent
 
 let lastUpdated = getLastUpdated ()
-let draftHtml = getDraftHtml ()
+(* TODO [NMB]: Second draft... let draft2Html = getDraft2Html () *)
+let draft1Html = getDraft1Html ()
 
 (**
 Draft details
@@ -15,5 +16,5 @@ Draft details
 
 (*** include-value: lastUpdated ***)
 
-(*** include-value: draftHtml ***)
+(*** include-value: draft1Html ***)
 

@@ -17,7 +17,8 @@ module Sweepstake =
 
     type MatchResult = | Win | Draw | Lose
 
-    let getParticipant sweepstaker = match sweepstaker.Participant with | Participant name -> name
+    let extractParticipant participant = match participant with | Participant name -> name
+    let getParticipant sweepstaker = extractParticipant sweepstaker.Participant
 
     let getTeamScoreForMatch team ``match`` =
         let getMatchEventScore team matchEvents =
