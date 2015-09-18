@@ -19,12 +19,14 @@ Latest news
 (*** include-value: indexLinksHtml ***)
 
 (**
-## Update #4
+## Update #4: Friday 18th September
 
 The second draft has now been completed: [submitted picks](draft.html#Draft 2 picks), [draft process](draft.html#Draft 2 process) and 
-[outcome](draft.html#Draft 2 outcome).
+[outcome](draft.html#Draft 2 outcome). You can also see your teams and scores by following the links at the top of the page.
 
-TODO...
+Everyone now has a complete team - **aside from Hugh and Rosie, who each need to pick one more forward**.
+
+So all that remains to say is good luck ;)
 
 #### Upcoming fixtures
 
