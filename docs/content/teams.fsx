@@ -10,8 +10,8 @@ let teamsLinksHtml = getTeamsLinksHtml ()
 let teamsHtml = getTeamsHtml ()
 
 (**
-Teams, fixtures and results
-===========================
+Teams and fixtures/results
+==========================
 *)
 
 (*** include-value: lastUpdated ***)

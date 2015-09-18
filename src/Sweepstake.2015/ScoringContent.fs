@@ -8,8 +8,8 @@ open AOrNotA.Sweepstake2015.Sweepstake
 
 module ScoringContent =
 
-    let linksHtml = table (Some 40) (tr ( [ td (linkToAnchor "2011-team-scores" "2011 team scores")
-                                            td (linkToAnchor "2011-player-scores" "2011 player scores") ] ))
+    let linksHtml = table (Some 40) (tr ( [ td (linkToAnchor "2011 team scores")
+                                            td (linkToAnchor "2011 player scores") ] ))
 
     let getScoringLinksHtml () = linksHtml
                                  |> concatenateWithNewLine

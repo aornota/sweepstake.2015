@@ -29,7 +29,8 @@ module Content =
                                    | None, Some anchor' -> sprintf """<a href="#%s">%s</a>""" anchor' text
                                    | None, None -> text
     let linkToContent content text = link (Some content) None text
-    let linkToAnchor anchor text = link None (Some anchor) text
+    let linkToAnchor2 name text = link None (Some name) text
+    let linkToAnchor nameAndText = linkToAnchor2 nameAndText nameAndText
     let linkToContentAnchor content anchor text = link (Some content) (Some anchor) text
     let strike text = sprintf "<strike>%s</strike>" text
     let table width rows =

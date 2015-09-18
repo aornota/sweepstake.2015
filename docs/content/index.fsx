@@ -19,35 +19,45 @@ Latest news
 (*** include-value: indexLinksHtml ***)
 
 (**
-## Update #3
+## Update #4
 
-Well, that took a lot longer than intended - not helped by my perfectionist tendencies ;) - but the first draft has now been completed: 
-[submitted picks](draft.html#Draft 1 picks), [draft process](draft.html#Draft 1 process) and [outcome](draft.html#Draft 1 outcome).
+The second draft has now been completed: [submitted picks](draft.html#Draft 2 picks), [draft process](draft.html#Draft 2 process) and 
+[outcome](draft.html#Draft 2 outcome).
 
-Hopefully everyone will be reasonably happy with the results. (Some players have ended up with more players than others - either as a 
-result of including plenty of forwards in their first draft picks, or of picking less popular players. Or, indeed, of doing both and 
-picking a half-Irish team...)
+TODO...
 
-The deadline for the second draft will be **8pm** (UK time) on **Thursday**.
+#### Upcoming fixtures
 
-Please again e-mail djnarration@gmail.com with an **ordered** list of players - including teams/coaches if you still need one of those 
-(which Chad, Hugh and Martyn do). 
+Friday 18th September at 20:00 -- [England](teams.html#England) vs [Fiji](teams.html#Fiji)
 
-The [teams](teams.html) page has up-to-date details of which players &c. are still available.
+Saturday 19th September at 12:00 -- [Tonga](teams.html#Tonga) vs [Georgia](teams.html#Georgia)
 
-For this second draft, you can submit as many picks as you like. Given that you'll be picking less well-know players, there should be 
-a smaller risk of everyone picking the same ones - but as time is against us and I'm really keen to avoid having to squeeze in a third 
-draft on Friday, please err on the side of picking more players than you think you need. (At a guess, I'd suggest picking at least 
-twice as many players as you need; maybe even three times as many.)
+Saturday 19th September at 14:30 -- [Ireland](teams.html#Ireland) vs [Canada](teams.html#Canada)
 
-And now that I've got the necessary code in place, I'm confident that processing the second draft will be significantly quicker.
+Saturday 19th September at 16:45 -- [South Africa](teams.html#South Africa) vs [Japan](teams.html#Japan)
 
-(If a third draft does turn out to be required, the provisional deadline for that will be 6pm on Friday.)
+Saturday 19th September at 20:00 -- [France](teams.html#France) vs [Italy](teams.html#Ireland)
+
+Sunday 20th September at 12:00 -- [Samoa](teams.html#Samoa) vs [United States](teams.html#United States)
+
+Sunday 20th September at 14:30 -- [Wales](teams.html#Wales) vs [Uruguay](teams.html#Uruguay)
+
+Sunday 20th September at 16:45 -- [New Zealand](teams.html#New Zealand) vs [Argentina](teams.html#Argentina)
+
+### A brief note on replacements
+
+Once the tournament is underway, if one of your players is withdrawn, I'll try and let you know (or you can let me know). You can then pick 
+any unpicked player as a replacement - with the proviso that you will only be credited with points that they score from that point onwards. 
+(If there's a sudden spate of withdrawals, replacements will be allocated on a first-come first-served basis.)
 
 ### Payout structure
 
 The payout structure will be: fifty quid for first place; thirty quid for second place; and twenty quid for third place. (Sorry, Denis, 
 no wooden spoon prize this time.)
+
+### Source code
+If anyone wants to check that the drafting algorithm is above board, please feel free to take a look at 
+[all of the code](https://github.com/aornota/sweepstake.2015).
 *)
 
 (*** include-value: indexHtml ***)

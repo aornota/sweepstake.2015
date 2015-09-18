@@ -15,6 +15,7 @@ module DraftContent =
 
     type SweepstakerDraft = { Participant: Participant; DraftPicks: DraftPick list }
 
+    // First draft...
     let chad1 = { Participant = chad
                   DraftPicks = [ Player smithAaron
                                  Player saveaJulian
@@ -229,15 +230,257 @@ module DraftContent =
 
     let draft1 = [ chad1; chris1; denis1; hugh1; jack1; jem1; martyn1; neph1; rosie1; susie1 ]
 
-    (* TODO [NMB]: Second draft...
+    // Second draft...
+    let chad2 = { Participant = chad
+                  DraftPicks = [ CoachTeam wales
+                                 CoachTeam fiji
+                                 Player haskellJames
+                                 Player vunipolaBilly
+                                 Player messamLiam
+                                 Player caneSam
+                                 Player mcCalmanBen
+                                 Player mcMahonSean
+                                 Player qeraAkapusi
+                                 Player nakarawaLeone
+                                 Player henryChris
+                                 Player robshawChris
+                                 Player franksBen
+                                 Player faletauTaulupe
+                                 Player albertsWillem
+                                 Player papePascal ] }
+
+    let chris2 = { Participant = chris
+                   DraftPicks = [ Player mcCawRichie
+                                  Player imhoffJuan
+                                  Player parraMorgan
+                                  Player colesDane
+                                  Player fekitoaMalakai
+                                  Player perenaraTJ
+                                  Player krielJesse
+                                  Player tomaneJoe
+                                  Player kuridraniTevita
+                                  Player whitelockSam
+                                  Player nowellJack
+                                  Player earlsKeith
+                                  Player bealeKurtley
+                                  Player foleyBernard
+                                  Player skeltonWill
+                                  Player sladeHenry
+                                  Player steynMorne
+                                  Player robshawChris
+                                  Player sioScott
+                                  Player kockottRory
+                                  Player guitouneSofiane
+                                  Player dulinBrice
+                                  Player burgerSchalk
+                                  Player morganBen
+                                  Player faletauTaulupe
+                                  Player straussJosh
+                                  Player tonerDevin
+                                  Player vunipolaBilly
+                                  Player faosilivaAlafoti
+                                  Player manoaSamu
+                                  Player vunisaSamuela
+                                  Player duToitPieterSteph
+                                  Player pereniseAnthony ] }
+
+    let denis2 = { Participant = denis
+                   DraftPicks = [ Player priestlandRhys
+                                  Player parraMorgan
+                                  Player sladeColin
+                                  Player hoggStuart
+                                  Player fotuali'iKahn
+                                  Player steynMorne
+                                  Player bealeKurtley
+                                  Player robertsJamie
+                                  Player gonevaVereniki
+                                  Player barrittBrad ] }
+
+    let hugh2 = { Participant = hugh
+                  DraftPicks = [ CoachTeam scotland
+                                 CoachTeam wales
+                                 Player robshawChris
+                                 Player mcCawRichie
+                                 Player mcCalmanBen
+                                 Player vunipolaBilly
+                                 Player caneSam
+                                 Player paluWycliff
+                                 Player lawesCourtney
+                                 Player burgerSchalk
+                                 Player warburtonSam
+                                 Player faletauTaulupe
+                                 Player haskellJames
+                                 Player messamLiam
+                                 Player fardyScott
+                                 Player senatoreLeonardo
+                                 Player taleiNetani
+                                 Player leitchMichael
+                                 Player manoaSamu
+                                 CoachTeam samoa ] }
+
+    let jack2 = { Participant = jack
+                  DraftPicks = [ Player hoggStuart
+                                 Player burgerSchalk
+                                 Player sladeColin
+                                 Player mcCawRichie 
+                                 Player faletauTaulupe
+                                 Player o'MahonyPeter
+                                 Player bestRory
+                                 Player lobbeJuanMartinFernandez
+                                 Player gorgodzeMamuka
+                                 Player messamLiam
+                                 Player morganBen
+                                 Player tipuricJustin
+                                 Player vunipolaBilly
+                                 Player leguizamonJuanManuel
+                                 Player papePascal ] }
+
+    let jem2 = { Participant = jem
+                 DraftPicks = [ Player kuridraniTevita
+                                Player pisiGeorge
+                                Player krielJesse
+                                Player imhoffJuan
+                                Player albertsWillem
+                                Player choulyDamien
+                                Player vunipolaBilly
+                                Player lawesCourtney
+                                Player sladeColin
+                                Player steynMorne
+                                Player horneRob
+                                Player pisiKen
+                                Player parraMorgan
+                                Player skeltonWill
+                                Player cudmoreJamie
+                                Player guiradoGuilhem
+                                Player messamLiam
+                                Player deJagerLood ] }
+
+    let martyn2 = { Participant = martyn
+                    DraftPicks = [ CoachTeam wales
+                                   CoachTeam samoa
+                                   CoachTeam fiji
+                                   CoachTeam unitedStates
+                                   CoachTeam italy
+                                   CoachTeam scotland
+                                   CoachTeam canada
+                                   Player krielJesse
+                                   Player kuridraniTevita
+                                   Player burgessSam
+                                   Player horneRob
+                                   Player mitchellDrew
+                                   Player fekitoaMalakai
+                                   Player steynMorne
+                                   Player duPreezFourie
+                                   Player deVilliersJean
+                                   Player bealeKurtley
+                                   Player tomaneJoe
+                                   Player sladeHenry
+                                   Player barrittBrad
+                                   Player kerrBarlowTawera
+                                   Player perenaraTJ
+                                   Player sladeColin
+                                   Player paigeRudy
+                                   Player mcCawRichie
+                                   Player messamLiam
+                                   Player colesDane
+                                   Player paluWycliff
+                                   Player fardyScott
+                                   Player robshawChris
+                                   Player haskellJames
+                                   Player vunipolaBilly
+                                   Player leRouxBernard
+                                   Player romanoLuke
+                                   Player woodcockTony
+                                   Player crockettWyatt
+                                   Player caneSam
+                                   Player burgerSchalk
+                                   Player albertsWillem
+                                   Player kolisiSiya
+                                   Player mcCalmanBen
+                                   Player mcMahonSean
+                                   Player morganBen
+                                   Player choulyDamien
+                                   Player duPlessisJannie
+                                   Player straussAdriaan
+                                   Player henryChris
+                                   Player murphyJordi
+                                   Player o'MahonyPeter
+                                   Player franksBen
+                                   Player faumuinaCharlie
+                                   Player mealamuKeven
+                                   Player whitelockSam
+                                   Player taylorCodie
+                                   Player skeltonWill
+                                   Player simmonsRob
+                                   Player kruisGeorge
+                                   Player launchburyJoe ] }
+
     let neph2 = { Participant = neph
-                  DraftPicks = [ Player leguizamonJuanManuel
+                  DraftPicks = [ Player mcCalmanBen
+                                 Player morganBen
+                                 Player lobbeJuanMartinFernandez
+                                 Player albertsWillem
+                                 Player faletauTaulupe
+                                 Player mcCawRichie
+                                 Player guiradoGuilhem
+                                 Player leguizamonJuanManuel
                                  Player gorgodzeMamuka
                                  Player leitchMichael
-                                 Player lobbeJuanMartinFernandez
-                                 Player tipuricJustin ] }
+                                 Player o'MahonyPeter
+                                 Player swinsonTim
+                                 Player furnoJoshua
+                                 Player jenkinsGethin
+                                 Player sioScott
+                                 Player vunipolaMako
+                                 Player messamLiam
+                                 Player burgerSchalk
+                                 Player tipuricJustin
+                                 Player zanniAlessandro
+                                 Player warburtonSam
+                                 Player mummDean
+                                 Player lydiateDan
+                                 Player vunipolaBilly ] }
 
-    let draft2 = [ neph2 ] *)
+    let rosie2 = { Participant = rosie
+                   DraftPicks = [ Player parraMorgan
+                                  Player steynMorne
+                                  Player foleyBernard
+                                  Player messamLiam
+                                  Player sladeHenry
+                                  Player kockottRory
+                                  Player krielJesse
+                                  Player vunipolaBilly
+                                  Player imhoffJuan
+                                  Player perenaraTJ
+                                  Player mcCawRichie
+                                  Player whiteNathan
+                                  Player albertsWillem
+                                  Player faletauTaulupe
+                                  Player straussAdriaan
+                                  Player fordRoss
+                                  Player choulyDamien
+                                  Player swinsonTim
+                                  Player kuridraniTevita
+                                  Player nowellJack
+                                  Player guiradoGuilhem
+                                  Player flanquartAlexandre
+                                  Player kearneyDavid
+                                  Player visserTim
+                                  Player hoggStuart ] }
+
+    let susie2 = { Participant = susie
+                   DraftPicks = [ Player fotuali'iKahn
+                                  Player speddingScott
+                                  Player kearneyRob
+                                  Player sladeColin
+                                  Player steynMorne
+                                  Player horneRob
+                                  Player pisiKen
+                                  Player parraMorgan
+                                  Player careDanny
+                                  Player wigglesworthRichard ] }
+
+    let draft2 = [ chad2; chris2; denis2; hugh2; jack2; jem2; martyn2; neph2; rosie2; susie2 ]
 
     let getDraftPickText draftPick = match draftPick with | CoachTeam team -> sprintf "%s (%s)" team.Name team.Coach
                                                           | Player player -> sprintf "%s (%s)" player.Name player.Team.Name
@@ -510,8 +753,7 @@ module DraftContent =
                            draftProcessHtml 1 (Some 41428672) sweepstakers0 draft1
                            |> concatenateWithNewLine
 
-    (* TODO [NMB]: Second draft...
     let getDraft2Html () = draftPicksHtml 2 draft2 @
                            draftProcessHtml 2 (Some 973974) sweepstakers1 draft2
-                           |> concatenateWithNewLine *)
+                           |> concatenateWithNewLine
 

@@ -10,15 +10,15 @@ module TeamsContent =
     let linksHtml =
         let groupRow group =
             let groupCells =
-                let teamCell (team: Team) = td (linkToAnchor team.Name (getTeamTextWithStrike team (getTeamNameWithSeeding team)))
+                let teamCell (team: Team) = td (linkToAnchor2 team.Name (getTeamTextWithStrike team (getTeamNameWithSeeding team)))
                 let teamCells = getGroupTeams group |> List.map teamCell
                 let label = getGroupLabel group
                 [ td (bold (sprintf "Group %s" label)) ] @
                 teamCells @
-                [ td (linkToAnchor (sprintf "Group-%s-fixtures" label) "fixtures") ]
+                [ td (linkToAnchor2 (sprintf "Group %s fixtures/results" label) "fixtures/results") ]
             tr groupCells
         table (Some 100) (groups2015 |> List.collect groupRow) @
-        [ para (linkToAnchor "Knockout-fixtures" "Knockout fixtures") ]
+        [ para (linkToAnchor "Knockout fixtures/results") ]
 
     let getTeamsLinksHtml () = linksHtml
                                |> concatenateWithNewLine
@@ -26,8 +26,10 @@ module TeamsContent =
     let fixtureHtml ``match`` =
         let team1, team2 = getTeam ``match``.Team1Points, getTeam ``match``.Team2Points
         let team1Points, team2Points = getPoints ``match``.Team1Points, getPoints ``match``.Team2Points
-        let result = if team1Points = 0<point> && team2Points = 0<point> then td (sprintf "%s vs %s" team1.Name team2.Name) // note: assume no genuine nil-nil results
-                     else td (sprintf "%s %d - %s %d" team1.Name team1Points team2.Name team2Points)
+        let result = if team1Points = 0<point> && team2Points = 0<point> then
+                        td (sprintf "%s vs %s" (linkToAnchor team1.Name) (linkToAnchor team2.Name)) // note: assume no genuine nil-nil results
+                     // TODO [NMB]: More details (e.g. MatchEvents &c.) for results?...
+                     else td (sprintf "%s %d - %s %d" (linkToAnchor team1.Name) team1Points (linkToAnchor team2.Name) team2Points)
         let kickOff = td (``match``.KickOff.ToString ("dd-MMM-yyyy HH:mm"))
         let stage = match ``match``.Stage with | Group _ -> []
                                                | _ -> [ td (getStage ``match``.Stage) ]
@@ -69,7 +71,7 @@ module TeamsContent =
                                            |> List.collect fixtureHtml
             [ h2 (sprintf "Group %s" label) ] @
             teamsHtml @
-            [ h3 (anchor2 (sprintf "Group-%s-fixtures" label) (sprintf "Group %s fixtures" label)) ] @
+            [ h3 (anchor (sprintf "Group %s fixtures/results" label)) ] @
             table (Some 80) fixturesHtml
         groups2015 |> List.collect groupHtml
 
@@ -77,7 +79,7 @@ module TeamsContent =
         let fixturesHtml = matches2015 |> List.filter (fun ``match`` -> getGroupLabel ``match``.Stage = "")
                                        |> List.sortBy (fun ``match`` -> ``match``.KickOff)
                                        |> List.collect fixtureHtml
-        [ h3 (anchor2 "Knockout-fixtures" "Knockout fixtures") ] @
+        [ h3 (anchor "Knockout fixtures/results") ] @
         table (Some 100) fixturesHtml
 
     let getTeamsHtml () = groupsHtml @ knockoutFixturesHtml

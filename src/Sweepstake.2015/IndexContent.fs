@@ -10,20 +10,20 @@ open AOrNotA.Sweepstake2015.``Sweepstake 2015``
 module IndexContent =
 
     let sweepstakerLinksHtml =
-        let sweepstakerCell sweepstaker = [ td (linkToAnchor (getParticipant sweepstaker) (getParticipant sweepstaker)) ]
-        table (Some 80) (tr ( [ td (linkToAnchor "Standings" (bold "Standings")) ] @
+        let sweepstakerCell sweepstaker = [ td (linkToAnchor (getParticipant sweepstaker)) ]
+        table (Some 80) (tr ( [ td (linkToAnchor2 "Standings" (bold "Standings")) ] @
                               (sweepstakers |> List.collect sweepstakerCell) ))
 
     let linksHtml = table (Some 60) (tr ( [ td (bold "Top")
-                                            td (linkToAnchor "Top-teams" "teams/coaches")
-                                            td (linkToAnchor "Top-players" "players")
-                                            td (linkToAnchor "Top-forwards" "forwards")
-                                            td (linkToAnchor "Top-backs" "backs") ] ) @
+                                            td (linkToAnchor2 "Top teams/coaches" "teams/coaches")
+                                            td (linkToAnchor2 "Top players" "players")
+                                            td (linkToAnchor2 "Top forwards" "forwards")
+                                            td (linkToAnchor2 "Top backs" "backs") ] ) @
                                      tr ( [ td (bold "Best unpicked") 
-                                            td (linkToAnchor "Best-unpicked-teams" "teams/coaches")
-                                            td (linkToAnchor "Best-unpicked-players" "players")
-                                            td (linkToAnchor "Best-unpicked-forwards" "forwards")
-                                            td (linkToAnchor "Best-unpicked-backs" "backs") ] ))
+                                            td (linkToAnchor2 "Best unpicked teams/coaches" "teams/coaches")
+                                            td (linkToAnchor2 "Best unpicked players" "players")
+                                            td (linkToAnchor2 "Best unpicked forwards" "forwards")
+                                            td (linkToAnchor2 "Best unpicked backs" "backs") ] ))
 
     let getIndexLinksHtml () = sweepstakerLinksHtml @ [ para "" ] @
                                linksHtml
@@ -53,7 +53,7 @@ module IndexContent =
             let sweepstakerRow (sweepstaker, score) =
                 let remainingPlayers = sweepstaker.Picks |> List.filter (fun pick -> getPlayerIsActive pick.Player)
                                                          |> List.length
-                tr ( [ td (linkToAnchor (getParticipant sweepstaker) (getParticipant sweepstaker))
+                tr ( [ td (linkToAnchor (getParticipant sweepstaker))
                        td (getTeamWithCoach sweepstaker)
                        td (sprintf "%d" remainingPlayers)
                        td (sprintf "%d" score) ] )
@@ -107,8 +107,7 @@ module IndexContent =
             picksHtml sweepstaker
         sweepstakers |> List.collect (fun sweepstaker -> sweepstakerHtml sweepstaker)
 
-    let unpickedAnchorText unpicked = match unpicked with | true -> "Best-unpicked" | false -> "Top"
-    let unpickedText unpicked = match unpicked with | true -> "Best unpicked" | false -> "Top"
+    let unpickedAnchor unpicked = match unpicked with | true -> "Best unpicked" | false -> "Top"
     let playerTypeText playerType = match playerType with
                                     | Some playerType' -> match playerType' with | Forward -> "forwards" | Back -> "backs"
                                     | None -> "players"
@@ -137,7 +136,7 @@ module IndexContent =
                                         |> topN 10
         let scoresHtml = if topScoring |> List.length = 0 then [ para (italic "Coming soon...") ]
                          else topScoring |> teamsHtml
-        [ h3 (anchor2 (sprintf "%s-teams" (unpickedAnchorText unpicked)) (sprintf "%s teams/coaches" (unpickedText unpicked))) ] @
+        [ h3 (anchor (sprintf "%s teams/coaches" (unpickedAnchor unpicked))) ] @
         scoresHtml
 
     let playerScoresHtml unpicked (playerType: PlayerType option) =
@@ -169,8 +168,7 @@ module IndexContent =
                                           |> topN 20
         let scoresHtml = if topScoring |> List.length = 0 then [ para (italic "Coming soon...") ]
                          else topScoring |> playersHtml
-        [ h3 (anchor2 (sprintf "%s-%s" (unpickedAnchorText unpicked) (playerTypeText playerType))
-                     (sprintf "%s %s" (unpickedText unpicked) (playerTypeText playerType))) ] @
+        [ h3 (anchor (sprintf "%s %s" (unpickedAnchor unpicked) (playerTypeText playerType))) ] @
         scoresHtml
 
     let getIndexHtml () = standingsHtml @ sweepstakersHtml @

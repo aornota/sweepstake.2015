@@ -129,7 +129,7 @@ let buildDocumentation () =
     ( content, docTemplate, output, replacements = ("root", root)::info,
       layoutRoots = layoutRootsAll.["en"],
       fsiEvaluator = fsi,
-      generateAnchors = true,
+      generateAnchors = false,
       processRecursive = false)
 
   // And then process files which are placed in the sub directories
@@ -150,7 +150,7 @@ let buildDocumentation () =
       ( dir, docTemplate, output @@ dirname, replacements = ("root", root)::info,
         layoutRoots = layoutRoots,
         fsiEvaluator = fsi,
-        generateAnchors = true )
+        generateAnchors = false )
 
 // Generate
 copyFiles()
