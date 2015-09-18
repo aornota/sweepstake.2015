@@ -382,7 +382,6 @@ module ``Data 2015`` =
                                    robertsJamie; williamsScott; amosHallam; cuthbertAlex; northGeorge; walkerEli; williamsLiam
                                    morganMatthew; tipuricJustin; theEngineIvor ] } *)
 
-    (* TEMP [NMB]... *)
     let wales = { Name = "Wales"; Status = Active; Seeding = Some 9; Coach = "Warren Gatland" }
 
     let baldwinScott = { Name = "Scott Baldwin"; Team = wales; Type = Forward; Status = OriginalSquad }
@@ -950,13 +949,29 @@ module ``Data 2015`` =
                                             Penalty berchisiFelipe
                                             RedCard (etcheverryJeronimo, Some 67<min>) ] } *)
 
-    (* TEMP [NMB]... *)
-    let groupAEnglandVsFiji = { Team1Points = TeamPoints (england, (*TODO*)0<point>); Team2Points = TeamPoints (fiji, (*TODO*)0<point>)
+    let groupAEnglandVsFiji = { Team1Points = TeamPoints (england, 35<point>); Team2Points = TeamPoints (fiji, 11<point>)
                                 Stage = groupA; KickOff = DateTime (2015, 9, 18, 20, 0, 0)
-                                Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* england *)
-                                           (* TODO *) (* fiji *)
-                                            ] }
+                                Events = [ ManOfTheMatch brownMike
+                                           PenaltyTry (england, Some 13<min>) (* england *)
+                                           Try (brownMike, Some 22<min>)
+                                           Try (brownMike, Some 72<min>)
+                                           Try (vunipolaBilly, Some 80<min>)
+                                           Conversion fordGeorge
+                                           Conversion farrellOwen
+                                           Conversion farrellOwen
+                                           MissedConversion fordGeorge
+                                           Penalty fordGeorge
+                                           Penalty fordGeorge
+                                           Penalty farrellOwen
+                                           MissedPenalty fordGeorge
+                                           Try (nadoloNemani, Some 30<min>) (* fiji *)
+                                           MissedConversion volavolaBen
+                                           Penalty nadoloNemani
+                                           Penalty volavolaBen
+                                           MissedPenalty nadoloNemani
+                                           MissedPenalty nadoloNemani
+                                           MissedPenalty volavolaBen
+                                           YellowCard (matawaluNikola, Some 13<min>) ] }
 
     let groupAWalesVsUruguay = { Team1Points = TeamPoints (wales, (*TODO*)0<point>); Team2Points = TeamPoints (uruguay, (*TODO*)0<point>)
                                  Stage = groupA; KickOff = DateTime (2015, 9, 20, 14, 30, 0) 

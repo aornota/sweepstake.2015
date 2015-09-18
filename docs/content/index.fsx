@@ -19,18 +19,25 @@ Latest news
 (*** include-value: indexLinksHtml ***)
 
 (**
-## Update #4: Friday 18th September
+## Update #5: Friday 18th September
 
-The second draft has now been completed: [submitted picks](draft.html#Draft 2 picks), [draft process](draft.html#Draft 2 process) and 
-[outcome](draft.html#Draft 2 outcome). You can also see your teams and scores by following the links at the top of the page.
+One game down; forty-seven to go...
 
-Everyone now has a complete team - **aside from Hugh and Rosie, who each need to pick one more forward**.
+Denis races out to an early lead thanks to a deserved man-of-the-match performance from Mike Brown in, frankly, a pretty scrappy game. Jack 
+gets a bonus point English win and a penalty try to boot. Hugh scores via the slimmed-down Billy Vunipola; Neph via man-mountain Nemani 
+Nadolo (or "Nandolo", as Nick Mullins insists on calling him; maybe he's thinking of Nando's?). Martyn and Susie pick up points from the 
+boots of Owen Farrell and George Ford respectively. And a yellow card for Nikola Matawalu (who almost redeemed himself with what would have 
+been a brilliant try) leave Chad stuck in reverse gear.
 
-So all that remains to say is good luck ;)
+The final picks were Siya Kolisi (South Africa) for Hugh and Mako Vunipola (England) for Rosie.
+
+Now for a busy Saturday. Come on Canada!
+
+#### Latest results
+
+Friday 18th September -- [England](teams.html#England) 35 - 11 [Fiji](teams.html#Fiji)
 
 #### Upcoming fixtures
-
-Friday 18th September at 20:00 -- [England](teams.html#England) vs [Fiji](teams.html#Fiji)
 
 Saturday 19th September at 12:00 -- [Tonga](teams.html#Tonga) vs [Georgia](teams.html#Georgia)
 
@@ -54,8 +61,8 @@ any unpicked player as a replacement - with the proviso that you will only be cr
 
 ### Payout structure
 
-The payout structure will be: fifty quid for first place; thirty quid for second place; and twenty quid for third place. (Sorry, Denis, 
-no wooden spoon prize this time.)
+The payout structure will be: fifty quid for first place; thirty quid for second place; and twenty quid for third place. (Sorry, 
+<strike>Denis</strike> Chad, no wooden spoon prize this time.)
 
 ### Source code
 If anyone wants to check that the drafting algorithm is above board, please feel free to take a look at 

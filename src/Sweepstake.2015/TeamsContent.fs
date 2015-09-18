@@ -29,7 +29,7 @@ module TeamsContent =
         let result = if team1Points = 0<point> && team2Points = 0<point> then
                         td (sprintf "%s vs %s" (linkToAnchor team1.Name) (linkToAnchor team2.Name)) // note: assume no genuine nil-nil results
                      // TODO [NMB]: More details (e.g. MatchEvents &c.) for results?...
-                     else td (sprintf "%s %d - %s %d" (linkToAnchor team1.Name) team1Points (linkToAnchor team2.Name) team2Points)
+                     else td (sprintf "%s %d - %d %s" (linkToAnchor team1.Name) team1Points team2Points (linkToAnchor team2.Name))
         let kickOff = td (``match``.KickOff.ToString ("dd-MMM-yyyy HH:mm"))
         let stage = match ``match``.Stage with | Group _ -> []
                                                | _ -> [ td (getStage ``match``.Stage) ]

@@ -187,7 +187,7 @@ module ``Sweepstake 2015`` =
     let sweepstakers1 = [ chadPicks1; chrisPicks1; denisPicks1; hughPicks1; jackPicks1; jemPicks1; martynPicks1; nephPicks1
                           rosiePicks1; susiePicks1 ]
 
-    // Final teams (Rosie and Hugh both TBC)...
+    // Final teams...
     let chadPicks2 = { Participant = chad
                        CoachTeam = Some fiji
                        Picks = [ { Player = hooperMichael (* Forward *); OnlyScoresFrom = None }
@@ -251,7 +251,7 @@ module ``Sweepstake 2015`` =
                                  { Player = senatoreLeonardo (* Forward *); OnlyScoresFrom = None }
                                  { Player = taleiNetani (* Forward *); OnlyScoresFrom = None }
                                  { Player = manoaSamu (* Forward *); OnlyScoresFrom = None }
-                                 // TBC: { Player = x (* Forward *); OnlyScoresFrom = None }
+                                 { Player = kolisiSiya (* Forward *); OnlyScoresFrom = None }
                                  { Player = milnerSkudderNehe (* Back *); OnlyScoresFrom = None }
                                  { Player = biggarDan (* Back *); OnlyScoresFrom = None }
                                  { Player = leRouxWillie (* Back *); OnlyScoresFrom = None }
@@ -341,7 +341,7 @@ module ``Sweepstake 2015`` =
                                   { Player = straussAdriaan (* Forward *); OnlyScoresFrom = None }
                                   { Player = fordRoss (* Forward *); OnlyScoresFrom = None }
                                   { Player = flanquartAlexandre (* Forward *); OnlyScoresFrom = None }
-                                  // TBC: { Player = x (* Forward *); OnlyScoresFrom = None }
+                                  { Player = vunipolaMako (* Forward *); OnlyScoresFrom = None }
                                   { Player = habanaBryan (* Back *); OnlyScoresFrom = None }
                                   { Player = folauIsrael (* Back *); OnlyScoresFrom = None }
                                   { Player = tuilagiAlesana (* Back *); OnlyScoresFrom = None }
