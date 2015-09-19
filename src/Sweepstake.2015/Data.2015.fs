@@ -1244,12 +1244,25 @@ module ``Data 2015`` =
                                              MissedPenalty mcRorieGordon
                                              YellowCard (cudmoreJamie, Some 17<min>) ] }
 
-    let groupDFranceVsItaly = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (italy, (*TODO*)0<point>)
+    let groupDFranceVsItaly = { Team1Points = TeamPoints (france, 32<point>); Team2Points = TeamPoints (italy, 10<point>)
                                 Stage = groupD; KickOff = DateTime (2015, 9, 19, 20, 0, 0)
-                                Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* france *)
-                                           (* TODO *) (* italy *)
-                                            ] }
+                                Events = [ ManOfTheMatch picamolesLouis
+                                           Try (slimaniRabah, None) (* france *)
+                                           Try (masNicolas, None)
+                                           Conversion michalakFrederic
+                                           Conversion michalakFrederic
+                                           Penalty michalakFrederic
+                                           Penalty michalakFrederic
+                                           Penalty michalakFrederic
+                                           Penalty michalakFrederic
+                                           Penalty michalakFrederic
+                                           MissedPenalty michalakFrederic
+                                           MissedPenalty michalakFrederic
+                                           Penalty speddingScott
+                                           Try (vendittiGiovanbattista, None) (* italy *)
+                                           Conversion allanTommaso
+                                           Penalty allanTommaso
+                                           MissedPenalty allanTommaso ] }
 
     let groupDFranceVsRomania = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
                                   Stage = groupD; KickOff = DateTime (2015, 9, 23, 20, 0, 0)

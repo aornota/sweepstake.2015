@@ -9,26 +9,6 @@ open AOrNotA.Sweepstake2015.``Sweepstake 2015``
 
 module IndexContent =
 
-    let sweepstakerLinksHtml =
-        let sweepstakerCell sweepstaker = [ td (linkToAnchor (getParticipant sweepstaker)) ]
-        table (Some 80) (tr ( [ td (linkToAnchor2 "Standings" (bold "Standings")) ] @
-                              (sweepstakers |> List.collect sweepstakerCell) ))
-
-    let linksHtml = table (Some 60) (tr ( [ td (bold "Top")
-                                            td (linkToAnchor2 "Top teams/coaches" "teams/coaches")
-                                            td (linkToAnchor2 "Top players" "players")
-                                            td (linkToAnchor2 "Top forwards" "forwards")
-                                            td (linkToAnchor2 "Top backs" "backs") ] ) @
-                                     tr ( [ td (bold "Best unpicked") 
-                                            td (linkToAnchor2 "Best unpicked teams/coaches" "teams/coaches")
-                                            td (linkToAnchor2 "Best unpicked players" "players")
-                                            td (linkToAnchor2 "Best unpicked forwards" "forwards")
-                                            td (linkToAnchor2 "Best unpicked backs" "backs") ] ))
-
-    let getIndexLinksHtml () = sweepstakerLinksHtml @ [ para "" ] @
-                               linksHtml
-                               |> concatenateWithNewLine
-
     let getSweepstakerTeamScore sweepstaker =
         match sweepstaker.CoachTeam with | Some team' -> match getTeamScore2015 team' with | Some score -> score
                                                                                            | None -> 0<score>
@@ -44,6 +24,10 @@ module IndexContent =
     let getTeamWithCoach sweepstaker = match sweepstaker.CoachTeam with
                                        | Some team -> getTeamTextWithStrike team (getTeamNameWithCoach team)
                                        | None -> ""
+    let sweepstakerLinksHtml =
+        let sweepstakerCell sweepstaker = [ td (linkToAnchor (getParticipant sweepstaker)) ]
+        table (Some 80) (tr ( (sweepstakers |> List.collect sweepstakerCell) ))
+
     let standingsHtml =
         let standingsHeaderRow = tr ( [ td (bold "Name")
                                         td (bold "Team/coach")
@@ -62,6 +46,22 @@ module IndexContent =
             table (Some 80) (standingsHeaderRow @ (sweepstakerScores |> List.collect sweepstakerRow))
         [ h2 (anchor "Standings") ] @
         sweepstakersHtml
+
+    let linksHtml = table (Some 60) (tr ( [ td (bold "Top")
+                                            td (linkToAnchor2 "Top teams/coaches" "teams/coaches")
+                                            td (linkToAnchor2 "Top players" "players")
+                                            td (linkToAnchor2 "Top forwards" "forwards")
+                                            td (linkToAnchor2 "Top backs" "backs") ] ) @
+                                     tr ( [ td (bold "Best unpicked") 
+                                            td (linkToAnchor2 "Best unpicked teams/coaches" "teams/coaches")
+                                            td (linkToAnchor2 "Best unpicked players" "players")
+                                            td (linkToAnchor2 "Best unpicked forwards" "forwards")
+                                            td (linkToAnchor2 "Best unpicked backs" "backs") ] ))
+
+    let getIndexStandingsAndLinksHtml () = sweepstakerLinksHtml @ [ para "" ] @
+                                           standingsHtml @
+                                           [ para "" ] @ linksHtml
+                                           |> concatenateWithNewLine
 
     let sweepstakersHtml =
         let isForward pick = match pick.Player.Type with | Forward -> true | Back -> false
@@ -171,7 +171,7 @@ module IndexContent =
         [ h3 (anchor (sprintf "%s %s" (unpickedAnchor unpicked) (playerTypeText playerType))) ] @
         scoresHtml
 
-    let getIndexHtml () = standingsHtml @ sweepstakersHtml @
+    let getIndexHtml () = sweepstakersHtml @
                           teamScoresHtml false @
                           playerScoresHtml false None @
                           playerScoresHtml false (Some Forward) @
