@@ -19,15 +19,15 @@ Latest news
 (*** include-value: indexLinksHtml ***)
 
 (**
-## Update #7: Saturday 18th September
+## Update #8: Saturday 18th September
 
-Three games down; forty-five to go...
+Four games down; forty-four to go...
 
-A solid Irish performance sees Denis retake the lead with a bonus point win (slightly marred by Paul O'Connell's yellow card) and tries 
-from Sean O'Brien and Iain Henderson. Jonathan Sexton takes Neph up to second; Ian Madigan moves Chad into positive territory. Jack slips 
-back to third having briefly led thanks to a typically barnstorming performance from Marmuka Gorgodze in Georgia's win over Tonga.
+Wow!
 
 #### Latest results
+
+Saturday 19th September -- Group B: [South Africa](teams.html#South Africa) 32 - 34 [Japan](teams.html#Japan)
 
 Saturday 19th September -- Group D: [Ireland](teams.html#Ireland) 50 - 7 [Canada](teams.html#Canada)
 
@@ -36,8 +36,6 @@ Saturday 19th September -- Group C: [Tonga](teams.html#Tonga) 10 - 17 [Georgia](
 Friday 18th September -- Group A: [England](teams.html#England) 35 - 11 [Fiji](teams.html#Fiji)
 
 #### Upcoming fixtures
-
-Saturday 19th September at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [Japan](teams.html#Japan)
 
 Saturday 19th September at 20:00 -- Group D: [France](teams.html#France) vs [Italy](teams.html#Ireland)
 

@@ -1041,12 +1041,32 @@ module ``Data 2015`` =
 
     // Group B matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_Pool_B...
 
-    let groupBSouthAfricaVsJapan = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (japan, (*TODO*)0<point>)
+    let groupBSouthAfricaVsJapan = { Team1Points = TeamPoints (southAfrica, 32<point>); Team2Points = TeamPoints (japan, 34<point>)
                                      Stage = groupB; KickOff = DateTime (2015, 9, 19, 16, 45, 0)
-                                     Events = [ (*ManOfTheMatch ...*)
-                                                (* TODO *) (* southAfrica *)
-                                                (* TODO *) (* japan *)
-                                                 ] }
+                                     Events = [ ManOfTheMatch tanakaFumiaki
+                                                Try (louwFrancois, Some 18<min>) (* southAfrica *)
+                                                Try (duPlessisBismarck, Some 33<min>)
+                                                Try (deJagerLood, Some 44<min>)
+                                                Try (straussAdriaan, Some 62<min>)
+                                                Conversion lambiePat
+                                                Conversion lambiePat
+                                                Conversion pollardHandre
+                                                MissedConversion lambiePat
+                                                Penalty lambiePat
+                                                Penalty pollardHandre
+                                                YellowCard (oosthuizenCoenie, None)
+                                                Try (leitchMichael, Some 30<min>) (* japan *)
+                                                Try (goromaruAyumu, Some 69<min>)
+                                                Try (heskethKarne, Some 80<min>)
+                                                Conversion goromaruAyumu
+                                                Conversion goromaruAyumu
+                                                MissedConversion goromaruAyumu
+                                                Penalty goromaruAyumu
+                                                Penalty goromaruAyumu
+                                                Penalty goromaruAyumu
+                                                Penalty goromaruAyumu
+                                                Penalty goromaruAyumu
+                                                MissedPenalty goromaruAyumu ] }
 
     let groupBSamoaVsUnitedStates = { Team1Points = TeamPoints (samoa, (*TODO*)0<point>); Team2Points = TeamPoints (unitedStates, (*TODO*)0<point>)
                                       Stage = groupB; KickOff = DateTime (2015, 9, 20, 12, 0, 0)
