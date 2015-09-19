@@ -1200,12 +1200,29 @@ module ``Data 2015`` =
 
     // Group D matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_Pool_D...
 
-    let groupDIrelandVsCanada = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (canada, (*TODO*)0<point>)
+    let groupDIrelandVsCanada = { Team1Points = TeamPoints (ireland, 50<point>); Team2Points = TeamPoints (canada, 7<point>)
                                   Stage = groupD; KickOff = DateTime (2015, 9, 19, 14, 30, 0)
-                                  Events = [ (*ManOfTheMatch ...*)
-                                             (* TODO *) (* ireland *)
-                                             (* TODO *) (* canada *)
-                                              ] }
+                                  Events = [ ManOfTheMatch sextonJonathan
+                                             Try (o'BrienSean, Some 18<min>) (* ireland *)
+                                             Try (hendersonIain, Some 25<min>)
+                                             Try (sextonJonathan, Some 28<min>)
+                                             Try (kearneyDavid, Some 35<min>)
+                                             Try (croninSean, Some 66<min>)
+                                             Try (kearneyRob, Some 73<min>)
+                                             Try (payneJared, Some 76<min>)
+                                             Conversion sextonJonathan
+                                             Conversion sextonJonathan
+                                             Conversion sextonJonathan
+                                             Conversion madiganIan
+                                             Conversion madiganIan
+                                             Conversion madiganIan
+                                             MissedConversion sextonJonathan
+                                             Penalty sextonJonathan
+                                             YellowCard (o'ConnellPaul, Some 42<min>)
+                                             Try (vanderMerweDTH, Some 68<min>) (* canada *)
+                                             Conversion hirayamaNathan
+                                             MissedPenalty mcRorieGordon
+                                             YellowCard (cudmoreJamie, Some 17<min>) ] }
 
     let groupDFranceVsItaly = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (italy, (*TODO*)0<point>)
                                 Stage = groupD; KickOff = DateTime (2015, 9, 19, 20, 0, 0)
