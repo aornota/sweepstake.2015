@@ -19,39 +19,32 @@ Latest news
 (*** include-value: indexLinksHtml ***)
 
 (**
-## Update #5: Friday 18th September
+## Update #6: Saturday 18th September
 
-One game down; forty-seven to go...
+Two games down; forty-six to go...
 
-Denis races out to an early lead thanks to a deserved man-of-the-match performance from Mike Brown in, frankly, a pretty scrappy game. Jack 
-gets a bonus point English win and a penalty try to boot. Hugh scores via the slimmed-down Billy Vunipola; Neph via man-mountain Nemani 
-Nadolo (or "Nandolo", as Nick Mullins insists on calling him; maybe he's thinking of Nando's?). Martyn and Susie pick up points from the 
-boots of Owen Farrell and George Ford respectively. And a yellow card for Nikola Matawalu (who almost redeemed himself with what would have 
-been a brilliant try) leave Chad stuck in reverse gear.
-
-The final picks were Siya Kolisi (South Africa) for Hugh and Mako Vunipola (England) for Rosie.
-
-Now for a busy Saturday. Come on Canada!
+After the first game of the day, a typically barnstorming performance from Marmuka Gorgodze sees Jack take the lead - though Denis will be 
+expecting a bucketload of points from the next game.
 
 #### Latest results
 
-Friday 18th September -- [England](teams.html#England) 35 - 11 [Fiji](teams.html#Fiji)
+Saturday 19th September -- Group C: [Tonga](teams.html#Tonga) 10 - 17 [Georgia](teams.html#Georgia)
+
+Friday 18th September -- Group A: [England](teams.html#England) 35 - 11 [Fiji](teams.html#Fiji)
 
 #### Upcoming fixtures
 
-Saturday 19th September at 12:00 -- [Tonga](teams.html#Tonga) vs [Georgia](teams.html#Georgia)
+Saturday 19th September at 14:30 -- Group D: [Ireland](teams.html#Ireland) vs [Canada](teams.html#Canada)
 
-Saturday 19th September at 14:30 -- [Ireland](teams.html#Ireland) vs [Canada](teams.html#Canada)
+Saturday 19th September at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [Japan](teams.html#Japan)
 
-Saturday 19th September at 16:45 -- [South Africa](teams.html#South Africa) vs [Japan](teams.html#Japan)
+Saturday 19th September at 20:00 -- Group D: [France](teams.html#France) vs [Italy](teams.html#Ireland)
 
-Saturday 19th September at 20:00 -- [France](teams.html#France) vs [Italy](teams.html#Ireland)
+Sunday 20th September at 12:00 -- Group B: [Samoa](teams.html#Samoa) vs [United States](teams.html#United States)
 
-Sunday 20th September at 12:00 -- [Samoa](teams.html#Samoa) vs [United States](teams.html#United States)
+Sunday 20th September at 14:30 -- Group A: [Wales](teams.html#Wales) vs [Uruguay](teams.html#Uruguay)
 
-Sunday 20th September at 14:30 -- [Wales](teams.html#Wales) vs [Uruguay](teams.html#Uruguay)
-
-Sunday 20th September at 16:45 -- [New Zealand](teams.html#New Zealand) vs [Argentina](teams.html#Argentina)
+Sunday 20th September at 16:45 -- Group C: [New Zealand](teams.html#New Zealand) vs [Argentina](teams.html#Argentina)
 
 ### A brief note on replacements
 

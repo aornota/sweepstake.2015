@@ -1116,12 +1116,21 @@ module ``Data 2015`` =
 
     // Group C matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_Pool_C...
 
-    let groupCTongaVsGeorgia = { Team1Points = TeamPoints (tonga, (*TODO*)0<point>); Team2Points = TeamPoints (georgia, (*TODO*)0<point>)
+    let groupCTongaVsGeorgia = { Team1Points = TeamPoints (tonga, 10<point>); Team2Points = TeamPoints (georgia, 17<point>)
                                  Stage = groupC; KickOff = DateTime (2015, 9, 19, 12, 0, 0)
-                                 Events = [ (*ManOfTheMatch ...*)
-                                            (* TODO *) (* tonga *)
-                                            (* TODO *) (* georgia *)
-                                             ] }
+                                 Events = [ ManOfTheMatch gorgodzeMamuka
+                                            Try (vainikoloFetu'u, Some 72<min>) (* tonga *)
+                                            Conversion morathKurt
+                                            Penalty morathKurt
+                                            Try (gorgodzeMamuka, Some 27<min>) (* georgia *)
+                                            Try (tkhilaishviliGiorgi, Some 56<min>)
+                                            Conversion kvirikashviliMerab
+                                            Conversion kvirikashviliMerab
+                                            Penalty kvirikashviliMerab
+                                            MissedPenalty kvirikashviliMerab
+                                            MissedPenalty kvirikashviliMerab
+                                            MissedPenalty malaghuradzeLasha
+                                            YellowCard (kvirikashviliMerab, Some 72<min>) ] }
 
     let groupCNewZealandVsArgentina = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
                                         Stage = groupC; KickOff = DateTime (2015, 9, 20, 16, 45, 0)
