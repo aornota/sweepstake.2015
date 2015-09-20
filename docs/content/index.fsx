@@ -19,6 +19,16 @@ Latest news
 (*** include-value: indexStandingsAndLinksHtml ***)
 
 (**
+## Sunday 20th September
+
+### Update #10
+
+**Group B: [Samoa](teams.html#Samoa) 25 - 16 [United States](teams.html#United States)**
+
+Nice and easy, this one: no points for anyone!
+
+I suspect that the next match will be a different story...
+
 ## Saturday 19th September
 
 ### Update #9
@@ -71,8 +81,6 @@ boots of Owen Farrell and George Ford respectively. And a yellow card for Nikola
 been a brilliant try) leave Chad stuck in reverse gear.
 
 #### Upcoming fixtures
-
-Sunday 20th September at 12:00 -- Group B: [Samoa](teams.html#Samoa) vs [United States](teams.html#United States)
 
 Sunday 20th September at 14:30 -- Group A: [Wales](teams.html#Wales) vs [Uruguay](teams.html#Uruguay)
 

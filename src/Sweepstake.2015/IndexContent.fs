@@ -26,7 +26,8 @@ module IndexContent =
                                        | None -> ""
     let sweepstakerLinksHtml =
         let sweepstakerCell sweepstaker = [ td (linkToAnchor (getParticipant sweepstaker)) ]
-        table (Some 80) (tr ( (sweepstakers |> List.collect sweepstakerCell) ))
+        table (Some 80) (tr ( [ td (bold "Sweepstakers") ] @
+                              (sweepstakers |> List.collect sweepstakerCell) ))
 
     let standingsHtml =
         let standingsHeaderRow = tr ( [ td (bold "Name")
@@ -102,7 +103,7 @@ module IndexContent =
                 (match sorted |> List.length with | 0 -> []
                                                   | _ -> table (Some 80) (picksHeaderRow @ (sorted |> List.collect pickRow))) @
                 toPickHtml
-            [ h3 (anchor (getParticipant sweepstaker)) ] @
+            [ h3 (anchor (getParticipant sweepstaker) + (sprintf ": %d" (getSweepstakerScore sweepstaker))) ] @
             coachHtml sweepstaker @
             picksHtml sweepstaker
         sweepstakers |> List.collect (fun sweepstaker -> sweepstakerHtml sweepstaker)
