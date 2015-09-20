@@ -21,6 +21,17 @@ Latest news
 (**
 ## Sunday 20th September
 
+### Update #12
+
+**Group C: [New Zealand](teams.html#New Zealand) 26 - 16 [Argentina](teams.html#Argentina)**
+
+Eight matches down, forty to go - and everything still to play for...
+
+A New Zealand win and man-of-the-match Brodie Retallick help Susie pull away from the bottom two, whilst Chad likewise keeps moving in the 
+right direction with tries from Sam Cane and Aaron Smith. Solid kicking from the impressive Nicolas Sanchez allows Jack to make up ground 
+on Denis. Neph edges back in front, albeit with Dan Carter's ever-reliable kicking offset by Argentine (Pablo Matera) and Kiwi (Conrad 
+Smith, of all people) indiscipline. And a yellow card for Richie McCaw leaves Chris hoping for better things when we resume on Wednesday.
+
 ### Update #11
 
 **Group A: [Wales](teams.html#Wales) 54 - 9 [Uruguay](teams.html#Uruguay)**
@@ -31,7 +42,7 @@ decent player).
 Martyn continues creeping up the table thanks to a bonus point Welsh win; Jack consolidates third place with a try from Justin Tipuric 
 (when he remembered not to drop the ball); and Denis retakes the lead via the reliable kicking of Rhys Priestland.
 
-Man-of-the-match TBC at the time of writing...
+(Man-of-the-match was eventually announced as Cory Allen, so no points for anyone on that front.)
 
 ### Update #10
 
@@ -93,8 +104,6 @@ boots of Owen Farrell and George Ford respectively. And a yellow card for Nikola
 been a brilliant try) leave Chad stuck in reverse gear.
 
 #### Upcoming fixtures
-
-Sunday 20th September at 16:45 -- Group C: [New Zealand](teams.html#New Zealand) vs [Argentina](teams.html#Argentina)
 
 Wednesday 23rd September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [Japan](teams.html#Japan)
 

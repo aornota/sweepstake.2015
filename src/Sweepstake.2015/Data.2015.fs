@@ -975,7 +975,7 @@ module ``Data 2015`` =
 
     let groupAWalesVsUruguay = { Team1Points = TeamPoints (wales, 54<point>); Team2Points = TeamPoints (uruguay, 9<point>)
                                  Stage = groupA; KickOff = DateTime (2015, 9, 20, 14, 30, 0) 
-                                 Events = [ (* ManOfTheMatch *)
+                                 Events = [ ManOfTheMatch allenCory
                                             Try (leeSamson, Some 15<min>) (* wales *)
                                             Try (allenCory, Some 19<min>)
                                             Try (allenCory, Some 30<min>)
@@ -1182,12 +1182,25 @@ module ``Data 2015`` =
                                             MissedPenalty malaghuradzeLasha
                                             YellowCard (kvirikashviliMerab, Some 72<min>) ] }
 
-    let groupCNewZealandVsArgentina = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
+    let groupCNewZealandVsArgentina = { Team1Points = TeamPoints (newZealand, 26<point>); Team2Points = TeamPoints (argentina, 16<point>)
                                         Stage = groupC; KickOff = DateTime (2015, 9, 20, 16, 45, 0)
-                                        Events = [ (*ManOfTheMatch ...*)
-                                                   (* TODO *) (* newZealand *)
-                                                   (* TODO *) (* argentina *)
-                                                    ] }
+                                        Events = [ ManOfTheMatch retallickBrodie
+                                                   Try (smithAaron, Some 57<min>) (* newZealand *)
+                                                   Try (caneSam, Some 67<min>)
+                                                   Conversion carterDan
+                                                   Conversion carterDan
+                                                   Penalty carterDan
+                                                   Penalty carterDan
+                                                   Penalty carterDan
+                                                   Penalty carterDan
+                                                   YellowCard (mcCawRichie, Some 30<min>)
+                                                   YellowCard (smithConrad, Some 37<min>)
+                                                   Try (pagadizabalGuidoPetti, Some 21<min>) (* argentina *)
+                                                   Conversion sanchezNicolas
+                                                   Penalty sanchezNicolas
+                                                   Penalty sanchezNicolas
+                                                   Penalty sanchezNicolas
+                                                   YellowCard (materaPablo, Some 10<min>) ] }
 
     let groupCNewZealandVsNamibia = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (namibia, (*TODO*)0<point>)
                                       Stage = groupC; KickOff = DateTime (2015, 9, 24, 20, 0, 0)
