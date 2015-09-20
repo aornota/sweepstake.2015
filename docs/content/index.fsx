@@ -21,6 +21,18 @@ Latest news
 (**
 ## Sunday 20th September
 
+### Update #11
+
+**Group A: [Wales](teams.html#Wales) 54 - 9 [Uruguay](teams.html#Uruguay)**
+
+Probably not quite the points difference Wales were hoping for - and more injury concerns to boot (though Matthew Morgan looks like a 
+decent player).
+
+Martyn continues creeping up the table thanks to a bonus point Welsh win; Jack consolidates third place with a try from Justin Tipuric 
+(when he remembered not to drop the ball); and Denis retakes the lead via the reliable kicking of Rhys Priestland.
+
+Man-of-the-match TBC at the time of writing...
+
 ### Update #10
 
 **Group B: [Samoa](teams.html#Samoa) 25 - 16 [United States](teams.html#United States)**
@@ -81,8 +93,6 @@ boots of Owen Farrell and George Ford respectively. And a yellow card for Nikola
 been a brilliant try) leave Chad stuck in reverse gear.
 
 #### Upcoming fixtures
-
-Sunday 20th September at 14:30 -- Group A: [Wales](teams.html#Wales) vs [Uruguay](teams.html#Uruguay)
 
 Sunday 20th September at 16:45 -- Group C: [New Zealand](teams.html#New Zealand) vs [Argentina](teams.html#Argentina)
 

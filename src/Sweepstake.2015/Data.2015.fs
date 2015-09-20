@@ -973,12 +973,29 @@ module ``Data 2015`` =
                                            MissedPenalty volavolaBen
                                            YellowCard (matawaluNikola, Some 13<min>) ] }
 
-    let groupAWalesVsUruguay = { Team1Points = TeamPoints (wales, (*TODO*)0<point>); Team2Points = TeamPoints (uruguay, (*TODO*)0<point>)
+    let groupAWalesVsUruguay = { Team1Points = TeamPoints (wales, 54<point>); Team2Points = TeamPoints (uruguay, 9<point>)
                                  Stage = groupA; KickOff = DateTime (2015, 9, 20, 14, 30, 0) 
-                                 Events = [ (*ManOfTheMatch ...*)
-                                            (* TODO *) (* wales *)
-                                            (* TODO *) (* uruguay *)
-                                             ] }
+                                 Events = [ (* ManOfTheMatch *)
+                                            Try (leeSamson, Some 15<min>) (* wales *)
+                                            Try (allenCory, Some 19<min>)
+                                            Try (allenCory, Some 30<min>)
+                                            Try (allenCory, Some 40<min>)
+                                            Try (amosHallam, Some 50<min>)
+                                            Try (daviesGareth, Some 60<min>)
+                                            Try (tipuricJustin, Some 71<min>)
+                                            Try (daviesGareth, Some 80<min>)
+                                            Conversion priestlandRhys
+                                            Conversion priestlandRhys
+                                            Conversion priestlandRhys
+                                            Conversion priestlandRhys
+                                            Conversion priestlandRhys
+                                            Conversion priestlandRhys
+                                            Conversion priestlandRhys
+                                            MissedConversion priestlandRhys
+                                            Penalty berchisiFelipe (* uruguay *)
+                                            Penalty berchisiFelipe
+                                            Penalty berchisiFelipe
+                                            MissedPenalty berchisiFelipe ] }
 
     let groupAAustraliaVsFiji = { Team1Points = TeamPoints (australia, (*TODO*)0<point>); Team2Points = TeamPoints (fiji, (*TODO*)0<point>)
                                   Stage = groupA; KickOff = DateTime (2015, 9, 23, 16, 45, 0) 
