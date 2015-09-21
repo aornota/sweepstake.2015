@@ -161,8 +161,9 @@ module ``Data 2015`` =
     let dumoulinAlexandre = { Name = "Alexandre Dumoulin"; Team = france; Type = Back; Status = OriginalSquad }
     let fickouGael = { Name = "Gaël Fickou"; Team = france; Type = Back; Status = OriginalSquad }
     let fofanaWesley = { Name = "Wesley Fofana"; Team = france; Type = Back; Status = OriginalSquad }
+    let grossoRemy = { Name = "Rémy Grosso"; Team = france; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 20))) }
     let guitouneSofiane = { Name = "Sofiane Guitoune"; Team = france; Type = Back; Status = OriginalSquad }
-    let hugetYoann = { Name = "Yoann Huget"; Team = france; Type = Back; Status = OriginalSquad }
+    let hugetYoann = { Name = "Yoann Huget"; Team = france; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 20))) }
     let nakaitaciNoa = { Name = "Noa Nakaitaci"; Team = france; Type = Back; Status = OriginalSquad }
     let dulinBrice = { Name = "Brice Dulin"; Team = france; Type = Back; Status = OriginalSquad }
     let speddingScott = { Name = "Scott Spedding"; Team = france; Type = Back; Status = OriginalSquad }
@@ -172,7 +173,7 @@ module ``Data 2015`` =
                                     slimaniRabah; flanquartAlexandre; maestriYoann; papePascal; dusautoirThierry; leRouxBernard
                                     nyangaYannick; ouedraogoFulgence; choulyDamien; picamolesLouis; kockottRory; parraMorgan
                                     tillousBordeSebastien; michalakFrederic; talesRemi; bastareaudMathieu; dumoulinAlexandre; fickouGael
-                                    fofanaWesley; guitouneSofiane; hugetYoann; nakaitaciNoa; dulinBrice; speddingScott ] }
+                                    fofanaWesley; grossoRemy; guitouneSofiane; hugetYoann; nakaitaciNoa; dulinBrice; speddingScott ] }
 
     let england = { Name = "England"; Status = Active; Seeding = Some 5; Coach = "Stuart Lancaster" }
 
@@ -407,7 +408,8 @@ module ``Data 2015`` =
     let williamsLloyd = { Name = "Lloyd Williams"; Team = wales; Type = Back; Status = OriginalSquad }
     let biggarDan = { Name = "Dan Biggar"; Team = wales; Type = Back; Status = OriginalSquad }
     let priestlandRhys = { Name = "Rhys Priestland"; Team = wales; Type = Back; Status = OriginalSquad }
-    let allenCory = { Name = "Cory Allen"; Team = wales; Type = Back; Status = OriginalSquad }
+    let allenCory = { Name = "Cory Allen"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 21))) }
+    let morganTyler = { Name = "Tyler Morgan"; Team = wales; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 21))) }
     let robertsJamie = { Name = "Jamie Roberts"; Team = wales; Type = Back; Status = OriginalSquad }
     let williamsScott = { Name = "Scott Williams"; Team = wales; Type = Back; Status = OriginalSquad }
     let amosHallam = { Name = "Hallam Amos"; Team = wales; Type = Back; Status = OriginalSquad }
@@ -421,8 +423,8 @@ module ``Data 2015`` =
                        Players = [ baldwinScott; owensKen; francisTomas; jamesPaul; jarvisAaron; jenkinsGethin; leeSamson; ballJake
                                    charterisLuke; daviesBradley; dayDominic; jonesAlunWyn; kingJames; lydiateDan; tipuricJustin
                                    moriartyRoss; warburtonSam; faletauTaulupe; daviesGareth; phillipsMike; williamsLloyd; biggarDan
-                                   priestlandRhys; allenCory; robertsJamie; williamsScott; amosHallam; cuthbertAlex; northGeorge
-                                   walkerEli; williamsLiam; morganMatthew ] }
+                                   priestlandRhys; allenCory; morganTyler; robertsJamie; williamsScott; amosHallam; cuthbertAlex
+                                   northGeorge; walkerEli; williamsLiam; morganMatthew ] }
 
     let italy = { Name = "Italy"; Status = Active; Seeding = Some 10; Coach = "Jacques Brunel" }
 

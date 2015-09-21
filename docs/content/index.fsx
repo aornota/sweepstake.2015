@@ -19,6 +19,14 @@ Latest news
 (*** include-value: indexStandingsAndLinksHtml ***)
 
 (**
+## Monday 21st September
+
+### Update #13
+
+Yoann Huget (France) and Cory Allen (Wales) have been withdrawn through injury and replaced by Remy Grosso and Tyler Morgan respectively.
+
+Awaiting clarification of from Chris as to who he wants to replace Yoann Huget...
+
 ## Sunday 20th September
 
 ### Update #12
@@ -104,8 +112,6 @@ boots of Owen Farrell and George Ford respectively. And a yellow card for Nikola
 been a brilliant try) leave Chad stuck in reverse gear.
 
 #### Upcoming fixtures
-
-Wednesday 23rd September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [Japan](teams.html#Japan)
 
 Wednesday 23rd September at 16:45 -- Group A: [Australia](teams.html#Australia) vs [Fiji](teams.html#Fiji)
 
