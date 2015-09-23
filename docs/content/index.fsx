@@ -19,13 +19,43 @@ Latest news
 (*** include-value: indexStandingsAndLinksHtml ***)
 
 (**
+## Wednesday 23rd September
+
+### Update #15
+
+**Group A: [Australia](teams.html#Australia) 28 - 13 [Fiji](teams.html#Fiji)**
+
+No bonus point for Australia - but the win sees Chris creep back into positive territory. Jem slips back as a result of Tevita Kuridrani's 
+yellow card; Campese Ma'afu's indiscipline likewise costs Chad. The big winner is Jack, who takes the lead thanks to two tries from 
+man-of-the-match David Pocock; Neph stays on his heels with some successful kicks from Nemani Nadolo; and Rosie benefits from Bernard 
+Foley's assured kicking.
+
+**Group B: [Scotland](teams.html#Scotland) 45 - 10 [Japan](teams.html#Japan)**
+
+Japan come back down to earth after a devastating second-half spell from an impressive Scotland.
+
+Big moves for Susie (via man-of-the-match Greig Laidlaw and his reliable kicking) and Hugh (via a bonus point Scottish win and a try from 
+Finn Russell).
+
+#### Upcoming fixtures
+
+Wednesday 23rd September at 20:00 -- Group D: [France](teams.html#France) vs [Romania](teams.html#Romania)
+
+Thursday 24th September at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Namibia](teams.html#Namibia)
+
+Friday 25th September at 16:45 -- Group C: [Argentina](teams.html#Argentina) vs [Georgia](teams.html#Georgia)
+
+### Update #14
+
+Andrea Masi (Italy) has been withdrawn through injury and replaced by Michele Visentin. No-one cares.
+
 ## Monday 21st September
 
 ### Update #13
 
 Yoann Huget (France) and Cory Allen (Wales) have been withdrawn through injury and replaced by Remy Grosso and Tyler Morgan respectively.
 
-Awaiting clarification of from Chris as to who he wants to replace Yoann Huget...
+Awaiting clarification from Chris as to who he wants to replace Yoann Huget...
 
 ## Sunday 20th September
 
@@ -71,8 +101,8 @@ Damn, I really though Guilhem Guirado was going to confirm my lucky bastard stat
 Anyway, Jem races up the table thanks to the French team - and to Frederick Michalak and Louis Picamoles in particular. Nicolas Mas scores 
 a try for Rosie; Scott Spedding gives Susie a small boost.
 
-Tomorrow will see Samoa, United States, Wales, Uruguay, New Zealand and Argentina play their first matches; Scotland and Australia have to 
-wait until Wednesday...
+Tomorrow will see Samoa, United States, Wales, Uruguay, New Zealand and Argentina play their first matches; Scotland, Australia and Romania 
+have to wait until Wednesday; Namibia start their campaign against the All Blacks on Thursday (lucky them)...
 
 ### Update #8
 
@@ -110,16 +140,6 @@ gets a bonus point English win and a penalty try to boot. Hugh scores via the sl
 Nadolo (or "Nandolo", as Nick Mullins insists on calling him; maybe he's thinking of Nando's?). Martyn and Susie pick up points from the 
 boots of Owen Farrell and George Ford respectively. And a yellow card for Nikola Matawalu (who almost redeemed himself with what would have 
 been a brilliant try) leave Chad stuck in reverse gear.
-
-#### Upcoming fixtures
-
-Wednesday 23rd September at 16:45 -- Group A: [Australia](teams.html#Australia) vs [Fiji](teams.html#Fiji)
-
-Wednesday 23rd September at 20:00 -- Group D: [France](teams.html#France) vs [Romania](teams.html#Romania)
-
-Thursday 24th September at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Namibia](teams.html#Namibia)
-
-Friday 25th September at 16:45 -- Group C: [Argentina](teams.html#Argentina) vs [Georgia](teams.html#Georgia)
 
 #### A brief note on replacements
 
