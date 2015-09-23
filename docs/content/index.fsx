@@ -19,16 +19,51 @@ Latest news
 (*** include-value: indexStandingsAndLinksHtml ***)
 
 (**
+#### Upcoming fixtures
+
+Friday 25th September at 16:45 -- Group C: [Argentina](teams.html#Argentina) vs [Georgia](teams.html#Georgia)
+
+Saturday 26th September at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Canada](teams.html#Canada)
+
+Saturday 26th September at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [Samoa](teams.html#Samoa)
+
+Saturday 26th September at 20:00 -- Group A: [England](teams.html#England) vs [Wales](teams.html#Wales)
+
+Sunday 27th September at 12:00 -- Group A: [Australia](teams.html#Australia) vs [Uruguay](teams.html#Uruguay)
+
+Sunday 27th September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [United States](teams.html#United States)
+
+Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
+
+## Thursday 24th September
+
+### Update #18
+
+**Group C: [New Zealand](teams.html#New Zealand) 0 - 0 [Namibia](teams.html#Namibia)**
+
+TODO...
+
 ## Wednesday 23rd September
 
-### Update #15
+### Update #17
+
+**Group D: [France](teams.html#France) 38 - 6 [Romania](teams.html#Romania)**
+
+A bonus point French win scores points for Jem. Denis is snapping at Jack's heels after a try (and a somewhat mystifying man-of-the-match 
+award) for Wesley Fofana. (Brice Dulin would have got my vote. Sadly that's not how it works...) Morgan Parra does what Morgan Parra 
+usually does, which translates to some welcome points for Rosie. And Susie continues to sneak towards the right end of the table with a try 
+from Yannick Nyanga (who had a very good game).
+
+### Update #16
 
 **Group A: [Australia](teams.html#Australia) 28 - 13 [Fiji](teams.html#Fiji)**
 
 No bonus point for Australia - but the win sees Chris creep back into positive territory. Jem slips back as a result of Tevita Kuridrani's 
 yellow card; Campese Ma'afu's indiscipline likewise costs Chad. The big winner is Jack, who takes the lead thanks to two tries from 
-man-of-the-match David Pocock; Neph stays on his heels with some successful kicks from Nemani Nadolo; and Rosie benefits from Bernard 
-Foley's assured kicking.
+man-of-the-match David Pocock; Neph stays in touch with some successful kicks from Nemani Nadolo; and Rosie benefits from Bernard Foley's 
+assured kicking.
+
+### Update #15
 
 **Group B: [Scotland](teams.html#Scotland) 45 - 10 [Japan](teams.html#Japan)**
 
@@ -36,14 +71,6 @@ Japan come back down to earth after a devastating second-half spell from an impr
 
 Big moves for Susie (via man-of-the-match Greig Laidlaw and his reliable kicking) and Hugh (via a bonus point Scottish win and a try from 
 Finn Russell).
-
-#### Upcoming fixtures
-
-Wednesday 23rd September at 20:00 -- Group D: [France](teams.html#France) vs [Romania](teams.html#Romania)
-
-Thursday 24th September at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Namibia](teams.html#Namibia)
-
-Friday 25th September at 16:45 -- Group C: [Argentina](teams.html#Argentina) vs [Georgia](teams.html#Georgia)
 
 ### Update #14
 
