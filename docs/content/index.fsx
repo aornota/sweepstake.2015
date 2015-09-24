@@ -35,26 +35,29 @@ Sunday 27th September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [U
 
 Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
 
-## Thursday 24th September
+## Thursday 24th September10
 
-### Update #18
+### Game #12
 
-**Group C: [New Zealand](teams.html#New Zealand) 0 - 0 [Namibia](teams.html#Namibia)**
+**Group C: [New Zealand](teams.html#New Zealand) 58 - 14 [Namibia](teams.html#Namibia)**
 
-TODO...
+Not sure that Steve Hansen is going to be too happy with that ragged display from the All Blacks. Still, Susie gets the expected bonus 
+point win. Hugh doubles his tally with a pair of tries (and another head-scratching man-of-the-match award) for Nehe Milner-Skudder. Chris 
+nearly drags himself off the bottom with tries from Malakei Fekitoa and Ben Smith. But the big winner is Jem who moves up to joint-second 
+with two tries from Julian Savea and one each for Victor Vito and Beauden Barrett (plus some erratic kicking from the latter).
 
 ## Wednesday 23rd September
 
-### Update #17
+### Game #11
 
-**Group D: [France](teams.html#France) 38 - 6 [Romania](teams.html#Romania)**
+**Group D: [France](teams.html#France) 38 - 11 [Romania](teams.html#Romania)**
 
 A bonus point French win scores points for Jem. Denis is snapping at Jack's heels after a try (and a somewhat mystifying man-of-the-match 
 award) for Wesley Fofana. (Brice Dulin would have got my vote. Sadly that's not how it works...) Morgan Parra does what Morgan Parra 
 usually does, which translates to some welcome points for Rosie. And Susie continues to sneak towards the right end of the table with a try 
 from Yannick Nyanga (who had a very good game).
 
-### Update #16
+### Game #10
 
 **Group A: [Australia](teams.html#Australia) 28 - 13 [Fiji](teams.html#Fiji)**
 
@@ -63,7 +66,7 @@ yellow card; Campese Ma'afu's indiscipline likewise costs Chad. The big winner i
 man-of-the-match David Pocock; Neph stays in touch with some successful kicks from Nemani Nadolo; and Rosie benefits from Bernard Foley's 
 assured kicking.
 
-### Update #15
+### Game #9
 
 **Group B: [Scotland](teams.html#Scotland) 45 - 10 [Japan](teams.html#Japan)**
 
@@ -72,13 +75,13 @@ Japan come back down to earth after a devastating second-half spell from an impr
 Big moves for Susie (via man-of-the-match Greig Laidlaw and his reliable kicking) and Hugh (via a bonus point Scottish win and a try from 
 Finn Russell).
 
-### Update #14
+### Injury update #2
 
 Andrea Masi (Italy) has been withdrawn through injury and replaced by Michele Visentin. No-one cares.
 
 ## Monday 21st September
 
-### Update #13
+### Injury update #1
 
 Yoann Huget (France) and Cory Allen (Wales) have been withdrawn through injury and replaced by Remy Grosso and Tyler Morgan respectively.
 
@@ -86,7 +89,7 @@ Awaiting clarification from Chris as to who he wants to replace Yoann Huget...
 
 ## Sunday 20th September
 
-### Update #12
+### Game #8
 
 **Group C: [New Zealand](teams.html#New Zealand) 26 - 16 [Argentina](teams.html#Argentina)**
 
@@ -97,7 +100,7 @@ right direction with tries from Sam Cane and Aaron Smith. Solid kicking from the
 on Denis. Neph edges back in front, albeit with Dan Carter's ever-reliable kicking offset by Argentine (Pablo Matera) and Kiwi (Conrad 
 Smith, of all people) indiscipline. And a yellow card for Richie McCaw leaves Chris hoping for better things when we resume on Wednesday.
 
-### Update #11
+### Game #7
 
 **Group A: [Wales](teams.html#Wales) 54 - 9 [Uruguay](teams.html#Uruguay)**
 
@@ -109,7 +112,7 @@ Martyn continues creeping up the table thanks to a bonus point Welsh win; Jack c
 
 (Man-of-the-match was eventually announced as Cory Allen, so no points for anyone on that front.)
 
-### Update #10
+### Game #6
 
 **Group B: [Samoa](teams.html#Samoa) 25 - 16 [United States](teams.html#United States)**
 
@@ -119,7 +122,7 @@ I suspect that the next match will be a different story...
 
 ## Saturday 19th September
 
-### Update #9
+### Game #5
 
 **Group D: [France](teams.html#France) 32 - 10 [Italy](teams.html#Ireland)**
 
@@ -131,7 +134,7 @@ a try for Rosie; Scott Spedding gives Susie a small boost.
 Tomorrow will see Samoa, United States, Wales, Uruguay, New Zealand and Argentina play their first matches; Scotland, Australia and Romania 
 have to wait until Wednesday; Namibia start their campaign against the All Blacks on Thursday (lucky them)...
 
-### Update #8
+### Game #4
 
 **Group B: [South Africa](teams.html#South Africa) 32 - 34 [Japan](teams.html#Japan)**
 
@@ -142,14 +145,14 @@ Mixed results for Rosie: tries from Bismarck du Plessis and Adriaan Strauss - bu
 offset by Coenie Oosthuizen's yellow card). Francois Louw and Michael Leitch do the business for Neph; Pat Lambie and Handre Pollard keep 
 things ticking over for Martyn and Jack.
 
-### Update #7
+### Game #3
 
 **Group D: [Ireland](teams.html#Ireland) 50 - 7 [Canada](teams.html#Canada)**
 
 A solid Irish performance sees Denis retake the lead with a bonus point win (slightly marred by Paul O'Connell's yellow card) and tries 
 from Sean O'Brien and Iain Henderson. Jonathan Sexton takes Neph up to second; Ian Madigan moves Chad into positive territory.</p>
  
-### Update #6
+### Game #2
 
 **Group C: [Tonga](teams.html#Tonga) 10 - 17 [Georgia](teams.html#Georgia)**
 
@@ -158,7 +161,7 @@ from the next game.
 
 ## Friday 18th September
 
-### Update #5
+### Game #1
 
 **Group A: [England](teams.html#England) 35 - 11 [Fiji](teams.html#Fiji)**
 
