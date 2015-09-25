@@ -1251,11 +1251,30 @@ module ``Data 2015`` =
                                                  Penalty kotzeTheuns
                                                  YellowCard (engelsJaco, Some 57<min>) ] }
 
-    let groupCArgentinaVsGeorgia = { Team1Points = TeamPoints (argentina, 0<point>); Team2Points = TeamPoints (georgia, 0<point>)
+    let groupCArgentinaVsGeorgia = { Team1Points = TeamPoints (argentina, 54<point>); Team2Points = TeamPoints (georgia, 9<point>)
                                      Stage = groupC; KickOff = DateTime (2015, 9, 25, 16, 45, 0)
-                                     Events = [ (*ManOfTheMatch ...*)
-                                                (* TODO *) (* argentina *)
-                                                (* TODO *) (* georgia *) ] }
+                                     Events = [ ManOfTheMatch corderoSantiago
+                                                Try (lavaniniTomas, Some 10<min>) (* argentina *)
+                                                Try (cubelliTomas, Some 47<min>)
+                                                Try (imhoffJuan, Some 49<min>)
+                                                Try (corderoSantiago, Some 53<min>)
+                                                Try (landajoMartin, Some 70<min>)
+                                                Try (corderoSantiago, Some 72<min>)
+                                                Try (imhoffJuan, Some 76<min>)
+                                                Conversion sanchezNicolas
+                                                Conversion sanchezNicolas
+                                                Conversion sanchezNicolas
+                                                Conversion boschMarcelo
+                                                Conversion boschMarcelo
+                                                MissedConversion sanchezNicolas
+                                                MissedConversion boschMarcelo
+                                                Penalty sanchezNicolas
+                                                Penalty sanchezNicolas
+                                                DropGoal sanchezNicolas
+                                                Penalty kvirikashviliMerab (* georgia *)
+                                                Penalty kvirikashviliMerab
+                                                Penalty kvirikashviliMerab
+                                                YellowCard (gorgodzeMamuka, Some 45<min>) ] }
 
     let groupCTongaVsNamibia = { Team1Points = TeamPoints (tonga, (*TODO*)0<point>); Team2Points = TeamPoints (namibia, (*TODO*)0<point>)
                                  Stage = groupC; KickOff = DateTime (2015, 9, 29, 16, 45, 0)

@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Friday 25th September at 16:45 -- Group C: [Argentina](teams.html#Argentina) vs [Georgia](teams.html#Georgia)
-
 Saturday 26th September at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Canada](teams.html#Canada)
 
 Saturday 26th September at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [Samoa](teams.html#Samoa)
@@ -35,7 +33,18 @@ Sunday 27th September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [U
 
 Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
 
-## Thursday 24th September10
+## Friday 25th September
+
+### Game #13
+
+**Group C: [Argentina](teams.html#Argentina) 54 - 9 [Georgia](teams.html#Georgia)**
+
+A very expensive yellow card for Georgia helps Argentina to a bonus point win that keeps Neph moving in the right direction. Jack extends 
+his lead (despite the indiscipline of Mamuka Gorgodze) after another assured kicking display from Nicolas Sanchez (including the first drop 
+goal of the tournament). Chris continues the long haul back to contention with a pair of tries from Juan Imhoff, leaving Chad propping up 
+the table once more.
+
+## Thursday 24th September
 
 ### Game #12
 
@@ -156,7 +165,7 @@ from Sean O'Brien and Iain Henderson. Jonathan Sexton takes Neph up to second; I
 
 **Group C: [Tonga](teams.html#Tonga) 10 - 17 [Georgia](teams.html#Georgia)**
 
-A typically barnstorming performance from Marmuka Gorgodze sees Jack take the lead - though Denis will be expecting a bucketload of points 
+A typically barnstorming performance from Mamuka Gorgodze sees Jack take the lead - though Denis will be expecting a bucketload of points 
 from the next game.
 
 ## Friday 18th September
