@@ -1139,11 +1139,30 @@ module ``Data 2015`` =
                                              MissedPenalty goromaruAyumu
                                              YellowCard (matsushimaKotaro, Some 23<min>) ] }
 
-    let groupBSouthAfricaVsSamoa = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (samoa, (*TODO*)0<point>)
+    let groupBSouthAfricaVsSamoa = { Team1Points = TeamPoints (southAfrica, 46<point>); Team2Points = TeamPoints (samoa, 6<point>)
                                      Stage = groupB; KickOff = DateTime (2015, 9, 26, 16, 45, 0)
-                                     Events = [ (*ManOfTheMatch ...*)
-                                                (* TODO *) (* southAfrica *)
-                                                (* TODO *) (* samoa *) ] }
+                                     Events = [ ManOfTheMatch pollardHandre
+                                                Try (pietersenJP, Some 15<min>) (* southAfrica *)
+                                                Try (pietersenJP, Some 47<min>)
+                                                Try (burgerSchalk, Some 58<min>)
+                                                Try (britsSchalk, Some 71<min>)
+                                                Try (pietersenJP, Some 78<min>)
+                                                Try (habanaBryan, Some 80<min>)
+                                                Conversion pollardHandre
+                                                Conversion lambiePat
+                                                MissedConversion pollardHandre
+                                                MissedConversion pollardHandre
+                                                MissedConversion pollardHandre
+                                                MissedConversion lambiePat
+                                                Penalty pollardHandre
+                                                Penalty pollardHandre
+                                                Penalty pollardHandre
+                                                Penalty pollardHandre
+                                                Penalty stanleyMichael (* samoa *)
+                                                Penalty stanleyMichael
+                                                MissedPenalty stanleyMichael
+                                                MissedPenalty stanleyMichael
+                                                MissedPenalty stanleyMichael ] }
 
     let groupBScotlandVsUnitedStates = { Team1Points = TeamPoints (scotland, (*TODO*)0<point>); Team2Points = TeamPoints (unitedStates, (*TODO*)0<point>)
                                          Stage = groupB; KickOff = DateTime (2015, 9, 27, 14, 30, 0)
@@ -1382,11 +1401,24 @@ module ``Data 2015`` =
                                              MissedPenalty vlaicuFlorin
                                              YellowCard (paulicaIon, Some 30<min>) ] }
 
-    let groupDItalyVsCanada = { Team1Points = TeamPoints (italy, (*TODO*)0<point>); Team2Points = TeamPoints (canada, (*TODO*)0<point>)
+    let groupDItalyVsCanada = { Team1Points = TeamPoints (italy, 23<point>); Team2Points = TeamPoints (canada, 18<point>)
                                 Stage = groupD; KickOff = DateTime (2015, 9, 26, 14, 30, 0)
-                                Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* italy *)
-                                           (* TODO *) (* canada *) ] }
+                                Events = [ ManOfTheMatch vanderMerweDTH
+                                           Try (rizzoMichele, Some 17<min>) (* italy *)
+                                           Try (garciaGonzalo, Some 58<min>)
+                                           Conversion allanTommaso
+                                           Conversion allanTommaso
+                                           Penalty allanTommaso
+                                           Penalty allanTommaso
+                                           Penalty allanTommaso
+                                           MissedPenalty cannaCarlo
+                                           Try (vanderMerweDTH, Some 15<min>) (* canada *)
+                                           Try (evansMatt, Some 44<min>)
+                                           Conversion hirayamaNathan
+                                           MissedConversion hirayamaNathan
+                                           Penalty hirayamaNathan
+                                           Penalty hirayamaNathan
+                                           MissedPenalty hirayamaNathan ] }
 
     let groupDIrelandVsRomania = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
                                    Stage = groupD; KickOff = DateTime (2015, 9, 27, 16, 45, 0)

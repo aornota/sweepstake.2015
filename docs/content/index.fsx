@@ -21,10 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 26th September at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Canada](teams.html#Canada)
-
-Saturday 26th September at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [Samoa](teams.html#Samoa)
-
 Saturday 26th September at 20:00 -- Group A: [England](teams.html#England) vs [Wales](teams.html#Wales)
 
 Sunday 27th September at 12:00 -- Group A: [Australia](teams.html#Australia) vs [Uruguay](teams.html#Uruguay)
@@ -32,6 +28,24 @@ Sunday 27th September at 12:00 -- Group A: [Australia](teams.html#Australia) vs 
 Sunday 27th September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [United States](teams.html#United States)
 
 Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
+
+## Saturday 26th September
+
+### Game #15
+
+**Group B: [South Africa](teams.html#South Africa) 46 - 6 [Samoa](teams.html#Samoa)**
+
+The Springboks bounce back with a bonus point win for Rosie, who also gets a Bryan Habana try. Martyn picks up a solitary point via Pat 
+Lambie. A try from Schalk Burger and some flaky kicking from man-of-the-match Handre Pollard sees Jack storm past the century mark, closely 
+followed by Jem (who could have taken the lead if the great unwashed of Twitter had voted for Eben Etzebeth) thanks to three tries from JP 
+Pietersen.
+
+### Game #14
+
+**Group D: [Italy](teams.html#Italy) 23 - 18 [Canada](teams.html#Canada)**
+
+Hey buddy, Canada wants one of those losing bonus points, guy... Italy have probably done just about enough to qualify for the 2019 World 
+Cup. No points for anyone.
 
 ## Friday 25th September
 
