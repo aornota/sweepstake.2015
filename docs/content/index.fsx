@@ -21,15 +21,35 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 26th September at 20:00 -- Group A: [England](teams.html#England) vs [Wales](teams.html#Wales)
-
 Sunday 27th September at 12:00 -- Group A: [Australia](teams.html#Australia) vs [Uruguay](teams.html#Uruguay)
 
 Sunday 27th September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [United States](teams.html#United States)
 
 Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
 
+Tuesday 29th September at 16:45 -- Group C: [Tonga](teams.html#Tonga) vs [Namibia](teams.html#Namibia)
+
+Thursday 1st October at 16:45 -- Group A: [Wales](teams.html#Wales) vs [Fiji](teams.html#Fiji)
+
+Thursday 1st October at 20:00 -- Group D: [France](teams.html#France) vs [Canada](teams.html#Canada)
+
+Thursday 1st October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Georgia](teams.html#Georgia)
+
 ## Saturday 26th September
+
+### Game #16
+
+**Group A: [England](teams.html#England) 25 - 28 [Wales](teams.html#Wales)**
+
+Sixteen matches down, thirty-two to go - and the hosts are teetering on the brink...
+
+Disappointment for England at somehow losing despite dominating the set-pieces and edging the aerial battle - and elation for a resilient 
+Wales who finished the game playing two scrum-halves, two fly-halves and one centre. I still wouldn't want to predict which two teams will 
+survive the Group of Death. (And barring a miracle recovery, I'll start thinking about my replacement for Scott Williams; Denis might want 
+to do likewise given the way Liam Williams left the field.) Jack stretches his lead with an English losing bonus point and a try from Jonny 
+May. Martyn gets motoring with a Welsh win and nerveless kicking from Owen Farrell - but even that impressive haul is topped by Hugh who 
+rockets up to third thanks to equally solid kicking (not withstanding his itching-powder-everywhere preparation) and a deserved 
+man-of-the-match performance from Dan Biggar.
 
 ### Game #15
 
