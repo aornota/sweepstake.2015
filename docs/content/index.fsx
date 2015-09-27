@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
-
 Tuesday 29th September at 16:45 -- Group C: [Tonga](teams.html#Tonga) vs [Namibia](teams.html#Namibia)
 
 Thursday 1st October at 16:45 -- Group A: [Wales](teams.html#Wales) vs [Fiji](teams.html#Fiji)
@@ -33,12 +31,19 @@ Friday 2nd October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs
 
 ## Sunday 27th September
 
+### Game #19
+
+**Group D: [Ireland](teams.html#Ireland) 44 - 10 [Romania](teams.html#Romania)**
+
+Denis picks up the expected bonus point Irish win - but the big movers are Susie (two tries for Tommy Bowe) and Chad (a try for Chris Henry 
+and the boot of Ian Madigan).
+
 ### Game #18
 
 **Group B: [Scotland](teams.html#Scotland) 39 - 16 [United States](teams.html#United States)**
 
 Get your protractors out! The reigning Five Nations champions earn a bonus point win over the reigning Olympic champions, which is good 
-news for Hugh for also picks up a couple of points from the boot of Finn Russell. Susie likewise benefits from Greig Laidlaw's kicking - 
+news for Hugh who also picks up a couple of points from the boot of Finn Russell. Susie likewise benefits from Greig Laidlaw's kicking - 
 and Jack from a mixed kicking display from man-of-the-match Stuart Hogg.
 
 ### Injury update #3

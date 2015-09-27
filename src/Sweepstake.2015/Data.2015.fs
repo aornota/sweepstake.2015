@@ -1477,11 +1477,27 @@ module ``Data 2015`` =
                                            Penalty hirayamaNathan
                                            MissedPenalty hirayamaNathan ] }
 
-    let groupDIrelandVsRomania = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
+    let groupDIrelandVsRomania = { Team1Points = TeamPoints (ireland, 44<point>); Team2Points = TeamPoints (romania, 10<point>)
                                    Stage = groupD; KickOff = DateTime (2015, 9, 27, 16, 45, 0)
-                                   Events = [ (*ManOfTheMatch ...*)
-                                              (* TODO *) (* ireland *)
-                                              (* TODO *) (* romania *) ] }
+                                   Events = [ ManOfTheMatch earlsKeith
+                                              Try (boweTommy, Some 19<min>) (* ireland *)
+                                              Try (earlsKeith, Some 29<min>)
+                                              Try (earlsKeith, Some 44<min>)
+                                              Try (boweTommy, Some 62<min>)
+                                              Try (kearneyRob, Some 65<min>)
+                                              Try (henryChris, Some 74<min>)
+                                              Conversion madiganIan
+                                              Conversion madiganIan
+                                              Conversion madiganIan
+                                              Conversion madiganIan
+                                              MissedConversion madiganIan
+                                              MissedConversion madiganIan
+                                              Penalty madiganIan
+                                              Penalty madiganIan
+                                              Try (tonitaOvidiu, Some 78<min>) (* romania *)
+                                              Conversion vlaicuFlorin
+                                              Penalty calafeteanuValentin
+                                              YellowCard (galCsaba, Some 61<min>) ] }
 
     let groupDFranceVsCanada = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (canada, (*TODO*)0<point>)
                                  Stage = groupD; KickOff = DateTime (2015, 10, 1, 20, 0, 0)
