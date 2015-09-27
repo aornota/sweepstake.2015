@@ -77,8 +77,9 @@ module ``Data 2015`` =
     let pollardHandre = { Name = "Handré Pollard"; Team = southAfrica; Type = Back; Status = OriginalSquad }
     let steynMorne = { Name = "Morné Steyn"; Team = southAfrica; Type = Back; Status = OriginalSquad }
     let deAllendeDamian = { Name = "Damian de Allende"; Team = southAfrica; Type = Back; Status = OriginalSquad }
-    let deVilliersJean = { Name = "Jean de Villiers"; Team = southAfrica; Type = Back; Status = OriginalSquad }
+    let deVilliersJean = { Name = "Jean de Villiers"; Team = southAfrica; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 27))) }
     let krielJesse = { Name = "Jesse Kriel"; Team = southAfrica; Type = Back; Status = OriginalSquad }
+    let serfonteinJan = { Name = "Jan Serfontein"; Team = southAfrica; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 27))) }
     let habanaBryan = { Name = "Bryan Habana"; Team = southAfrica; Type = Back; Status = OriginalSquad }
     let mvovoLwazi = { Name = "Lwazi Mvovo"; Team = southAfrica; Type = Back; Status = OriginalSquad }
     let pietersenJP = { Name = "JP Pietersen"; Team = southAfrica; Type = Back; Status = OriginalSquad }
@@ -90,7 +91,7 @@ module ``Data 2015`` =
                                          nyakaneTrevor; oosthuizenCoenie; deJagerLood; duToitPieterSteph; etzebethEben; matfieldVictor
                                          albertsWillem; burgerSchalk; kolisiSiya; louwFrancois; vermeulenDuane; duPreezFourie; paigeRudy
                                          pienaarRuan; lambiePat; pollardHandre; steynMorne; deAllendeDamian; deVilliersJean; krielJesse
-                                         habanaBryan; mvovoLwazi; pietersenJP; kirchnerZane; leRouxWillie ] }
+                                         serfonteinJan; habanaBryan; mvovoLwazi; pietersenJP; kirchnerZane; leRouxWillie ] }
 
     let australia = { Name = "Australia"; Status = Active; Seeding = Some 3; Coach = "Michael Cheika" }
 
@@ -581,7 +582,8 @@ module ``Data 2015`` =
     let gonevaVereniki = { Name = "Vereniki Goneva"; Team = fiji; Type = Back; Status = OriginalSquad }
     let lovobalavuGabiriele = { Name = "Gabiriele Lovobalavu"; Team = fiji; Type = Back; Status = OriginalSquad }
     let nadoloNemani = { Name = "Nemani Nadolo"; Team = fiji; Type = Back; Status = OriginalSquad }
-    let nayacalevuWaisea = { Name = "Waisea Nayacalevu"; Team = fiji; Type = Back; Status = OriginalSquad }
+    let nayacalevuWaisea = { Name = "Waisea Nayacalevu"; Team = fiji; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 25))) }
+    let nagusaTimoci = { Name = "Timoci Nagusa"; Team = fiji; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 25))) }
     let tikoirotumaAsaeli = { Name = "Asaeli Tikoirotuma"; Team = fiji; Type = Back; Status = OriginalSquad }
     let murimurivaluKini = { Name = "Kini Murimurivalu"; Team = fiji; Type = Back; Status = OriginalSquad }
     let talebulaMetuisela = { Name = "Metuisela Talebula"; Team = fiji; Type = Back; Status = OriginalSquad }
@@ -591,7 +593,7 @@ module ``Data 2015`` =
                                   sauloManasa; cavubatiTevita; nakarawaLeone; ratuniyarawaApi; soqetaNemia; qeraAkapusi; ravuloMalakai
                                   waqaniburotuDominiko; yatoPeceli; matadigoSakiusa; taleiNetani; kenataleNemia; matawaluNikola
                                   seniloliHenry; matavesiJosh; volavolaBen; botiaLevani; gonevaVereniki; lovobalavuGabiriele
-                                  nadoloNemani; nayacalevuWaisea; tikoirotumaAsaeli; murimurivaluKini; talebulaMetuisela ] }
+                                  nadoloNemani; nayacalevuWaisea; nagusaTimoci; tikoirotumaAsaeli; murimurivaluKini; talebulaMetuisela ] }
 
     let uruguay = { Name = "Uruguay"; Status = Active; Seeding = None; Coach = "Pablo Lemoine" }
 
@@ -823,7 +825,7 @@ module ``Data 2015`` =
     let mackenzieJamie = { Name = "Jamie Mackenzie"; Team = canada; Type = Back; Status = OriginalSquad }
     let mcRorieGordon = { Name = "Gordon McRorie"; Team = canada; Type = Back; Status = OriginalSquad }
     let hirayamaNathan = { Name = "Nathan Hirayama"; Team = canada; Type = Back; Status = OriginalSquad }
-    let underwoodLiam = { Name = "Liam Underwood"; Team = canada; Type = Back; Status = OriginalSquad }
+    let underwoodLiam = { Name = "Liam Underwood"; Team = canada; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 24))) }
     let blevinsNick = { Name = "Nick Blevins"; Team = canada; Type = Back; Status = OriginalSquad }
     let braidConnor = { Name = "Connor Braid"; Team = canada; Type = Back; Status = OriginalSquad }
     let hearnCiaran = { Name = "Ciaran Hearn"; Team = canada; Type = Back; Status = OriginalSquad }
@@ -833,13 +835,14 @@ module ``Data 2015`` =
     let vanderMerweDTH = { Name = "D. T. H. van der Merwe"; Team = canada; Type = Back; Status = OriginalSquad }
     let evansMatt = { Name = "Matt Evans"; Team = canada; Type = Back; Status = OriginalSquad }
     let jonesHarry = { Name = "Harry Jones"; Team = canada; Type = Back; Status = OriginalSquad }
+    let pritchardJames = { Name = "James Pritchard"; Team = canada; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 24))) }
 
     let canadaSquad = { Team = canada
                         Players = [ barkwillRay; carpenterAaron; pifferoBenoit; buydensHubert; ilnickiJake; searsDucDjustice
                                     tiedemannAndrew; wooldridgeDoug; beukeboomBrett; cudmoreJamie; olmsteadEvan; dalaNanyak; gilmourKyle
                                     moonlightJohn; sinclairJebb; ardronTyler; thorpeRichard; mackPhil; mackenzieJamie; mcRorieGordon
                                     hirayamaNathan; underwoodLiam; blevinsNick; braidConnor; hearnCiaran; trainorConor; hasslerJeff
-                                    mackenziePhil; vanderMerweDTH; evansMatt; jonesHarry ] }
+                                    mackenziePhil; vanderMerweDTH; evansMatt; jonesHarry; pritchardJames ] }
 
     let romania = { Name = "Romania"; Status = Active; Seeding = None; Coach = "Lynn Howells" }
 
@@ -1201,11 +1204,28 @@ module ``Data 2015`` =
                                                 MissedPenalty stanleyMichael
                                                 MissedPenalty stanleyMichael ] }
 
-    let groupBScotlandVsUnitedStates = { Team1Points = TeamPoints (scotland, (*TODO*)0<point>); Team2Points = TeamPoints (unitedStates, (*TODO*)0<point>)
+    let groupBScotlandVsUnitedStates = { Team1Points = TeamPoints (scotland, 39<point>); Team2Points = TeamPoints (unitedStates, 16<point>)
                                          Stage = groupB; KickOff = DateTime (2015, 9, 27, 14, 30, 0)
-                                         Events = [ (*ManOfTheMatch ...*)
-                                                    (* TODO *) (* scotland *)
-                                                    (* TODO *) (* unitedStates *) ] }
+                                         Events = [ ManOfTheMatch hoggStuart
+                                                    Try (visserTim, Some 42<min>) (* scotland *)
+                                                    Try (maitlandSean, Some 47<min>)
+                                                    Try (nelWP, Some 54<min>)
+                                                    Try (scottMatt, Some 65<min>)
+                                                    Try (weirDuncan, Some 79<min>)
+                                                    Conversion russellFinn
+                                                    Conversion laidlawGreig
+                                                    Conversion laidlawGreig
+                                                    Conversion laidlawGreig
+                                                    MissedConversion russellFinn
+                                                    Penalty hoggStuart
+                                                    Penalty russellFinn
+                                                    MissedPenalty hoggStuart
+                                                    MissedPenalty russellFinn
+                                                    Try (lamositeleTiti, Some 21<min>) (* unitedStates *)
+                                                    Conversion macGintyAJ
+                                                    Penalty macGintyAJ
+                                                    Penalty macGintyAJ
+                                                    Penalty macGintyAJ ] }
 
     let groupBSamoaVsJapan = { Team1Points = TeamPoints (samoa, (*TODO*)0<point>); Team2Points = TeamPoints (japan, (*TODO*)0<point>)
                                Stage = groupB; KickOff = DateTime (2015, 10, 3, 14, 30, 0)

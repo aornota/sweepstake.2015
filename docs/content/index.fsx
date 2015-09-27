@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 27th September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [United States](teams.html#United States)
-
 Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
 
 Tuesday 29th September at 16:45 -- Group C: [Tonga](teams.html#Tonga) vs [Namibia](teams.html#Namibia)
@@ -31,9 +29,25 @@ Thursday 1st October at 16:45 -- Group A: [Wales](teams.html#Wales) vs [Fiji](te
 
 Thursday 1st October at 20:00 -- Group D: [France](teams.html#France) vs [Canada](teams.html#Canada)
 
-Thursday 1st October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Georgia](teams.html#Georgia)
+Friday 2nd October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Georgia](teams.html#Georgia)
 
 ## Sunday 27th September
+
+### Game #18
+
+**Group B: [Scotland](teams.html#Scotland) 39 - 16 [United States](teams.html#United States)**
+
+Get your protractors out! The reigning Five Nations champions earn a bonus point win over the reigning Olympic champions, which is good 
+news for Hugh for also picks up a couple of points from the boot of Finn Russell. Susie likewise benefits from Greig Laidlaw's kicking - 
+and Jack from a mixed kicking display from man-of-the-match Stuart Hogg.
+
+### Injury update #3
+
+Jean de Villiers (South Africa), Waisea Nayacalevu (Fiji) and Liam Underwood (Canada) have been withdrawn through injury and replaced by 
+Jan Serfontein, Timoci Nagusa and James Pritchard respectively. No sweepstakers are affected.
+
+Still awaiting news on various Welsh players (Scott Williams, Hallam Amos and Liam Williams), not to mention a possible citing for Tom 
+Wood...
 
 ### Game #17
 
