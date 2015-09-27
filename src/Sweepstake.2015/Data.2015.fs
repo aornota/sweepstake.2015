@@ -1041,11 +1041,33 @@ module ``Data 2015`` =
                                             Penalty biggarDan
                                             Penalty biggarDan ] }
 
-    let groupAAustraliaVsUruguay = { Team1Points = TeamPoints (australia, 0<point>); Team2Points = TeamPoints (uruguay, 0<point>)
+    let groupAAustraliaVsUruguay = { Team1Points = TeamPoints (australia, 65<point>); Team2Points = TeamPoints (uruguay, 3<point>)
                                      Stage = groupA; KickOff = DateTime (2015, 9, 27, 12, 0, 0) 
-                                     Events = [ (*ManOfTheMatch ...*)
-                                                (* TODO *) (* australia *)
-                                                (* TODO *) (* uruguay *) ] }
+                                     Events = [ ManOfTheMatch mcMahonSean
+                                                Try (mcMahonSean, Some 7<min>) (* australia *)
+                                                Try (tomaneJoe, Some 9<min>)
+                                                Try (mummDean, Some 26<min>)
+                                                Try (speightHenry, Some 31<min>)
+                                                Try (mcCalmanBen, Some 36<min>)
+                                                Try (mitchellDrew, Some 47<min>)
+                                                Try (mitchellDrew, Some 52<min>)
+                                                Try (mcCalmanBen, Some 61<min>)
+                                                Try (mcMahonSean, Some 69<min>)
+                                                Try (toomuaMatt, Some 71<min>)
+                                                Try (kuridraniTevita, Some 80<min>)
+                                                Conversion cooperQuade
+                                                Conversion cooperQuade
+                                                Conversion cooperQuade
+                                                Conversion cooperQuade
+                                                Conversion cooperQuade
+                                                MissedConversion cooperQuade
+                                                MissedConversion cooperQuade
+                                                MissedConversion cooperQuade
+                                                MissedConversion cooperQuade
+                                                MissedConversion cooperQuade
+                                                MissedConversion cooperQuade
+                                                YellowCard (cooperQuade, Some 15<min>)
+                                                Penalty berchisiFelipe (* uruguay *) ] }
 
     let groupAWalesVsFiji = { Team1Points = TeamPoints (wales, (*TODO*)0<point>); Team2Points = TeamPoints (fiji, (*TODO*)0<point>)
                               Stage = groupA; KickOff = DateTime (2015, 10, 1, 16, 45, 0) 

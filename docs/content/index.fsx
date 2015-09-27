@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 27th September at 12:00 -- Group A: [Australia](teams.html#Australia) vs [Uruguay](teams.html#Uruguay)
-
 Sunday 27th September at 14:30 -- Group B: [Scotland](teams.html#Scotland) vs [United States](teams.html#United States)
 
 Sunday 27th September at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Romania](teams.html#Romania)
@@ -34,6 +32,17 @@ Thursday 1st October at 16:45 -- Group A: [Wales](teams.html#Wales) vs [Fiji](te
 Thursday 1st October at 20:00 -- Group D: [France](teams.html#France) vs [Canada](teams.html#Canada)
 
 Thursday 1st October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Georgia](teams.html#Georgia)
+
+## Sunday 27th September
+
+### Game #17
+
+**Group A: [Australia](teams.html#Australia) 65 - 3 [Uruguay](teams.html#Uruguay)**
+
+A bonus point Australian win for Chris is slightly soured by a yellow card - and two tries from man-of-the-match Sean McMahon allow Chad to 
+leapfrog Chris at the bottom. Quade Cooper had a great game with ball in hand - but his rubbish kicking and indiscipline lead to a solitary 
+point for Martyn. Jack powers on with a try from Matt 'Top-knot' Toomua; Jem snaps at his heels with a last-gap try from Tevita Kuridrani. 
+Henry Speight scores a try to keep Hugh in third, closely followed by Neph thanks to a pair of tries from Ben McCalman.
 
 ## Saturday 26th September
 
