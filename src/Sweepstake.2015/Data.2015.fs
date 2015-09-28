@@ -193,8 +193,9 @@ module ``Data 2015`` =
     let haskellJames = { Name = "James Haskell"; Team = england; Type = Forward; Status = OriginalSquad }
     let robshawChris = { Name = "Chris Robshaw"; Team = england; Type = Forward; Status = OriginalSquad }
     let woodTom = { Name = "Tom Wood"; Team = england; Type = Forward; Status = OriginalSquad }
+    let easterNick = { Name = "Nick Easter"; Team = england; Type = Forward; Status = Replacement (Some (DateTime (2015, 9, 28))) }
     let morganBen = { Name = "Ben Morgan"; Team = england; Type = Forward; Status = OriginalSquad }
-    let vunipolaBilly = { Name = "Billy Vunipola"; Team = england; Type = Forward; Status = OriginalSquad }
+    let vunipolaBilly = { Name = "Billy Vunipola"; Team = england; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 9, 28))) }
     let careDanny = { Name = "Danny Care"; Team = england; Type = Back; Status = OriginalSquad }
     let wigglesworthRichard = { Name = "Richard Wigglesworth"; Team = england; Type = Back; Status = OriginalSquad }
     let youngsBen = { Name = "Ben Youngs"; Team = england; Type = Back; Status = OriginalSquad }
@@ -213,9 +214,9 @@ module ``Data 2015`` =
     let englandSquad = { Team = england
                          Players = [ georgeJamie; webberRob; youngsTom; brookesKieran; coleDan; marlerJoe; vunipolaMako; wilsonDavid
                                      kruisGeorge; launchburyJoe; lawesCourtney; parlingGeoff; haskellJames; robshawChris; woodTom
-                                     morganBen; vunipolaBilly; careDanny; wigglesworthRichard; youngsBen; farrellOwen; fordGeorge
-                                     barrittBrad; burgessSam; josephJonathan; sladeHenry; mayJonny; nowellJack; watsonAnthony; brownMike
-                                     goodeAlex ] }
+                                     easterNick; morganBen; vunipolaBilly; careDanny; wigglesworthRichard; youngsBen; farrellOwen
+                                     fordGeorge; barrittBrad; burgessSam; josephJonathan; sladeHenry; mayJonny; nowellJack; watsonAnthony
+                                     brownMike; goodeAlex ] }
 
     let ireland = { Name = "Ireland"; Status = Active; Seeding = Some 6; Coach = "Joe Schmidt" }
 
@@ -412,20 +413,22 @@ module ``Data 2015`` =
     let allenCory = { Name = "Cory Allen"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 21))) }
     let morganTyler = { Name = "Tyler Morgan"; Team = wales; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 21))) }
     let robertsJamie = { Name = "Jamie Roberts"; Team = wales; Type = Back; Status = OriginalSquad }
-    let williamsScott = { Name = "Scott Williams"; Team = wales; Type = Back; Status = OriginalSquad }
-    let amosHallam = { Name = "Hallam Amos"; Team = wales; Type = Back; Status = OriginalSquad }
+    let williamsScott = { Name = "Scott Williams"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 28))) }
+    let amosHallam = { Name = "Hallam Amos"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 28))) }
     let cuthbertAlex = { Name = "Alex Cuthbert"; Team = wales; Type = Back; Status = OriginalSquad }
     let northGeorge = { Name = "George North"; Team = wales; Type = Back; Status = OriginalSquad }
     let walkerEli = { Name = "Eli Walker"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 14))) }
     let williamsLiam = { Name = "Liam Williams"; Team = wales; Type = Back; Status = OriginalSquad }
     let morganMatthew = { Name = "Matthew Morgan"; Team = wales; Type = Back; Status = OriginalSquad }
+    let anscombeGareth = { Name = "Gareth Anscombe"; Team = wales; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 28))) }
+    let hookJames = { Name = "James Hook"; Team = wales; Type = Back; Status = Replacement (Some (DateTime (2015, 9, 28))) }
 
     let walesSquad = { Team = wales
                        Players = [ baldwinScott; owensKen; francisTomas; jamesPaul; jarvisAaron; jenkinsGethin; leeSamson; ballJake
                                    charterisLuke; daviesBradley; dayDominic; jonesAlunWyn; kingJames; lydiateDan; tipuricJustin
                                    moriartyRoss; warburtonSam; faletauTaulupe; daviesGareth; phillipsMike; williamsLloyd; biggarDan
                                    priestlandRhys; allenCory; morganTyler; robertsJamie; williamsScott; amosHallam; cuthbertAlex
-                                   northGeorge; walkerEli; williamsLiam; morganMatthew ] }
+                                   northGeorge; walkerEli; williamsLiam; morganMatthew; anscombeGareth; hookJames ] }
 
     let italy = { Name = "Italy"; Status = Active; Seeding = Some 10; Coach = "Jacques Brunel" }
 
@@ -559,7 +562,8 @@ module ``Data 2015`` =
     let tuapatiTalemaitoga = { Name = "Talemaitoga Tuapati"; Team = fiji; Type = Forward; Status = OriginalSquad }
     let veikosoViliame = { Name = "Viliame Veikoso"; Team = fiji; Type = Forward; Status = OriginalSquad }
     let atalifoLeeroy = { Name = "Lee-roy Atalifo"; Team = fiji; Type = Forward; Status = OriginalSquad }
-    let colatiIsei = { Name = "Isei Colati"; Team = fiji; Type = Forward; Status = OriginalSquad }
+    let colatiIsei = { Name = "Isei Colati"; Team = fiji; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 9, 27))) }
+    let koroiTaniela = { Name = "Taniela Koroi"; Team = fiji; Type = Forward; Status = Replacement (Some (DateTime (2015, 9, 27))) }
     let ma'afuCampese = { Name = "Campese Ma'afu"; Team = fiji; Type = Forward; Status = OriginalSquad }
     let ravaiPeni = { Name = "Peni Ravai"; Team = fiji; Type = Forward; Status = OriginalSquad }
     let sauloManasa = { Name = "Manasa Saulo"; Team = fiji; Type = Forward; Status = OriginalSquad }
@@ -589,10 +593,10 @@ module ``Data 2015`` =
     let talebulaMetuisela = { Name = "Metuisela Talebula"; Team = fiji; Type = Back; Status = OriginalSquad }
 
     let fijiSquad = { Team = fiji
-                      Players = [ kotoSunia; tuapatiTalemaitoga; veikosoViliame; atalifoLeeroy; colatiIsei; ma'afuCampese; ravaiPeni
-                                  sauloManasa; cavubatiTevita; nakarawaLeone; ratuniyarawaApi; soqetaNemia; qeraAkapusi; ravuloMalakai
-                                  waqaniburotuDominiko; yatoPeceli; matadigoSakiusa; taleiNetani; kenataleNemia; matawaluNikola
-                                  seniloliHenry; matavesiJosh; volavolaBen; botiaLevani; gonevaVereniki; lovobalavuGabiriele
+                      Players = [ kotoSunia; tuapatiTalemaitoga; veikosoViliame; atalifoLeeroy; colatiIsei; koroiTaniela; ma'afuCampese
+                                  ravaiPeni; sauloManasa; cavubatiTevita; nakarawaLeone; ratuniyarawaApi; soqetaNemia; qeraAkapusi
+                                  ravuloMalakai; waqaniburotuDominiko; yatoPeceli; matadigoSakiusa; taleiNetani; kenataleNemia
+                                  matawaluNikola; seniloliHenry; matavesiJosh; volavolaBen; botiaLevani; gonevaVereniki; lovobalavuGabiriele
                                   nadoloNemani; nayacalevuWaisea; nagusaTimoci; tikoirotumaAsaeli; murimurivaluKini; talebulaMetuisela ] }
 
     let uruguay = { Name = "Uruguay"; Status = Active; Seeding = None; Coach = "Pablo Lemoine" }

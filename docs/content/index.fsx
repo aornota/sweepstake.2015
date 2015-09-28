@@ -29,6 +29,30 @@ Thursday 1st October at 20:00 -- Group D: [France](teams.html#France) vs [Canada
 
 Friday 2nd October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Georgia](teams.html#Georgia)
 
+Saturday 3rd October at 14:30 -- Group B: [Samoa](teams.html#Samoa) vs [Japan](teams.html#Japan)
+
+Saturday 3rd October at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [Scotland](teams.html#Scotland)
+
+Saturday 3rd October at 20:00 -- Group A: [England](teams.html#England) vs [Australia](teams.html#Australia)
+
+Sunday 4th October at 14:30 -- Group C: [Argentina](teams.html#Argentina) vs [Tonga](teams.html#Tonga)
+
+Sunday 4th October at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Italy](teams.html#Italy)
+
+## Monday 28th September
+
+### Injury update #4
+
+Billy Vunipola (England), Scott Williams and Hallam Amos (both Wales) and Isei Colati (Fiji) have been withdrawn through injury and 
+replaced by Nick Easter, Gareth Anscombe, James Hook and Taniela Koroi respectively. (Scotland's Grant Gilchrist also appears to be 
+crocked; his withdrawal will be reflected once his replacement has been announced.)
+
+Awaiting clarification from Hugh as to who he wants to replace Billy Vunipola - and I need to decide on a replacement for Scott Williams... 
+And still waiting to hear from Chris about his replacement for Yoann Huget.
+
+(Liam Williams remains in the Welsh squad, though won't be considered for the Fiji match. And common sense seems to have prevailed as far 
+as the mooted citing of Tom Wood is concerned.)
+
 ## Sunday 27th September
 
 ### Game #19
@@ -247,6 +271,8 @@ been a brilliant try) leave Chad stuck in reverse gear.
 Once the tournament is underway, if one of your players is withdrawn, I'll try and let you know (or you can let me know). You can then pick 
 any unpicked player as a replacement - with the proviso that you will only be credited with points that they score from that point onwards. 
 (If there's a sudden spate of withdrawals, replacements will be allocated on a first-come first-served basis.)
+
+Please note that a player who is unavailable for disciplinary reasons (e.g. Mariano Galarza for Argentina) cannot be replaced.
 
 #### Payout structure
 
