@@ -330,7 +330,8 @@ module ``Sweepstake 2015`` =
                                  { Player = ashleyCooperAdam (* Back *); OnlyScoresFrom = None }
                                  { Player = smithConrad (* Back *); OnlyScoresFrom = None }
                                  { Player = nadoloNemani (* Back *); OnlyScoresFrom = None }
-                                 { Player = williamsScott (* Back *); OnlyScoresFrom = None } ] }
+                                 { Player = williamsScott (* Back *); OnlyScoresFrom = None }
+                                 { Player = corderoSantiago (* Back *); OnlyScoresFrom = Some (DateTime (2015, 9, 29)) } ] }
 
     let rosiePicks2 = { Participant = rosie
                         CoachTeam = Some southAfrica

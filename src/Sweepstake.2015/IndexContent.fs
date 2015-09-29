@@ -101,7 +101,7 @@ module IndexContent =
                                  | _ -> [ para (italic (sprintf "%d %s and %d %s still to be picked..." forwardsToPick (pluralize "forward" forwardsToPick) backsToPick (pluralize "back" backsToPick))) ]
                 let sorted = sweepstaker.Picks |> List.sortBy (fun pick -> not (getPlayerIsActive pick.Player))
                 (match sorted |> List.length with | 0 -> []
-                                                  | _ -> table (Some 80) (picksHeaderRow @ (sorted |> List.collect pickRow))) @
+                                                  | _ -> table (Some 100) (picksHeaderRow @ (sorted |> List.collect pickRow))) @
                 toPickHtml
             [ h3 (anchor (getParticipant sweepstaker) + (sprintf ": %d" (getSweepstakerScore sweepstaker))) ] @
             coachHtml sweepstaker @

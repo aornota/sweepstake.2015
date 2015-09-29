@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Tuesday 29th September at 16:45 -- Group C: [Tonga](teams.html#Tonga) vs [Namibia](teams.html#Namibia)
-
 Thursday 1st October at 16:45 -- Group A: [Wales](teams.html#Wales) vs [Fiji](teams.html#Fiji)
 
 Thursday 1st October at 20:00 -- Group D: [France](teams.html#France) vs [Canada](teams.html#Canada)
@@ -38,6 +36,24 @@ Saturday 3rd October at 20:00 -- Group A: [England](teams.html#England) vs [Aust
 Sunday 4th October at 14:30 -- Group C: [Argentina](teams.html#Argentina) vs [Tonga](teams.html#Tonga)
 
 Sunday 4th October at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Italy](teams.html#Italy)
+
+## Tuesday 29th September
+
+### Injury update #5
+
+Will Skelton and Wycliff Palu (both Australia), Grant Gilchrist (Scotland), Connor Braid (Canada) and Ovidiu Tonita (Romania) have been 
+withdrawn through injury and replaced by Sam Carter, James Hanson, Blair Cowan, Pat Parfrey and Vlad Nistor respectively.
+
+This means that as well as the pending replacements for Chris (back) and Hugh (forward), Jem and Martyn both need to pick a forward... Neph 
+has picked Santiago Cordero (Argentina) as a replacement for Scott Williams.
+
+(I assume the Welsh will be happy not to be facing Nemani Nadolo on Thursday; I have mixed feelings...)
+
+### Game #20
+
+**Group C: [Tonga](teams.html#Tonga) 35 - 21 [Namibia](teams.html#Namibia)**
+
+Nothing to see here.
 
 ## Monday 28th September
 
