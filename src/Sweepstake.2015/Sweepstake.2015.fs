@@ -222,7 +222,8 @@ module ``Sweepstake 2015`` =
                                   { Player = giteauMatt (* Back *); OnlyScoresFrom = None }
                                   { Player = imhoffJuan (* Back *); OnlyScoresFrom = None }
                                   { Player = fekitoaMalakai (* Back *); OnlyScoresFrom = None }
-                                  { Player = perenaraTJ (* Back *); OnlyScoresFrom = None } ] }
+                                  { Player = perenaraTJ (* Back *); OnlyScoresFrom = None }
+                                  { Player = guitouneSofiane (* Back *); OnlyScoresFrom = Some (DateTime (2015, 9, 29)) } ] }
 
     let denisPicks2 = { Participant = denis
                         CoachTeam = Some ireland
@@ -252,6 +253,7 @@ module ``Sweepstake 2015`` =
                                  { Player = taleiNetani (* Forward *); OnlyScoresFrom = None }
                                  { Player = manoaSamu (* Forward *); OnlyScoresFrom = None }
                                  { Player = kolisiSiya (* Forward *); OnlyScoresFrom = None }
+                                 { Player = materaPablo (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 9, 29)) }
                                  { Player = milnerSkudderNehe (* Back *); OnlyScoresFrom = None }
                                  { Player = biggarDan (* Back *); OnlyScoresFrom = None }
                                  { Player = leRouxWillie (* Back *); OnlyScoresFrom = None }
@@ -288,6 +290,7 @@ module ``Sweepstake 2015`` =
                                 { Player = albertsWillem (* Forward *); OnlyScoresFrom = None }
                                 { Player = choulyDamien (* Forward *); OnlyScoresFrom = None }
                                 { Player = skeltonWill (* Forward *); OnlyScoresFrom = None }
+                                { Player = taylorCodie (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 9, 30)) }
                                 { Player = saveaJulian (* Back *); OnlyScoresFrom = None }
                                 { Player = pietersenJP (* Back *); OnlyScoresFrom = None }
                                 { Player = michalakFrederic (* Back *); OnlyScoresFrom = None }
@@ -306,6 +309,7 @@ module ``Sweepstake 2015`` =
                                    { Player = romanoLuke (* Forward *); OnlyScoresFrom = None }
                                    { Player = woodcockTony (* Forward *); OnlyScoresFrom = None }
                                    { Player = crockettWyatt (* Forward *); OnlyScoresFrom = None }
+                                   { Player = mealamuKeven (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 9, 29)) }
                                    { Player = lambiePat (* Back *); OnlyScoresFrom = None }
                                    { Player = farrellOwen (* Back *); OnlyScoresFrom = None }
                                    { Player = cooperQuade (* Back *); OnlyScoresFrom = None }

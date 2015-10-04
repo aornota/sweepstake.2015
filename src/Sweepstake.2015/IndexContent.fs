@@ -134,7 +134,7 @@ module IndexContent =
         let topScoring = teamScores2015 |> List.filter (fun (team, _) -> matching unpicked (picked team))
                                         |> List.filter (fun (_, score) -> score > 0<score>)
                                         |> List.sortBy (fun (_, score) -> -score)
-                                        |> topN 10
+                                        |> topN 16
         let scoresHtml = if topScoring |> List.length = 0 then [ para (italic "Coming soon...") ]
                          else topScoring |> teamsHtml
         [ h3 (anchor (sprintf "%s teams/coaches" (unpickedAnchor unpicked))) ] @

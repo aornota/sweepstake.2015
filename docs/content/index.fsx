@@ -21,21 +21,108 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Thursday 1st October at 16:45 -- Group A: [Wales](teams.html#Wales) vs [Fiji](teams.html#Fiji)
+Tuesday 6th October at 16:45 -- Group D: [Canada](teams.html#Canada) vs [Romania](teams.html#Romania)
 
-Thursday 1st October at 20:00 -- Group D: [France](teams.html#France) vs [Canada](teams.html#Canada)
+Tuesday 6th October at 20:00 -- Group A: [Fiji](teams.html#Fiji) vs [Uruguay](teams.html#Uruguay)
 
-Friday 2nd October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Georgia](teams.html#Georgia)
+Wednesday 7th October at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [United States](teams.html#United States)
 
-Saturday 3rd October at 14:30 -- Group B: [Samoa](teams.html#Samoa) vs [Japan](teams.html#Japan)
+Wednesday 7th October at 20:00 -- Group C: [Namibia](teams.html#Namibia) vs [Georgia](teams.html#Georgia)
 
-Saturday 3rd October at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [Scotland](teams.html#Scotland)
+Friday 9th October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Tonga](teams.html#Tonga)
 
-Saturday 3rd October at 20:00 -- Group A: [England](teams.html#England) vs [Australia](teams.html#Australia)
+Saturday 10th October at 14:30 -- Group B: [Samoa](teams.html#Samoa) vs [Scotland](teams.html#Scotland)
 
-Sunday 4th October at 14:30 -- Group C: [Argentina](teams.html#Argentina) vs [Tonga](teams.html#Tonga)
+Saturday 10th October at 16:45 -- Group A: [Australia](teams.html#Australia) vs [Wales](teams.html#Wales)
 
-Sunday 4th October at 16:45 -- Group D: [Ireland](teams.html#Ireland) vs [Italy](teams.html#Italy)
+Saturday 10th October at 20:00 -- Group A: [England](teams.html#England) vs [Uruguay](teams.html#Uruguay)
+
+Sunday 11th October at 12:00 -- Group C: [Argentina](teams.html#Argentina) vs [Namibia](teams.html#Namibia)
+
+Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](teams.html#Romania)
+
+Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
+
+Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
+
+## Sunday 4th October
+
+### Game #28
+
+**Group D: [Ireland](teams.html#Ireland) 16 - 9 [Italy](teams.html#Italy)**
+
+A pretty dire game sees Denis get the Irish win - offset by Peter O'Mahony's yellow card, which also costs Jack - plus points for 
+man-of-the-match Iain Henderson. Neph sneaks up to third with a few points from Jonathan Sexton.
+
+### Game #27
+
+**Group C: [Argentina](teams.html#Argentina) 45 - 16 [Tonga](teams.html#Tonga)**
+
+Jack extends his lead after a very impressive man-of-the-match performance by Nicolas Sanchez in an entertaining game. Neph gets the bonus 
+point Argentine win and a try from Santiago Cordero; Chris gets a try from Juan Imhoff.
+
+## Saturday 3rd October
+
+### Game #26
+
+**Group A: [England](teams.html#England) 13 - 33 [Australia](teams.html#Australia)**
+
+The host nation fail to survive the Group of Death after a comprehensive defeat to an impressive Australia. Rosie rockets up for fourth 
+thanks to two tries and consummate kicking from Bernard Foley (who some might think was more deserving of the man-of-the-match award than, 
+uh, Joe Launchbury). Chris pulls away from the bottom with an Australian win and a try from Matt Giteau; Hugh picks up a try from Anthony 
+Watson; Martyn gets a handful of points from Owen Farrell's kicking - offset by his yellow card, which also costs Jack's English team a 
+couple of points.
+
+### Game #25
+
+**Group B: [South Africa](teams.html#South Africa) 34 - 16 [Scotland](teams.html#Scotland)**
+
+Jack retakes the lead with a try from Schalk Burger and the reliable boot of Handre Pollard. Rosie gets the South African win (offset by a 
+yellow card for Jannie du Plessis) and a try from Bryan Habana. Jem gets a try from JP Pietersen. Susie picks up a few points from Greig 
+Laidlaw's kicking - offset by his yellow card, which also costs Hugh's Scottish team a couple of points.
+
+### Game #24
+
+**Group B: [Samoa](teams.html#Samoa) 5 - 26 [Japan](teams.html#Japan)**
+
+No points for anyone - though I think Filo Paulo deserves recognition for earning his yellow card with a dive right out of the Harry 
+Kewell playbook.
+
+## Friday 2nd October
+
+### Game #23
+
+**Group C: [New Zealand](teams.html#New Zealand) 43 - 10 [Georgia](teams.html#Georgia)**
+
+Three tries from Julian Savea see Jem take the lead. The other big scorer is Chris who moves off the bottom following tries from Waisake 
+Naholo, Dane Coles and Malakai Fekitoa. Jack picks up points after another man-of-the-match performance from Mamuke Gorgodze. Susie gets 
+the bonus point New Zealand win; Denis gets a try from Kieran Read; and Neph gets a fairly miserable haul after Dan Carter misses a few 
+tricky conversions. 
+
+## Thursday 1st October
+
+### Game #22
+
+**Group D: [France](teams.html#France) 41 - 18 [Canada](teams.html#Canada)**
+
+A good result for Jem who moves back into second after a bonus point French win and flawless kicking from man-of-the-match Frederic 
+Michalak. Denis and Neph pick up points via tries from Wesley Fofana and Guilhem Guirado respectively; Rosie ekes out a couple of points 
+from Morgan Parra.
+
+### Game #21
+
+**Group A: [Wales](teams.html#Wales) 23 - 13 [Fiji](teams.html#Fiji)**
+
+Martyn picks up points for the Welsh win and Hugh moves into second thanks to another assured kicking display from Dan Biggar.
+
+### Injury update #6
+
+Davit Kubriashvili (Georgia) has been withdrawn through injury and replaced by Anton Peikrishvili.
+
+Hugh has picked Pablo Matera (Argentina) as a replacement for Billy Vunipola; Martyn has picked Keven Mealamu (New Zealand) as a 
+replacement for Wycliff Palu; Jem has picked Codie Taylor (New Zealand) as a replacement for Will Skelton.
+
+And since we haven't heard from Chris, we're giving him Sofiane Guitoune (France) as a replacement for Yoann Huget until we hear otherwise.
 
 ## Tuesday 29th September
 
