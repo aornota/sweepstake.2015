@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Tuesday 6th October at 16:45 -- Group D: [Canada](teams.html#Canada) vs [Romania](teams.html#Romania)
-
 Tuesday 6th October at 20:00 -- Group A: [Fiji](teams.html#Fiji) vs [Uruguay](teams.html#Uruguay)
 
 Wednesday 7th October at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [United States](teams.html#United States)
@@ -44,6 +42,19 @@ Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](
 Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
 
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
+
+## Tuesday 6th October
+
+### Game #29
+
+**Group D: [Canada](teams.html#Canada) 15 - 17 [Romania](teams.html#Romania)**
+
+An unwanted record for Canada as they fall victim to the greatest comeback in Rugby World Cup history. No points for any sweepstakers.
+
+### Injury update #7
+
+Martin Castrogiovanni and Michele Rizzo (both Italy) have been withdrawn through injury and replaced by Alberto De Marchi and Andrea 
+Lovotti.
 
 ## Sunday 4th October
 

@@ -438,10 +438,12 @@ module ``Data 2015`` =
     let giazzonDavide = { Name = "Davide Giazzon"; Team = italy; Type = Forward; Status = OriginalSquad }
     let maniciAndrea = { Name = "Andrea Manici"; Team = italy; Type = Forward; Status = OriginalSquad }
     let agueroMatias = { Name = "Matías Agüero"; Team = italy; Type = Forward; Status = OriginalSquad }
-    let castrogiovanniMartin = { Name = "Martin Castrogiovanni"; Team = italy; Type = Forward; Status = OriginalSquad }
+    let castrogiovanniMartin = { Name = "Martin Castrogiovanni"; Team = italy; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 5))) }
     let chistoliniDario = { Name = "Dario Chistolini"; Team = italy; Type = Forward; Status = OriginalSquad }
     let cittadiniLorenzo = { Name = "Lorenzo Cittadini"; Team = italy; Type = Forward; Status = OriginalSquad }
-    let rizzoMichele = { Name = "Michele Rizzo"; Team = italy; Type = Forward; Status = OriginalSquad }
+    let deMarchiAlberto = { Name = "Alberto De Marchi"; Team = italy; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 5))) }
+    let lovottiAndrea = { Name = "Andrea Lovotti"; Team = italy; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 5))) }
+    let rizzoMichele = { Name = "Michele Rizzo"; Team = italy; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 5))) }
     let bernaboValerio = { Name = "Valerio Bernabò"; Team = italy; Type = Forward; Status = OriginalSquad }
     let furnoJoshua = { Name = "Joshua Furno"; Team = italy; Type = Forward; Status = OriginalSquad }
     let fuserMarco = { Name = "Marco Fuser"; Team = italy; Type = Forward; Status = OriginalSquad }
@@ -469,11 +471,11 @@ module ``Data 2015`` =
 
     let italySquad = { Team = italy
                        Players = [ ghiraldiniLeonardo; giazzonDavide; maniciAndrea; agueroMatias; castrogiovanniMartin; chistoliniDario
-                                   cittadiniLorenzo; rizzoMichele; bernaboValerio; furnoJoshua; fuserMarco; geldenhuysQuintin
-                                   bergamascoMauro; favaroSimone; mintoFrancesco; vunisaSamuela; zanniAlessandro; parisseSergio; goriEdoardo
-                                   palazzaniGuglielmo; violiMarcello; allanTommaso; cannaCarlo; bacchinEnrico; benvenutiTommaso
-                                   campagnaroMichele; garciaGonzalo; sartoLeonardo; vendittiGiovanbattista; masiAndrea; visentinMichele
-                                   mcLeanLuke ] }
+                                   cittadiniLorenzo; deMarchiAlberto; lovottiAndrea; rizzoMichele; bernaboValerio; furnoJoshua; fuserMarco
+                                   geldenhuysQuintin; bergamascoMauro; favaroSimone; mintoFrancesco; vunisaSamuela; zanniAlessandro
+                                   parisseSergio; goriEdoardo; palazzaniGuglielmo; violiMarcello; allanTommaso; cannaCarlo; bacchinEnrico
+                                   benvenutiTommaso; campagnaroMichele; garciaGonzalo; sartoLeonardo; vendittiGiovanbattista; masiAndrea
+                                   visentinMichele; mcLeanLuke ] }
 
     let tonga = { Name = "Tonga"; Status = Active; Seeding = Some 11; Coach = "Mana Otai" }
 
@@ -1655,11 +1657,26 @@ module ``Data 2015`` =
                                             Penalty allanTommaso
                                             MissedPenalty cannaCarlo ] }
 
-    let groupDCanadaVsRomania = { Team1Points = TeamPoints (canada, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
+    let groupDCanadaVsRomania = { Team1Points = TeamPoints (canada, 15<point>); Team2Points = TeamPoints (romania, 17<point>)
                                   Stage = groupD; KickOff = DateTime (2015, 10, 6, 16, 45, 0)
-                                  Events = [ (*ManOfTheMatch ...*)
-                                             (* TODO *) (* canada *)
-                                             (* TODO *) (* romania *) ] }
+                                  Events = [ ManOfTheMatch hasslerJeff
+                                             Try (vanderMerweDTH, Some 33<min>) (* canada *)
+                                             Try (hasslerJeff, Some 44<min>)
+                                             Conversion hirayamaNathan
+                                             MissedConversion mcRorieGordon
+                                             Penalty mcRorieGordon
+                                             MissedPenalty mcRorieGordon
+                                             MissedPenalty mcRorieGordon
+                                             MissedPenalty hirayamaNathan
+                                             YellowCard (sinclairJebb, Some 72<min>)
+                                             Try (macoveiMihai, Some 53<min>) (* romania *)
+                                             Try (macoveiMihai, Some 74<min>)
+                                             Conversion vlaicuFlorin
+                                             Conversion vlaicuFlorin
+                                             Penalty vlaicuFlorin
+                                             MissedPenalty vlaicuFlorin
+                                             MissedPenalty vlaicuFlorin
+                                             YellowCard (fercuCatalin, Some 20<min>) ] }
 
     let groupDItalyVsRomania = { Team1Points = TeamPoints (italy, (*TODO*)0<point>); Team2Points = TeamPoints (romania, (*TODO*)0<point>)
                                  Stage = groupD; KickOff = DateTime (2015, 10, 11, 14, 30, 0)
