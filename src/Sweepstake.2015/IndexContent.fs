@@ -89,9 +89,9 @@ module IndexContent =
                                           td (getPickOnlyScoresFrom pick)
                                           td (getPlayerPickScoreText2015 pick.Player) ] )
                 let forwards = sweepstaker.Picks |> List.filter (fun pick -> isForward pick)
-                                                 |> List.filter (fun pick -> getPlayerIsActive pick.Player)
+                                                 |> List.filter (fun pick -> not (getPlayerIsWithdrawn pick.Player))
                 let backs = sweepstaker.Picks |> List.filter (fun pick -> not (isForward pick))
-                                              |> List.filter (fun pick -> getPlayerIsActive pick.Player)
+                                              |> List.filter (fun pick -> not (getPlayerIsWithdrawn pick.Player))
                 let forwardsToPick = requiredForwards - (forwards |> List.length)
                 let backsToPick = requiredBacks - (backs |> List.length)
                 let toPickHtml = match forwardsToPick, backsToPick with

@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Tuesday 6th October at 20:00 -- Group A: [Fiji](teams.html#Fiji) vs [Uruguay](teams.html#Uruguay)
-
 Wednesday 7th October at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [United States](teams.html#United States)
 
 Wednesday 7th October at 20:00 -- Group C: [Namibia](teams.html#Namibia) vs [Georgia](teams.html#Georgia)
@@ -44,6 +42,16 @@ Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
 
 ## Tuesday 6th October
+
+### Game #30
+
+**Group A: [Fiji](teams.html#Fiji) 47 - 15 [Uruguay](teams.html#Uruguay)**
+
+Well that was a feisty game. Consolation for Uruguay in the form of two tries - but their defeat means that England have qualified for the 
+2019 World Cup ;) ... Fiji's last hurrah proves fruitful for Chad with a bonus point win, two penalty tries and a try from man-of-the-match 
+Leone Nakarawa (offset by a slightly harsh yellow card for Campese Ma'afu who did little more than fend off a psychotic scrum-half). Neph 
+similarly benefits from Nemani Nadolo's last game of the tournament, a try and a decent kicking display consolidating his grip on third 
+place (no doubt temporarily).
 
 ### Game #29
 
@@ -391,7 +399,7 @@ Please note that a player who is unavailable for disciplinary reasons (e.g. Mari
 #### Payout structure
 
 The payout structure will be: fifty quid for first place; thirty quid for second place; and twenty quid for third place. (Sorry, 
-<strike>Denis</strike> <strike>Chad</strike> Chris, no wooden spoon prize this time.)
+<strike>Denis</strike> <strike>Chad</strike> <strike>Chris</strike> Martyn, no wooden spoon prize this time.)
 
 #### Source code
 If anyone wants to check that the drafting algorithm is above board, please feel free to take a look at 

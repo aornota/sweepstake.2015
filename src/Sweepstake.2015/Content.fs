@@ -65,6 +65,7 @@ module Content =
         | Eliminated, _ -> false
         | _, Withdrawn _ -> false
         | _ -> true
+    let getPlayerIsWithdrawn (player: Player) = match player.Status with | Withdrawn _ -> true | _ -> false
     let getPlayerNameWithStrike (player: Player) =
         match getPlayerIsActive player with
         | true -> player.Name

@@ -561,7 +561,7 @@ module ``Data 2015`` =
                                       russellFinn; weirDuncan; bennettMark; hornePeter; scottMatt; vernonRichie; lamontSean; maitlandSean
                                       seymourTommy; visserTim; hoggStuart ] }
 
-    let fiji = { Name = "Fiji"; Status = Active; Seeding = None; Coach = "John McKee" }
+    let fiji = { Name = "Fiji"; Status = Eliminated; Seeding = None; Coach = "John McKee" }
 
     let kotoSunia = { Name = "Sunia Koto"; Team = fiji; Type = Forward; Status = OriginalSquad }
     let tuapatiTalemaitoga = { Name = "Talemaitoga Tuapati"; Team = fiji; Type = Forward; Status = OriginalSquad }
@@ -812,7 +812,7 @@ module ``Data 2015`` =
                                      jantjiesEugene; stevensDamian; kotzeTheuns; delaHarpeDarryl; deyselJohan; greylingJC; vanWykDanie
                                      maraisConrad; philanderDavid; smithHeinrich; vanWykRussell; bothaChrysander; trompJohan ] }
 
-    let canada = { Name = "Canada"; Status = Active; Seeding = None; Coach = "Kieran Crowley" }
+    let canada = { Name = "Canada"; Status = Eliminated; Seeding = None; Coach = "Kieran Crowley" }
 
     let barkwillRay = { Name = "Ray Barkwill"; Team = canada; Type = Forward; Status = OriginalSquad }
     let carpenterAaron = { Name = "Aaron Carpenter"; Team = canada; Type = Forward; Status = OriginalSquad }
@@ -1120,11 +1120,32 @@ module ``Data 2015`` =
                                                 Penalty foleyBernard
                                                 Penalty foleyBernard ] }
 
-    let groupAFijiVsUruguay = { Team1Points = TeamPoints (fiji, (*TODO*)0<point>); Team2Points = TeamPoints (uruguay, (*TODO*)0<point>)
+    let groupAFijiVsUruguay = { Team1Points = TeamPoints (fiji, 47<point>); Team2Points = TeamPoints (uruguay, 15<point>)
                                 Stage = groupA; KickOff = DateTime (2015, 10, 6, 20, 0, 0)
-                                Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* fiji *)
-                                           (* TODO *) (* uruguay *) ] }
+                                Events = [ ManOfTheMatch nakarawaLeone
+                                           PenaltyTry (fiji, Some 3<min>) (* fiji *)
+                                           Try (kenataleNemia, Some 8<min>)
+                                           PenaltyTry (fiji, Some 27<min>)
+                                           Try (nakarawaLeone, Some 38<min>)
+                                           Try (cavubatiTevita, Some 64<min>)
+                                           Try (murimurivaluKini, Some 66<min>)
+                                           Try (nadoloNemani, Some 79<min>)
+                                           Conversion nadoloNemani
+                                           Conversion nadoloNemani
+                                           Conversion nadoloNemani
+                                           Conversion nadoloNemani
+                                           Conversion nadoloNemani
+                                           Conversion nadoloNemani
+                                           MissedConversion nadoloNemani
+                                           YellowCard (ma'afuCampese, Some 66<min>)
+                                           Try (arboleyaCarlos, Some 17<min>) (* uruguay *)
+                                           Try (ormaecheaAgustin, Some 58<min>)
+                                           Conversion ormaecheaAgustin
+                                           MissedConversion ormaecheaAgustin
+                                           Penalty duranAlejo
+                                           MissedPenalty ormaecheaAgustin
+                                           YellowCard (ormaecheaAgustin, Some 3<min>)
+                                           YellowCard (ormaecheaAgustin, Some 66<min>) ] }
 
     let groupAAustraliaVsWales = { Team1Points = TeamPoints (australia, (*TODO*)0<point>); Team2Points = TeamPoints (wales, (*TODO*)0<point>)
                                    Stage = groupA; KickOff = DateTime (2015, 10, 10, 16, 45, 0)
