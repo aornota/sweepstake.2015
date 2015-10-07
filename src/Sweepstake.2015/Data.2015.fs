@@ -728,7 +728,7 @@ module ``Data 2015`` =
                                           macGintyAJ; suniulaShalom; kellySeamus; niuaFolau; palamaThretton; suniulaAndrew; ngwenyaTakudzwa
                                           scullyBlaine; testZack; thompsonBrett; wylesChris ] }
 
-    let georgia = { Name = "Georgia"; Status = Active; Seeding = None; Coach = "Milton Haig" }
+    let georgia = { Name = "Georgia"; Status = Eliminated; Seeding = None; Coach = "Milton Haig" }
 
     let bregvadzeJaba = { Name = "Jaba Bregvadze"; Team = georgia; Type = Forward; Status = OriginalSquad }
     let mamukashviliShalva = { Name = "Shalva Mamukashvili"; Team = georgia; Type = Forward; Status = OriginalSquad }
@@ -1530,11 +1530,23 @@ module ``Data 2015`` =
                                               MissedPenalty morathKurt
                                               MissedPenalty morathKurt ] }
 
-    let groupCNamibiaVsGeorgia = { Team1Points = TeamPoints (namibia, (*TODO*)0<point>); Team2Points = TeamPoints (georgia, (*TODO*)0<point>)
+    let groupCNamibiaVsGeorgia = { Team1Points = TeamPoints (namibia, 16<point>); Team2Points = TeamPoints (georgia, 17<point>)
                                    Stage = groupC; KickOff = DateTime (2015, 10, 7, 20, 0, 0)
-                                   Events = [ (*ManOfTheMatch ...*)
-                                              (* TODO *) (* namibia *)
-                                              (* TODO *) (* georgia *) ] }
+                                   Events = [ ManOfTheMatch duPlessisTinus
+                                              Try (kotzeTheuns, Some 74<min>) (* namibia *)
+                                              Conversion kotzeTheuns
+                                              Penalty kotzeTheuns
+                                              Penalty kotzeTheuns
+                                              Penalty kotzeTheuns
+                                              YellowCard (larsonRaoul, Some 40<min>)
+                                              YellowCard (coetzeeAranos, Some 40<min>)
+                                              YellowCard (bothmaRenaldo, Some 50<min>)
+                                              Try (gorgodzeMamuka, Some 50<min>) (* georgia *)
+                                              Try (malaghuradzeLasha, Some 55<min>)
+                                              Conversion kvirikashviliMerab
+                                              Conversion kvirikashviliMerab
+                                              Penalty kvirikashviliMerab
+                                              YellowCard (bregvadzeJaba, Some 35<min>) ] }
 
     let groupCNewZealandVsTonga = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (tonga, (*TODO*)0<point>)
                                     Stage = groupC; KickOff = DateTime (2015, 10, 9, 20, 0, 0)

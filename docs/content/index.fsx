@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Wednesday 7th October at 20:00 -- Group C: [Namibia](teams.html#Namibia) vs [Georgia](teams.html#Georgia)
-
 Friday 9th October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Tonga](teams.html#Tonga)
 
 Saturday 10th October at 14:30 -- Group B: [Samoa](teams.html#Samoa) vs [Scotland](teams.html#Scotland)
@@ -40,6 +38,17 @@ Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
 
 ## Wednesday 7th October
+
+### Game #32
+
+**Group C: [Namibia](teams.html#Namibia) 16 - 17 [Georgia](teams.html#Georgia)**
+
+Thirty-two matches down, sixteen to go - and Jack continues to set the pace, with Jem, Neph and Rosie fighting for a place on the podium. 
+Plenty of time for fortunes to be made and lost, of course...
+
+And after the longest and lowest-scoring first half in Rugby World Cup history, a compelling game finally finishes with the narrowest of 
+victories for Georgia - and a bonus point for Namibia (but will they have anything left in the tank when they face Argentina in just over 
+three-and-a-half days?). Jack stretches his lead with a farewell try from the ever-impressive Mamuka Gorgodze.
 
 ### Game #31
 
@@ -126,7 +135,7 @@ Kewell playbook.
 **Group C: [New Zealand](teams.html#New Zealand) 43 - 10 [Georgia](teams.html#Georgia)**
 
 Three tries from Julian Savea see Jem take the lead. The other big scorer is Chris who moves off the bottom following tries from Waisake 
-Naholo, Dane Coles and Malakai Fekitoa. Jack picks up points after another man-of-the-match performance from Mamuke Gorgodze. Susie gets 
+Naholo, Dane Coles and Malakai Fekitoa. Jack picks up points after another man-of-the-match performance from Mamuka Gorgodze. Susie gets 
 the bonus point New Zealand win; Denis gets a try from Kieran Read; and Neph gets a fairly miserable haul after Dan Carter misses a few 
 tricky conversions. 
 
