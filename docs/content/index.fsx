@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Wednesday 7th October at 16:45 -- Group B: [South Africa](teams.html#South Africa) vs [United States](teams.html#United States)
-
 Wednesday 7th October at 20:00 -- Group C: [Namibia](teams.html#Namibia) vs [Georgia](teams.html#Georgia)
 
 Friday 9th October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Tonga](teams.html#Tonga)
@@ -40,6 +38,20 @@ Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](
 Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
 
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
+
+## Wednesday 7th October
+
+### Game #31
+
+**Group B: [South Africa](teams.html#South Africa) 64 - 0 [United States](teams.html#United States)**
+
+If Willem Alberts is "one hundred and twenty kilograms" of muscle, how much does he weigh in total?
+
+Anyway, lots for the diligent updater to deal with after a brutal whitewash for the United States. Rosie rockets up to fourth with a bonus 
+point South African win, a penalty try, three tries for Bryan Habana, one for Bismarck du Plessis and a few kicks from Morne Steyn. Neph 
+hangs on to third with a pair of tries from Francois Louw. Chad continues his renaissance with a try from man-of-the-match Damian de 
+Allende. Martyn remains bottom despite tries from Jesse Kriel and Lwazi Mvovo. And Jack stretches his lead thanks to the boot of Handre 
+Pollard.
 
 ## Tuesday 6th October
 

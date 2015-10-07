@@ -1326,11 +1326,31 @@ module ``Data 2015`` =
                                                    MissedPenalty laidlawGreig
                                                    YellowCard (laidlawGreig, Some 53<min>) ] }
 
-    let groupBSouthAfricaVsUnitedStates = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (unitedStates, (*TODO*)0<point>)
+    let groupBSouthAfricaVsUnitedStates = { Team1Points = TeamPoints (southAfrica, 64<point>); Team2Points = TeamPoints (unitedStates, 0<point>)
                                             Stage = groupB; KickOff = DateTime (2015, 10, 7, 16, 45, 0)
-                                            Events = [ (*ManOfTheMatch ...*)
-                                                       (* TODO *) (* southAfrica *)
-                                                       (* TODO *) (* unitedStates *) ] }
+                                            Events = [ ManOfTheMatch deAllendeDamian
+                                                       Try (deAllendeDamian, Some 7<min>) (* southAfrica *)
+                                                       PenaltyTry (southAfrica, Some 27<min>)
+                                                       Try (habanaBryan, Some 42<min>)
+                                                       Try (duPlessisBismarck, Some 47<min>)
+                                                       Try (louwFrancois, Some 53<min>)
+                                                       Try (habanaBryan, Some 59<min>)
+                                                       Try (habanaBryan, Some 61<min>)
+                                                       Try (louwFrancois, Some 69<min>)
+                                                       Try (krielJesse, Some 73<min>)
+                                                       Try (mvovoLwazi, Some 80<min>)
+                                                       Conversion pollardHandre
+                                                       Conversion pollardHandre
+                                                       Conversion pollardHandre
+                                                       Conversion pollardHandre
+                                                       Conversion steynMorne
+                                                       Conversion steynMorne
+                                                       Conversion steynMorne
+                                                       MissedConversion pollardHandre
+                                                       MissedConversion steynMorne
+                                                       MissedConversion steynMorne
+                                                       MissedPenalty niuaFolau (* unitedStates *)
+                                                       MissedPenalty krugerNiku ] }
 
     let groupBSamoaVsScotland = { Team1Points = TeamPoints (samoa, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
                                   Stage = groupB; KickOff = DateTime (2015, 10, 10, 14, 30, 0)
@@ -1719,7 +1739,6 @@ module ``Data 2015`` =
     // TODO [NMB]: Remove these once known...
     let groupAWinner = { Name = "Group A winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupARunnerUp = { Name = "Group A runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
-    let groupBWinner = { Name = "Group B winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupBRunnerUp = { Name = "Group B runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupCWinner = { Name = "Group C winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupCRunnerUp = { Name = "Group C runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
@@ -1734,7 +1753,7 @@ module ``Data 2015`` =
     let semiFinal2Winner = { Name = "Semi-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let semiFinal2Loser = { Name = "Semi-final 2 loser"; Status = Active; Seeding = None; Coach = "N/A" }
 
-    let quarterFinal1B1VsA2 = { Team1Points = TeamPoints (groupBWinner, (*TODO*)0<point>); Team2Points = TeamPoints (groupARunnerUp, (*TODO*)0<point>)
+    let quarterFinal1B1VsA2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (groupARunnerUp, (*TODO*)0<point>)
                                 Stage = QuarterFinal 1; KickOff = DateTime (2015, 10, 17, 16, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* B1 [TBC] *)
