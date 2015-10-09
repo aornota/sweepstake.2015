@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Friday 9th October at 20:00 -- Group C: [New Zealand](teams.html#New Zealand) vs [Tonga](teams.html#Tonga)
-
 Saturday 10th October at 14:30 -- Group B: [Samoa](teams.html#Samoa) vs [Scotland](teams.html#Scotland)
 
 Saturday 10th October at 16:45 -- Group A: [Australia](teams.html#Australia) vs [Wales](teams.html#Wales)
@@ -36,6 +34,19 @@ Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](
 Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
 
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
+
+## Friday 9th October
+
+### Game #33
+
+**Group C: [New Zealand](teams.html#New Zealand) 47 - 9 [Tonga](teams.html#Tonga)**
+
+Points for everyone other than Jem, Rosie and Denis (unless you count minus points). Susie gets the bonus point New Zealand win - offset by 
+a yellow card for Kieran Read, which also costs Denis. At the top, Jack maintains his lead with a try from Sonny Bill Williams and Neph 
+moves up to second with a try from Ma'a Nonu (on his 100th appearance, a feat only matched by Brian O'Driscoll, Sergio Parisse and Adam 
+Ashley-Cooper) and an improved kicking display from Dan Carter. At the bottom, Martyn picks up a try from Tony Woodcock and Chris gets a 
+try from Ben Smith. In the middle, Chad gets a Sam Cane try - but the big winner is Hugh with two tries from man-of-the-match Nehe 
+Milner-Skudder.
 
 ## Wednesday 7th October
 

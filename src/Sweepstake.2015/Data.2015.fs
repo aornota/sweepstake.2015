@@ -477,7 +477,7 @@ module ``Data 2015`` =
                                    benvenutiTommaso; campagnaroMichele; garciaGonzalo; sartoLeonardo; vendittiGiovanbattista; masiAndrea
                                    visentinMichele; mcLeanLuke ] }
 
-    let tonga = { Name = "Tonga"; Status = Active; Seeding = Some 11; Coach = "Mana Otai" }
+    let tonga = { Name = "Tonga"; Status = Eliminated; Seeding = Some 11; Coach = "Mana Otai" }
 
     let lutuiAleki = { Name = "Aleki Lutui"; Team = tonga; Type = Forward; Status = OriginalSquad }
     let ngauamoPaul = { Name = "Paul Ngauamo"; Team = tonga; Type = Forward; Status = OriginalSquad }
@@ -1548,11 +1548,28 @@ module ``Data 2015`` =
                                               Penalty kvirikashviliMerab
                                               YellowCard (bregvadzeJaba, Some 35<min>) ] }
 
-    let groupCNewZealandVsTonga = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (tonga, (*TODO*)0<point>)
+    let groupCNewZealandVsTonga = { Team1Points = TeamPoints (newZealand, 47<point>); Team2Points = TeamPoints (tonga, 9<point>)
                                     Stage = groupC; KickOff = DateTime (2015, 10, 9, 20, 0, 0)
-                                    Events = [ (*ManOfTheMatch ...*)
-                                               (* TODO *) (* newZealand *)
-                                               (* TODO *) (* tonga *) ] }
+                                    Events = [ ManOfTheMatch milnerSkudderNehe
+                                               Try (smithBen, Some 13<min>) (* newZealand *)
+                                               Try (woodcockTony, Some 31<min>)
+                                               Try (milnerSkudderNehe, Some 52<min>)
+                                               Try (milnerSkudderNehe, Some 58<min>)
+                                               Try (williamsSonnyBill, Some 66<min>)
+                                               Try (caneSam, Some 70<min>)
+                                               Try (nonuMa'a, Some 76<min>)
+                                               Conversion carterDan
+                                               Conversion carterDan
+                                               Conversion carterDan
+                                               Conversion carterDan
+                                               Conversion carterDan
+                                               Conversion carterDan
+                                               MissedConversion carterDan
+                                               YellowCard (readKieran, Some 38<min>)
+                                               Penalty morathKurt (* tonga *)
+                                               Penalty morathKurt
+                                               Penalty morathKurt
+                                               YellowCard (ngauamoPaul, Some 70<min>) ] }
 
     let groupCArgentinaVsNamibia = { Team1Points = TeamPoints (argentina, (*TODO*)0<point>); Team2Points = TeamPoints (namibia, (*TODO*)0<point>)
                                      Stage = groupC; KickOff = DateTime (2015, 10, 11, 12, 0, 0)
@@ -1752,8 +1769,6 @@ module ``Data 2015`` =
     let groupAWinner = { Name = "Group A winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupARunnerUp = { Name = "Group A runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupBRunnerUp = { Name = "Group B runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
-    let groupCWinner = { Name = "Group C winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let groupCRunnerUp = { Name = "Group C runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupDWinner = { Name = "Group D winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupDRunnerUp = { Name = "Group D runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal1Winner = { Name = "Quarter-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
@@ -1771,13 +1786,13 @@ module ``Data 2015`` =
                                            (* TODO *) (* B1 [TBC] *)
                                            (* TODO *) (* A2 [TBC] *) ] }
 
-    let quarterFinal2C1VsD2 = { Team1Points = TeamPoints (groupCWinner, (*TODO*)0<point>); Team2Points = TeamPoints (groupDRunnerUp, (*TODO*)0<point>)
+    let quarterFinal2C1VsD2 = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (groupDRunnerUp, (*TODO*)0<point>)
                                 Stage = QuarterFinal 2; KickOff = DateTime (2015, 10, 17, 20, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* C1 [TBC] *)
                                            (* TODO *) (* D2 [TBC] *) ] }
 
-    let quarterFinal3D1VsC2 = { Team1Points = TeamPoints (groupDWinner, (*TODO*)0<point>); Team2Points = TeamPoints (groupCRunnerUp, (*TODO*)0<point>)
+    let quarterFinal3D1VsC2 = { Team1Points = TeamPoints (groupDWinner, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
                                 Stage = QuarterFinal 3; KickOff = DateTime (2015, 10, 18, 13, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* D1 [TBC] *)
