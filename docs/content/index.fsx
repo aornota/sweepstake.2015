@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 10th October at 16:45 -- Group A: [Australia](teams.html#Australia) vs [Wales](teams.html#Wales)
-
 Saturday 10th October at 20:00 -- Group A: [England](teams.html#England) vs [Uruguay](teams.html#Uruguay)
 
 Sunday 11th October at 12:00 -- Group C: [Argentina](teams.html#Argentina) vs [Namibia](teams.html#Namibia)
@@ -35,12 +33,22 @@ Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United State
 
 ## Saturday 9th October
 
+### Game #35
+
+**Group A: [Australia](teams.html#Australia) 15 - 6 [Wales](teams.html#Wales)**
+
+Brilliant defence from an Australian team with two men in the bin earns them a quarter-final against Scotland. Unfortunately for Chris, the 
+Australian win is offset by yellow cards for Will Genia (also costly for Martyn) and Dean Mumm, plus a missed kick from Matt Giteau. Alex 
+Cuthbert's idiotic yellow card hurts both Chad and Martyn's Welsh team. Hugh increases the gap between the top and bottom halves of the 
+table despite Dan Biggar finally missing a kick. Rosie sneaks into third as Bernard Foley continues to impress.
+
 ### Game #34
 
 **Group B: [Samoa](teams.html#Samoa) 33 - 36 [Scotland](teams.html#Scotland)**
 
-Scotland sneak into the quarter-finals after a fine game. Can they now go all the way? It seems unlikely... The Scottish win keeps Hugh 
-moving in the right direction though, whilst a try and the boot of Greig Laidlaw pull Susie towards the middle of the pack.
+Scotland sneak into the quarter-finals after a fine game. Can they now go all the way? It seems unlikely... The Scottish win (offset by a 
+yellow card for Ryan Wilson) keeps Hugh moving in the right direction though, whilst a try and the boot of Greig Laidlaw pull Susie towards 
+the middle of the pack.
 
 ## Friday 9th October
 

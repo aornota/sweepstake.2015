@@ -1147,11 +1147,22 @@ module ``Data 2015`` =
                                            YellowCard (ormaecheaAgustin, Some 3<min>)
                                            YellowCard (ormaecheaAgustin, Some 66<min>) ] }
 
-    let groupAAustraliaVsWales = { Team1Points = TeamPoints (australia, (*TODO*)0<point>); Team2Points = TeamPoints (wales, (*TODO*)0<point>)
+    let groupAAustraliaVsWales = { Team1Points = TeamPoints (australia, 15<point>); Team2Points = TeamPoints (wales, 6<point>)
                                    Stage = groupA; KickOff = DateTime (2015, 10, 10, 16, 45, 0)
-                                   Events = [ (*ManOfTheMatch ...*)
-                                              (* TODO *) (* australia *)
-                                              (* TODO *) (* wales *) ] }
+                                   Events = [ ManOfTheMatch daviesGareth
+                                              Penalty foleyBernard (* australia *)
+                                              Penalty foleyBernard
+                                              Penalty foleyBernard
+                                              Penalty foleyBernard
+                                              Penalty foleyBernard
+                                              MissedPenalty foleyBernard
+                                              MissedPenalty giteauMatt
+                                              YellowCard (geniaWill, Some 57<min>)
+                                              YellowCard (mummDean, Some 60<min>)
+                                              Penalty biggarDan (* wales *)                                              
+                                              Penalty biggarDan
+                                              MissedPenalty biggarDan
+                                              YellowCard (cuthbertAlex, Some 77<min>) ] }
 
     let groupAEnglandVsUruguay = { Team1Points = TeamPoints (england, (*TODO*)0<point>); Team2Points = TeamPoints (uruguay, (*TODO*)0<point>)
                                    Stage = groupA; KickOff = DateTime (2015, 10, 10, 20, 0, 0)
@@ -1789,8 +1800,6 @@ module ``Data 2015`` =
     // Knockout matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_knockout_stage...
 
     // TODO [NMB]: Remove these once known...
-    let groupAWinner = { Name = "Group A winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let groupARunnerUp = { Name = "Group A runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupDWinner = { Name = "Group D winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupDRunnerUp = { Name = "Group D runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal1Winner = { Name = "Quarter-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
@@ -1802,7 +1811,7 @@ module ``Data 2015`` =
     let semiFinal2Winner = { Name = "Semi-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let semiFinal2Loser = { Name = "Semi-final 2 loser"; Status = Active; Seeding = None; Coach = "N/A" }
 
-    let quarterFinal1B1VsA2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (groupARunnerUp, (*TODO*)0<point>)
+    let quarterFinal1B1VsA2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (wales, (*TODO*)0<point>)
                                 Stage = QuarterFinal 1; KickOff = DateTime (2015, 10, 17, 16, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* B1 [TBC] *)
@@ -1820,7 +1829,7 @@ module ``Data 2015`` =
                                            (* TODO *) (* D1 [TBC] *)
                                            (* TODO *) (* C2 [TBC] *) ] }
 
-    let quarterFinal4A1VsB2 = { Team1Points = TeamPoints (groupAWinner, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
+    let quarterFinal4A1VsB2 = { Team1Points = TeamPoints (australia, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
                                 Stage = QuarterFinal 4; KickOff = DateTime (2015, 10, 18, 16, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* A1 [TBC] *)
