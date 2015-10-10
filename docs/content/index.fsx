@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 10th October at 14:30 -- Group B: [Samoa](teams.html#Samoa) vs [Scotland](teams.html#Scotland)
-
 Saturday 10th October at 16:45 -- Group A: [Australia](teams.html#Australia) vs [Wales](teams.html#Wales)
 
 Saturday 10th October at 20:00 -- Group A: [England](teams.html#England) vs [Uruguay](teams.html#Uruguay)
@@ -34,6 +32,15 @@ Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](
 Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
 
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
+
+## Saturday 9th October
+
+### Game #34
+
+**Group B: [Samoa](teams.html#Samoa) 33 - 36 [Scotland](teams.html#Scotland)**
+
+Scotland sneak into the quarter-finals after a fine game. Can they now go all the way? It seems unlikely... The Scottish win keeps Hugh 
+moving in the right direction though, whilst a try and the boot of Greig Laidlaw pull Susie towards the middle of the pack.
 
 ## Friday 9th October
 

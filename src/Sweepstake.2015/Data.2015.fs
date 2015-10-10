@@ -261,7 +261,7 @@ module ``Data 2015`` =
                                      caveDarren; earlsKeith; henshawRobbie; payneJared; boweTommy; fitzgeraldLuke; kearneyDavid; zeboSimon
                                      kearneyRob ] }
 
-    let samoa = { Name = "Samoa"; Status = Active; Seeding = Some 7; Coach = "Stephan Betham" }
+    let samoa = { Name = "Samoa"; Status = Eliminated; Seeding = Some 7; Coach = "Stephan Betham" }
 
     let aveiOle = { Name = "Ole Avei"; Team = samoa; Type = Forward; Status = OriginalSquad }
     let leiatauaManu = { Name = "Manu Leiataua"; Team = samoa; Type = Forward; Status = OriginalSquad }
@@ -1352,11 +1352,34 @@ module ``Data 2015`` =
                                                        MissedPenalty niuaFolau (* unitedStates *)
                                                        MissedPenalty krugerNiku ] }
 
-    let groupBSamoaVsScotland = { Team1Points = TeamPoints (samoa, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
+    let groupBSamoaVsScotland = { Team1Points = TeamPoints (samoa, 33<point>); Team2Points = TeamPoints (scotland, 36<point>)
                                   Stage = groupB; KickOff = DateTime (2015, 10, 10, 14, 30, 0)
-                                  Events = [ (*ManOfTheMatch ...*)
-                                             (* TODO *) (* samoa *)
-                                             (* TODO *) (* scotland *) ] }
+                                  Events = [ ManOfTheMatch hardieJohn
+                                             Try (pisiTusi, Some 11<min>) (* samoa *)
+                                             Try (leiatauaManu, Some 14<min>)
+                                             Try (leeLoRey, Some 21<min>)
+                                             Try (matu'uMotu, Some 78<min>)
+                                             Conversion pisiTusi
+                                             Conversion fa'apalePatrick
+                                             MissedConversion pisiTusi
+                                             MissedConversion pisiTusi
+                                             Penalty pisiTusi
+                                             Penalty pisiTusi
+                                             Penalty pisiTusi
+                                             Try (seymourTommy, Some 12<min>) (* scotland *)
+                                             Try (hardieJohn, Some 32<min>)
+                                             Try (laidlawGreig, Some 74<min>)
+                                             Conversion laidlawGreig
+                                             Conversion laidlawGreig
+                                             Conversion laidlawGreig
+                                             Penalty laidlawGreig
+                                             Penalty laidlawGreig
+                                             Penalty laidlawGreig
+                                             Penalty laidlawGreig
+                                             Penalty laidlawGreig
+                                             MissedPenalty laidlawGreig
+                                             MissedPenalty laidlawGreig
+                                             YellowCard (wilsonRyan, Some 28<min>) ] }
 
     let groupBUnitedStatesVsJapan = { Team1Points = TeamPoints (unitedStates, (*TODO*)0<point>); Team2Points = TeamPoints (japan, (*TODO*)0<point>)
                                       Stage = groupB; KickOff = DateTime (2015, 10, 11, 20, 0, 0)
@@ -1768,7 +1791,6 @@ module ``Data 2015`` =
     // TODO [NMB]: Remove these once known...
     let groupAWinner = { Name = "Group A winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupARunnerUp = { Name = "Group A runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
-    let groupBRunnerUp = { Name = "Group B runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupDWinner = { Name = "Group D winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let groupDRunnerUp = { Name = "Group D runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal1Winner = { Name = "Quarter-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
@@ -1798,7 +1820,7 @@ module ``Data 2015`` =
                                            (* TODO *) (* D1 [TBC] *)
                                            (* TODO *) (* C2 [TBC] *) ] }
 
-    let quarterFinal4A1VsB2 = { Team1Points = TeamPoints (groupAWinner, (*TODO*)0<point>); Team2Points = TeamPoints (groupBRunnerUp, (*TODO*)0<point>)
+    let quarterFinal4A1VsB2 = { Team1Points = TeamPoints (groupAWinner, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
                                 Stage = QuarterFinal 4; KickOff = DateTime (2015, 10, 18, 16, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* A1 [TBC] *)
