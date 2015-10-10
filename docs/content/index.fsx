@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 10th October at 20:00 -- Group A: [England](teams.html#England) vs [Uruguay](teams.html#Uruguay)
-
 Sunday 11th October at 12:00 -- Group C: [Argentina](teams.html#Argentina) vs [Namibia](teams.html#Namibia)
 
 Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](teams.html#Romania)
@@ -32,6 +30,15 @@ Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
 
 ## Saturday 9th October
+
+### Game #36
+
+**Group A: [England](teams.html#England) 60 - 3 [Uruguay](teams.html#Uruguay)**
+
+Pretty turgid stuff for the most part - but Jack will be happy that England finish the tournament as they started with both a bonus point 
+win and a penalty try. Rosie moves up to second thanks to a try from Henry Slade. Hugh continues his charge towards the top three with a 
+pair of tries from Anthony Watson. Flaky kicking from George Ford sees Susie take a small step backwards - but slightly better kicking from 
+Owen Farrell leaves Martyn marginally better off than he started the day.
 
 ### Game #35
 

@@ -178,7 +178,7 @@ module ``Data 2015`` =
                                     tillousBordeSebastien; michalakFrederic; talesRemi; bastareaudMathieu; dumoulinAlexandre; fickouGael
                                     fofanaWesley; grossoRemy; guitouneSofiane; hugetYoann; nakaitaciNoa; dulinBrice; speddingScott ] }
 
-    let england = { Name = "England"; Status = Active; Seeding = Some 5; Coach = "Stuart Lancaster" }
+    let england = { Name = "England"; Status = Eliminated; Seeding = Some 5; Coach = "Stuart Lancaster" }
 
     let georgeJamie = { Name = "Jamie George"; Team = england; Type = Forward; Status = OriginalSquad }
     let webberRob = { Name = "Rob Webber"; Team = england; Type = Forward; Status = OriginalSquad }
@@ -604,7 +604,7 @@ module ``Data 2015`` =
                                   matawaluNikola; seniloliHenry; matavesiJosh; volavolaBen; botiaLevani; gonevaVereniki; lovobalavuGabiriele
                                   nadoloNemani; nayacalevuWaisea; nagusaTimoci; tikoirotumaAsaeli; murimurivaluKini; talebulaMetuisela ] }
 
-    let uruguay = { Name = "Uruguay"; Status = Active; Seeding = None; Coach = "Pablo Lemoine" }
+    let uruguay = { Name = "Uruguay"; Status = Eliminated; Seeding = None; Coach = "Pablo Lemoine" }
 
     let arboleyaCarlos = { Name = "Carlos Arboleya"; Team = uruguay; Type = Forward; Status = OriginalSquad }
     let kesslerGerman = { Name = "Germán Kessler"; Team = uruguay; Type = Forward; Status = OriginalSquad }
@@ -1164,11 +1164,31 @@ module ``Data 2015`` =
                                               MissedPenalty biggarDan
                                               YellowCard (cuthbertAlex, Some 77<min>) ] }
 
-    let groupAEnglandVsUruguay = { Team1Points = TeamPoints (england, (*TODO*)0<point>); Team2Points = TeamPoints (uruguay, (*TODO*)0<point>)
+    let groupAEnglandVsUruguay = { Team1Points = TeamPoints (england, 60<point>); Team2Points = TeamPoints (uruguay, 3<point>)
                                    Stage = groupA; KickOff = DateTime (2015, 10, 10, 20, 0, 0)
-                                   Events = [ (*ManOfTheMatch ...*)
-                                              (* TODO *) (* england *)
-                                              (* TODO *) (* uruguay *) ] }
+                                   Events = [ ManOfTheMatch easterNick
+                                              Try (watsonAnthony, Some 7<min>) (* england *)
+                                              Try (easterNick, Some 18<min>)
+                                              Try (easterNick, Some 23<min>)
+                                              Try (watsonAnthony, Some 42<min>)
+                                              Try (sladeHenry, Some 54<min>)
+                                              Try (nowellJack, Some 57<min>)
+                                              Try (easterNick, Some 60<min>)
+                                              Try (nowellJack, Some 70<min>)
+                                              Try (nowellJack, Some 74<min>)
+                                              PenaltyTry (england, Some 80<min>)
+                                              Conversion farrellOwen
+                                              Conversion farrellOwen
+                                              Conversion farrellOwen
+                                              Conversion farrellOwen
+                                              Conversion fordGeorge
+                                              MissedConversion farrellOwen
+                                              MissedConversion farrellOwen
+                                              MissedConversion fordGeorge
+                                              MissedConversion fordGeorge
+                                              MissedConversion fordGeorge
+                                              Penalty berchisiFelipe (* uruguay *)
+                                              YellowCard (vilasecaSantiago, Some 40<min>) ] }
 
     let groupAMatches = [ groupAEnglandVsFiji; groupAWalesVsUruguay; groupAAustraliaVsFiji; groupAEnglandVsWales; groupAAustraliaVsUruguay
                           groupAWalesVsFiji; groupAEnglandVsAustralia; groupAFijiVsUruguay; groupAAustraliaVsWales; groupAEnglandVsUruguay ]
