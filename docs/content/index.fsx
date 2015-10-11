@@ -21,13 +21,17 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](teams.html#Romania)
-
 Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
 
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
 
-## Sunday 20th October
+## Sunday 10th October
+
+### Game #38
+
+**Group D: [Italy](teams.html#Italy) 32 - 22 [Romania](teams.html#Romania)**
+
+Farewell Italy and Romania. No points for anyone here.
 
 ### Game #37
 
