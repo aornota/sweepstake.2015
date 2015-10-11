@@ -19,7 +19,8 @@ module ``Data 2015`` =
     let faumuinaCharlie = { Name = "Charlie Faumuina"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let franksBen = { Name = "Ben Franks"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let franksOwen = { Name = "Owen Franks"; Team = newZealand; Type = Forward; Status = OriginalSquad }
-    let woodcockTony = { Name = "Tony Woodcock"; Team = newZealand; Type = Forward; Status = OriginalSquad }
+    let moodyJoe = { Name = "Joe Moody"; Team = newZealand; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 10))) }
+    let woodcockTony = { Name = "Tony Woodcock"; Team = newZealand; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 10))) }
     let retallickBrodie = { Name = "Brodie Retallick"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let romanoLuke = { Name = "Luke Romano"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let whitelockSam = { Name = "Sam Whitelock"; Team = newZealand; Type = Forward; Status = OriginalSquad }
@@ -46,10 +47,10 @@ module ``Data 2015`` =
 
     let newZealandSquad = { Team = newZealand
                             Players = [ colesDane; mealamuKeven; taylorCodie; crockettWyatt; faumuinaCharlie; franksBen; franksOwen
-                                        woodcockTony; retallickBrodie; romanoLuke; whitelockSam; caneSam; kainoJerome; mcCawRichie
-                                        messamLiam; readKieran; vitoVictor; kerrBarlowTawera; perenaraTJ; smithAaron; barrettBeauden
-                                        carterDan; sladeColin; fekitoaMalakai; nonuMa'a; smithConrad; williamsSonnyBill; naholoWaisake
-                                        saveaJulian; milnerSkudderNehe; smithBen ] }
+                                        moodyJoe; woodcockTony; retallickBrodie; romanoLuke; whitelockSam; caneSam; kainoJerome
+                                        mcCawRichie; messamLiam; readKieran; vitoVictor; kerrBarlowTawera; perenaraTJ; smithAaron
+                                        barrettBeauden; carterDan; sladeColin; fekitoaMalakai; nonuMa'a; smithConrad; williamsSonnyBill
+                                        naholoWaisake; saveaJulian; milnerSkudderNehe; smithBen ] }
 
     let southAfrica = { Name = "South Africa"; Status = Active; Seeding = Some 2; Coach = "Heyneke Meyer" }
 
@@ -222,6 +223,8 @@ module ``Data 2015`` =
 
     let ireland = { Name = "Ireland"; Status = Active; Seeding = Some 6; Coach = "Joe Schmidt" }
 
+    // TODO [NMB]: Replacement for Jared Payne...
+
     let bestRory = { Name = "Rory Best"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let croninSean = { Name = "Sean Cronin"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let straussRichardt = { Name = "Richardt Strauss"; Team = ireland; Type = Forward; Status = OriginalSquad }
@@ -247,7 +250,7 @@ module ``Data 2015`` =
     let caveDarren = { Name = "Darren Cave"; Team = ireland; Type = Back; Status = OriginalSquad }
     let earlsKeith = { Name = "Keith Earls"; Team = ireland; Type = Back; Status = OriginalSquad }
     let henshawRobbie = { Name = "Robbie Henshaw"; Team = ireland; Type = Back; Status = OriginalSquad }
-    let payneJared = { Name = "Jared Payne"; Team = ireland; Type = Back; Status = OriginalSquad }
+    let payneJared = { Name = "Jared Payne"; Team = ireland; Type = Back; Status = Withdrawn (Some (DateTime (2015, 10, 10))) }
     let boweTommy = { Name = "Tommy Bowe"; Team = ireland; Type = Back; Status = OriginalSquad }
     let fitzgeraldLuke = { Name = "Luke Fitzgerald"; Team = ireland; Type = Back; Status = OriginalSquad }
     let kearneyDavid = { Name = "David Kearney"; Team = ireland; Type = Back; Status = OriginalSquad }
@@ -389,6 +392,8 @@ module ``Data 2015`` =
 
     let wales = { Name = "Wales"; Status = Active; Seeding = Some 9; Coach = "Warren Gatland" }
 
+    // TODO [NMB]: Replacement for Liam Williams...
+
     let baldwinScott = { Name = "Scott Baldwin"; Team = wales; Type = Forward; Status = OriginalSquad }
     let owensKen = { Name = "Ken Owens"; Team = wales; Type = Forward; Status = OriginalSquad }
     let francisTomas = { Name = "Tomas Francis"; Team = wales; Type = Forward; Status = OriginalSquad }
@@ -422,7 +427,7 @@ module ``Data 2015`` =
     let cuthbertAlex = { Name = "Alex Cuthbert"; Team = wales; Type = Back; Status = OriginalSquad }
     let northGeorge = { Name = "George North"; Team = wales; Type = Back; Status = OriginalSquad }
     let walkerEli = { Name = "Eli Walker"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 14))) }
-    let williamsLiam = { Name = "Liam Williams"; Team = wales; Type = Back; Status = OriginalSquad }
+    let williamsLiam = { Name = "Liam Williams"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 10, 11))) }
     let morganMatthew = { Name = "Matthew Morgan"; Team = wales; Type = Back; Status = OriginalSquad }
 
     let walesSquad = { Team = wales
@@ -1851,11 +1856,22 @@ module ``Data 2015`` =
                                             Penalty vlaicuFlorin
                                             YellowCard (vanHeerdenJohannes, Some 16<min>) ] }
 
-    let groupDFranceVsIreland = { Team1Points = TeamPoints (france, (*TODO*)0<point>); Team2Points = TeamPoints (ireland, (*TODO*)0<point>)
+    let groupDFranceVsIreland = { Team1Points = TeamPoints (france, 9<point>); Team2Points = TeamPoints (ireland, 24<point>)
                                   Stage = groupD; KickOff = DateTime (2015, 10, 11, 16, 45, 0)
-                                  Events = [ (*ManOfTheMatch ...*)
-                                             (* TODO *) (* france *)
-                                             (* TODO *) (* ireland *) ] }
+                                  Events = [ ManOfTheMatch o'BrienSean
+                                             Penalty speddingScott (* france *)
+                                             Penalty speddingScott
+                                             Penalty parraMorgan
+                                             MissedPenalty michalakFrederic
+                                             MissedPenalty speddingScott
+                                             Try (kearneyRob, Some 50<min>) (* ireland *)
+                                             Try (murrayConor, Some 72<min>)
+                                             Conversion madiganIan
+                                             MissedConversion madiganIan
+                                             Penalty sextonJonathan
+                                             Penalty sextonJonathan
+                                             Penalty madiganIan
+                                             Penalty madiganIan ] }
 
     let groupDMatches = [ groupDIrelandVsCanada; groupDFranceVsItaly; groupDFranceVsRomania; groupDItalyVsCanada; groupDIrelandVsRomania
                           groupDFranceVsCanada; groupDIrelandVsItaly; groupDCanadaVsRomania; groupDItalyVsRomania; groupDFranceVsIreland ]
@@ -1863,8 +1879,6 @@ module ``Data 2015`` =
     // Knockout matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_knockout_stage...
 
     // TODO [NMB]: Remove these once known...
-    let groupDWinner = { Name = "Group D winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let groupDRunnerUp = { Name = "Group D runner-up"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal1Winner = { Name = "Quarter-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal2Winner = { Name = "Quarter-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal3Winner = { Name = "Quarter-final 3 winner"; Status = Active; Seeding = None; Coach = "N/A" }
@@ -1880,13 +1894,13 @@ module ``Data 2015`` =
                                            (* TODO *) (* B1 [TBC] *)
                                            (* TODO *) (* A2 [TBC] *) ] }
 
-    let quarterFinal2C1VsD2 = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (groupDRunnerUp, (*TODO*)0<point>)
+    let quarterFinal2C1VsD2 = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (france, (*TODO*)0<point>)
                                 Stage = QuarterFinal 2; KickOff = DateTime (2015, 10, 17, 20, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* C1 [TBC] *)
                                            (* TODO *) (* D2 [TBC] *) ] }
 
-    let quarterFinal3D1VsC2 = { Team1Points = TeamPoints (groupDWinner, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
+    let quarterFinal3D1VsC2 = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
                                 Stage = QuarterFinal 3; KickOff = DateTime (2015, 10, 18, 13, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* D1 [TBC] *)

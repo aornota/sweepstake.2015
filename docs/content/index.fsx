@@ -21,11 +21,38 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
-
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
 
-## Sunday 10th October
+Saturday 17th October at 16:00 -- Quarter-final 1: [South Africa](teams.html#South Africa) vs [Wales](teams.html#Wales)
+
+Saturday 17th October at 20:00 -- Quarter-final 2: [New Zealand](teams.html#New Zealand) vs [France](teams.html#France)
+
+Sunday 18th October at 13:00 -- Quarter-final 3: [Ireland](teams.html#Ireland) vs [Argentina](teams.html#Argentina)
+
+Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australia) vs [Scotland](teams.html#Scotland)
+
+## Sunday 11th October
+
+### Game #39
+
+**Group D: [France](teams.html#France) 9 - 24 [Ireland](teams.html#Ireland)**
+
+An attritional victory for Ireland sees them avoid the All Blacks in the quarter-finals (though at what cost?; see injury update below). 
+Denis powers away from the bottom two thanks to the Irish win and a man-of-the-match performance from Sean O'Brien. Dodgy kicking from 
+Frederic Michalak puts Jem in reverse. Neph picks up a few points from the boot of Jonathan Sexton; Susie and Rosie likewise from Scott 
+Spedding and Morgan Parra respectively. Chad hauls himself up to sixth with a try from Conor Murray and a decent kicking display from Ian 
+Madigan.
+
+### Injury update #8
+
+Tony Woodcock (New Zealand) has been withdrawn through injury and replaced by Joe Moody. Awaiting clarification from Martyn as to who he 
+wants as a replacement.
+
+Liam Williams (Wales) and Jared Payne (Ireland) have also been withdrawn; their replacements will be announced next week. Awaiting 
+clarification from Denis as to his replacement for Liam Williams.
+
+And Paul O'Connell, Peter O'Mahony and Jonathan Sexton (all Ireland) looked pretty dodgy leaving the pitch against France, so more news on 
+them in due course...
 
 ### Game #38
 
@@ -42,7 +69,7 @@ his international career with a piss-poor attempt at a conversion. Neph gets his
 card for Marcelo Bosch that could easily have been a red), which leaves him tied for second after Hugh picks up a try from Leonardo 
 Senatore. Susie scores via a try from Juan Martin Hernandez.
 
-## Saturday 9th October
+## Saturday 10th October
 
 ### Game #36
 
