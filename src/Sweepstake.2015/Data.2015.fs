@@ -771,7 +771,7 @@ module ``Data 2015`` =
                                      malaghuradzeLasha; kacharavaDavit; sharikadzeMerab; aptsiauriGiorgi; mchedlidzeTamaz; giorgadzeMuraz
                                      pruidzeGiorgi; toduaAlexander; kvirikashviliMerab; tsiklauriBeka ] }
 
-    let namibia = { Name = "Namibia"; Status = Active; Seeding = None; Coach = "Phil Davies" }
+    let namibia = { Name = "Namibia"; Status = Eliminated; Seeding = None; Coach = "Phil Davies" }
 
     let vanJaarsveldTorsten = { Name = "Torsten van Jaarsveld"; Team = namibia; Type = Forward; Status = OriginalSquad }
     let vanderWesthuizenLouis = { Name = "Louis van der Westhuizen"; Team = namibia; Type = Forward; Status = OriginalSquad }
@@ -1625,11 +1625,38 @@ module ``Data 2015`` =
                                                Penalty morathKurt
                                                YellowCard (ngauamoPaul, Some 70<min>) ] }
 
-    let groupCArgentinaVsNamibia = { Team1Points = TeamPoints (argentina, (*TODO*)0<point>); Team2Points = TeamPoints (namibia, (*TODO*)0<point>)
+    let groupCArgentinaVsNamibia = { Team1Points = TeamPoints (argentina, 64<point>); Team2Points = TeamPoints (namibia, 19<point>)
                                      Stage = groupC; KickOff = DateTime (2015, 10, 11, 12, 0, 0)
-                                     Events = [ (*ManOfTheMatch ...*)
-                                                (* TODO *) (* argentina *)
-                                                (* TODO *) (* namibia *) ] }
+                                     Events = [ ManOfTheMatch agullaHoracio
+                                                Try (hernandezJuanMartin, Some 7<min>) (* argentina *)
+                                                Try (moronoMatias, Some 19<min>)
+                                                Try (agullaHoracio, Some 24<min>)
+                                                Try (isaFacundo, Some 34<min>)
+                                                Try (pazLucasNoguera, Some 40<min>)
+                                                Try (alemannoMatias, Some 49<min>)
+                                                Try (senatoreLeonardo, Some 64<min>)
+                                                Try (montoyaJulian, Some 69<min>)
+                                                Try (cubelliTomas, Some 74<min>)
+                                                Conversion iglesiasSantiagoGonzalez
+                                                Conversion iglesiasSantiagoGonzalez
+                                                Conversion iglesiasSantiagoGonzalez
+                                                Conversion iglesiasSantiagoGonzalez
+                                                Conversion socinoJuanPablo
+                                                Conversion socinoJuanPablo
+                                                Conversion socinoJuanPablo
+                                                Conversion socinoJuanPablo
+                                                MissedConversion iglesiasSantiagoGonzalez
+                                                Penalty iglesiasSantiagoGonzalez
+                                                MissedPenalty iglesiasSantiagoGonzalez
+                                                YellowCard (boschMarcelo, Some 53<min>)
+                                                Try (trompJohan, Some 13<min>) (* namibia *)
+                                                Try (greylingJC, Some 46<min>)
+                                                Try (jantjiesEugene, Some 80<min>)
+                                                Conversion kotzeTheuns
+                                                Conversion kotzeTheuns
+                                                MissedConversion redelinghuysJohnny
+                                                YellowCard (greylingJC, Some 11<min>)
+                                                YellowCard (duPlessisTinus, Some 76<min>) ] }
 
     let groupCMatches = [ groupCTongaVsGeorgia; groupCNewZealandVsArgentina; groupCNewZealandVsNamibia; groupCArgentinaVsGeorgia; groupCTongaVsNamibia
                           groupCNewZealandVsGeorgia; groupCArgentinaVsTonga; groupCNamibiaVsGeorgia; groupCNewZealandVsTonga; groupCArgentinaVsNamibia ]

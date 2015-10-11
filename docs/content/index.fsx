@@ -21,13 +21,22 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 11th October at 12:00 -- Group C: [Argentina](teams.html#Argentina) vs [Namibia](teams.html#Namibia)
-
 Sunday 11th October at 14:30 -- Group D: [Italy](teams.html#Italy) vs [Romania](teams.html#Romania)
 
 Sunday 11th October at 16:45 -- Group D: [France](teams.html#France) vs [Ireland](teams.html#Ireland)
 
 Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
+
+## Sunday 20th October
+
+### Game #37
+
+**Group C: [Argentina](teams.html#Argentina) 64 - 19 [Namibia](teams.html#Namibia)**
+
+A wonderful end to a very entertaining game as prop forward Johnny Redelinghuys - the first player to earn fifty caps for Namibia - ends 
+his international career with a piss-poor attempt at a conversion. Neph gets his bonus point Argentine win (slightly soured by a yellow 
+card for Marcelo Bosch that could easily have been a red), which leaves him tied for second after Hugh picks up a try from Leonardo 
+Senatore. Susie scores via a try from Juan Martin Hernandez.
 
 ## Saturday 9th October
 
