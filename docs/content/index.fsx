@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 11th October at 20:00 -- Group B: [United States](teams.html#United States) vs [Japan](teams.html#Japan)
-
 Saturday 17th October at 16:00 -- Quarter-final 1: [South Africa](teams.html#South Africa) vs [Wales](teams.html#Wales)
 
 Saturday 17th October at 20:00 -- Quarter-final 2: [New Zealand](teams.html#New Zealand) vs [France](teams.html#France)
@@ -33,11 +31,20 @@ Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australi
 
 ## Sunday 11th October
 
+### Game #40
+
+**Group B: [United States](teams.html#United States) 18 - 28 [Japan](teams.html#Japan)**
+
+Forty matches down and just eight to go... Jack has a healthy lead at the top, with Neph, Hugh, Rosie and Jem seemingly battling it out for 
+the other places on the podium. And the battle to avoid the wooden spoon appears to be between Martyn and Chris.
+
+Japan and the United States round off the group stages with another enjoyable match. No points for any sweepstakers though.
+
 ### Game #39
 
 **Group D: [France](teams.html#France) 9 - 24 [Ireland](teams.html#Ireland)**
 
-An attritional victory for Ireland sees them avoid the All Blacks in the quarter-finals (though at what cost?; see injury update below). 
+An attritional victory for Ireland sees them avoid the All Blacks in the quarter-finals - though at what cost (see injury update below)? 
 Denis powers away from the bottom two thanks to the Irish win and a man-of-the-match performance from Sean O'Brien. Dodgy kicking from 
 Frederic Michalak puts Jem in reverse. Neph picks up a few points from the boot of Jonathan Sexton; Susie and Rosie likewise from Scott 
 Spedding and Morgan Parra respectively. Chad hauls himself up to sixth with a try from Conor Murray and a decent kicking display from Ian 
@@ -45,8 +52,8 @@ Madigan.
 
 ### Injury update #8
 
-Tony Woodcock (New Zealand) has been withdrawn through injury and replaced by Joe Moody. Awaiting clarification from Martyn as to who he 
-wants as a replacement.
+Tony Woodcock (New Zealand) has been withdrawn through injury and replaced by Joe Moody. Martyn has picked Dean Mumm (Australia) as his 
+replacement
 
 Liam Williams (Wales) and Jared Payne (Ireland) have also been withdrawn; their replacements will be announced next week. Awaiting 
 clarification from Denis as to his replacement for Liam Williams.

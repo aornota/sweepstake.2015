@@ -19,41 +19,6 @@ module ``Sweepstake 2015`` =
     let rosie = Participant "Rosie"
     let susie = Participant "Susie"
 
-    (* TEMP [NMB]: test data...
-    let denisPicks = { Participant = denis
-                       CoachTeam = Some england
-                       Picks = [ { Player = morganBen (* Forward *); OnlyScoresFrom = None }
-                                 { Player = youngsBen (* Back *); OnlyScoresFrom = None }
-                                 { Player = fordGeorge (* Back *); OnlyScoresFrom = None }
-                                 { Player = gonevaVereniki (* Back *); OnlyScoresFrom = None }
-                                 { Player = cuthbertAlex (* Back *); OnlyScoresFrom = None }
-                                 { Player = leivasLeandro (* Back *); OnlyScoresFrom = None } ] }
-
-    let jackPicks = { Participant = jack
-                      CoachTeam = Some australia
-                      Picks = [  ] }
-
-    let nephPicks = { Participant = neph
-                      CoachTeam = Some wales
-                      Picks = [ { Player = mayJonny (* Back *); OnlyScoresFrom = None }
-                                { Player = nadoloNemani (* Back *); OnlyScoresFrom = None }
-                                { Player = jonesAlunWyn (* Forward *); OnlyScoresFrom = None }
-                                { Player = tipuricJustin (* Forward: Withdrawn 2015-09-12 *); OnlyScoresFrom = None }
-                                { Player = biggarDan (* Back *); OnlyScoresFrom = None }
-                                { Player = williamsScott (* Back *); OnlyScoresFrom = None }
-                                { Player = josephJonathan (* Back *); OnlyScoresFrom = Some (DateTime (2015, 9, 12)) } ] }
-
-    let susiePicks = { Participant = susie
-                       CoachTeam = Some newZealand
-                       Picks = [ { Player = farrellOwen (* Back *); OnlyScoresFrom = None }
-                                 { Player = watsonAnthony (* Back *); OnlyScoresFrom = None }
-                                 { Player = nakarawaLeone (* Forward *); OnlyScoresFrom = None }
-                                 { Player = taleiNetani (* Forward *); OnlyScoresFrom = None }
-                                 { Player = jenkinsGethin (* Forward *); OnlyScoresFrom = None }
-                                 { Player = warburtonSam (* Forward *); OnlyScoresFrom = None } ] }
-
-    let sweepstakers = [ denisPicks; jackPicks; nephPicks; susiePicks ] *)
-
     // Before first draft...
     let chadPicks0 = { Participant = chad; CoachTeam = None; Picks = [] }
     let chrisPicks0 = { Participant = chris; CoachTeam = None; Picks = [] }
@@ -241,7 +206,9 @@ module ``Sweepstake 2015`` =
                                   { Player = fofanaWesley (* Back *); OnlyScoresFrom = None }
                                   { Player = williamsLiam (* Back *); OnlyScoresFrom = None }
                                   { Player = fitzgeraldLuke (* Back *); OnlyScoresFrom = None }
-                                  { Player = priestlandRhys (* Back *); OnlyScoresFrom = None } ] }
+                                  { Player = priestlandRhys (* Back *); OnlyScoresFrom = None }
+                                  // TODO [NMB]: Denis' replacement for Liam Williams...
+                                   ] }
 
     let hughPicks2 = { Participant = hugh
                        CoachTeam = Some scotland
@@ -310,6 +277,7 @@ module ``Sweepstake 2015`` =
                                    { Player = woodcockTony (* Forward *); OnlyScoresFrom = None }
                                    { Player = crockettWyatt (* Forward *); OnlyScoresFrom = None }
                                    { Player = mealamuKeven (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 9, 29)) }
+                                   { Player = mummDean (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 10, 11)) }
                                    { Player = lambiePat (* Back *); OnlyScoresFrom = None }
                                    { Player = farrellOwen (* Back *); OnlyScoresFrom = None }
                                    { Player = cooperQuade (* Back *); OnlyScoresFrom = None }
