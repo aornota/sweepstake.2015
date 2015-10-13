@@ -29,14 +29,28 @@ Sunday 18th October at 13:00 -- Quarter-final 3: [Ireland](teams.html#Ireland) v
 
 Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australia) vs [Scotland](teams.html#Scotland)
 
+## Tuesday 13th October
+
+### Injury update #9
+
+Paul O'Connell and Peter O'Mahony (both Ireland) have been withdrawn through injury and replaced by Mike McCarthy and Rhys Ruddock.
+
+The replacement for Liam Williams (Wales) has been confirmed as Eli Walker (who was himself previously withdrawn from the squad because 
+of injury!).
+
+Denis has picked Rob Kearney (Ireland) and Lood de Jager (South Africa) as his replacements for Liam Williams and Paul O'Connell 
+respectively.
+
+Awaiting clarification from Jack as to his replacement for Peter O'Mahony.
+
 ## Sunday 11th October
 
 ### Game #40
 
 **Group B: [United States](teams.html#United States) 18 - 28 [Japan](teams.html#Japan)**
 
-Forty matches down and just eight to go... Jack has a healthy lead at the top, with Neph, Hugh, Rosie and Jem seemingly battling it out for 
-the other places on the podium. And the battle to avoid the wooden spoon appears to be between Martyn and Chris.
+Forty matches down and just eight to go... Jack has a healthy lead at the top, with Neph, Hugh, Rosie and Jem seemingly fighting it out 
+for the other places on the podium. And the battle to avoid the wooden spoon appears to be between Martyn and Chris.
 
 Japan and the United States round off the group stages with another enjoyable match. No points for any sweepstakers though.
 

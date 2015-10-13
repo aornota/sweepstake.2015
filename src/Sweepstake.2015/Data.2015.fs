@@ -232,13 +232,15 @@ module ``Data 2015`` =
     let mcGrathJack = { Name = "Jack McGrath"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let rossMike = { Name = "Mike Ross"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let hendersonIain = { Name = "Iain Henderson"; Team = ireland; Type = Forward; Status = OriginalSquad }
-    let o'ConnellPaul = { Name = "Paul O'Connell"; Team = ireland; Type = Forward; Status = OriginalSquad }
+    let o'ConnellPaul = { Name = "Paul O'Connell"; Team = ireland; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 13))) }
+    let mcCarthyMike = { Name = "Mike McCarthy"; Team = ireland; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 13))) }
     let ryanDonnacha = { Name = "Donnacha Ryan"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let tonerDevin = { Name = "Devin Toner"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let henryChris = { Name = "Chris Henry"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let murphyJordi = { Name = "Jordi Murphy"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let o'BrienSean = { Name = "Seán O'Brien"; Team = ireland; Type = Forward; Status = OriginalSquad }
-    let o'MahonyPeter = { Name = "Peter O'Mahony"; Team = ireland; Type = Forward; Status = OriginalSquad }
+    let o'MahonyPeter = { Name = "Peter O'Mahony"; Team = ireland; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 12))) }
+    let ruddockRhys = { Name = "Rhys Ruddock"; Team = ireland; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 12))) }
     let heaslipJamie = { Name = "Jamie Heaslip"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let murrayConor = { Name = "Conor Murray"; Team = ireland; Type = Back; Status = OriginalSquad }
     let reddanEoin = { Name = "Eoin Reddan"; Team = ireland; Type = Back; Status = OriginalSquad }
@@ -249,7 +251,7 @@ module ``Data 2015`` =
     let earlsKeith = { Name = "Keith Earls"; Team = ireland; Type = Back; Status = OriginalSquad }
     let henshawRobbie = { Name = "Robbie Henshaw"; Team = ireland; Type = Back; Status = OriginalSquad }
     // TODO [NMB]: Confirm replacement for Jared Payne...
-    let replacementJP = { Name = "Replacement TBC..."; Team = ireland; Type = Back; Status = Replacement (Some (DateTime (2015, 10, 10))) }
+    let replacementJP = { Name = "(Replacement for Jared Payne TBC...)"; Team = ireland; Type = Back; Status = Replacement (Some (DateTime (2015, 10, 10))) }
     let payneJared = { Name = "Jared Payne"; Team = ireland; Type = Back; Status = Withdrawn (Some (DateTime (2015, 10, 10))) }
     let boweTommy = { Name = "Tommy Bowe"; Team = ireland; Type = Back; Status = OriginalSquad }
     let fitzgeraldLuke = { Name = "Luke Fitzgerald"; Team = ireland; Type = Back; Status = OriginalSquad }
@@ -259,10 +261,10 @@ module ``Data 2015`` =
 
     let irelandSquad = { Team = ireland
                          Players = [ bestRory; croninSean; straussRichardt; whiteNathan; furlongTadhg; healyCian; mcGrathJack; rossMike
-                                     hendersonIain; o'ConnellPaul; ryanDonnacha; tonerDevin; henryChris; murphyJordi; o'BrienSean
-                                     o'MahonyPeter; heaslipJamie; murrayConor; reddanEoin; jacksonPaddy; madiganIan; sextonJonathan
-                                     caveDarren; earlsKeith; henshawRobbie; replacementJP; payneJared; boweTommy; fitzgeraldLuke
-                                     kearneyDavid; zeboSimon; kearneyRob ] }
+                                     hendersonIain; o'ConnellPaul; mcCarthyMike; ryanDonnacha; tonerDevin; henryChris; murphyJordi
+                                     o'BrienSean; o'MahonyPeter; ruddockRhys; heaslipJamie; murrayConor; reddanEoin; jacksonPaddy
+                                     madiganIan; sextonJonathan; caveDarren; earlsKeith; henshawRobbie; replacementJP; payneJared
+                                     boweTommy; fitzgeraldLuke; kearneyDavid; zeboSimon; kearneyRob ] }
 
     let samoa = { Name = "Samoa"; Status = Eliminated; Seeding = Some 7; Coach = "Stephan Betham" }
 
@@ -381,9 +383,7 @@ module ``Data 2015`` =
     let amosHallam = { Name = "Hallam Amos"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 28))) }
     let cuthbertAlex = { Name = "Alex Cuthbert"; Team = wales; Type = Back; Status = OriginalSquad }
     let northGeorge = { Name = "George North"; Team = wales; Type = Back; Status = OriginalSquad }
-    let walkerEli = { Name = "Eli Walker"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 9, 14))) }
-    // TODO [NMB]: Confirm replacement for Liam Williams...
-    let replacement4LW = { Name = "Replacement TBC..."; Team = wales; Type = Back; Status = Replacement (Some (DateTime (2015, 10, 11))) }
+    let walkerEli = { Name = "Eli Walker"; Team = wales; Type = Back; Status = Replacement (Some (DateTime (2015, 10, 13))) }
     let williamsLiam = { Name = "Liam Williams"; Team = wales; Type = Back; Status = Withdrawn (Some (DateTime (2015, 10, 11))) }
     let morganMatthew = { Name = "Matthew Morgan"; Team = wales; Type = Back; Status = OriginalSquad }
 
@@ -392,7 +392,7 @@ module ``Data 2015`` =
                                    charterisLuke; daviesBradley; dayDominic; jonesAlunWyn; kingJames; lydiateDan; tipuricJustin
                                    moriartyRoss; warburtonSam; faletauTaulupe; daviesGareth; phillipsMike; williamsLloyd; anscombeGareth
                                    biggarDan; priestlandRhys; allenCory; hookJames; morganTyler; robertsJamie; williamsScott; amosHallam
-                                   cuthbertAlex; northGeorge; walkerEli; replacement4LW; williamsLiam; morganMatthew ] }
+                                   cuthbertAlex; northGeorge; walkerEli; williamsLiam; morganMatthew ] }
 
     let italy = { Name = "Italy"; Status = Eliminated; Seeding = Some 10; Coach = "Jacques Brunel" }
 
@@ -1796,16 +1796,6 @@ module ``Data 2015`` =
 
     // Knockout matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_knockout_stage...
 
-    // TODO [NMB]: Remove these once known...
-    let quarterFinal1Winner = { Name = "Quarter-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let quarterFinal2Winner = { Name = "Quarter-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let quarterFinal3Winner = { Name = "Quarter-final 3 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let quarterFinal4Winner = { Name = "Quarter-final 4 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let semiFinal1Winner = { Name = "Semi-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let semiFinal1Loser = { Name = "Semi-final 1 loser"; Status = Active; Seeding = None; Coach = "N/A" }
-    let semiFinal2Winner = { Name = "Semi-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let semiFinal2Loser = { Name = "Semi-final 2 loser"; Status = Active; Seeding = None; Coach = "N/A" }
-
     let quarterFinal1B1VsA2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (wales, (*TODO*)0<point>)
                                 Stage = QuarterFinal 1; KickOff = DateTime (2015, 10, 17, 16, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
@@ -1829,6 +1819,16 @@ module ``Data 2015`` =
                                 Events = [ (*ManOfTheMatch ...*)
                                            (* TODO *) (* A1 [TBC] *)
                                            (* TODO *) (* B2 [TBC] *) ] }
+
+    // TODO [NMB]: Remove these once known...
+    let quarterFinal1Winner = { Name = "Quarter-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+    let quarterFinal2Winner = { Name = "Quarter-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+    let quarterFinal3Winner = { Name = "Quarter-final 3 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+    let quarterFinal4Winner = { Name = "Quarter-final 4 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal1Winner = { Name = "Semi-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal1Loser = { Name = "Semi-final 1 loser"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal2Winner = { Name = "Semi-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal2Loser = { Name = "Semi-final 2 loser"; Status = Active; Seeding = None; Coach = "N/A" }
 
     let semiFinal1QF1VsQF2 = { Team1Points = TeamPoints (quarterFinal1Winner, (*TODO*)0<point>); Team2Points = TeamPoints (quarterFinal2Winner, (*TODO*)0<point>)
                                Stage = SemiFinal 1; KickOff = DateTime (2015, 10, 24, 16, 0, 0)

@@ -200,6 +200,7 @@ module ``Sweepstake 2015`` =
                                   { Player = dentonDavid (* Forward *); OnlyScoresFrom = None }
                                   { Player = woodTom (* Forward *); OnlyScoresFrom = None }
                                   { Player = o'ConnellPaul (* Forward *); OnlyScoresFrom = None }
+                                  { Player = deJagerLood (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 10, 13)) }
                                   { Player = northGeorge (* Back *); OnlyScoresFrom = None }
                                   { Player = brownMike (* Back *); OnlyScoresFrom = None }
                                   { Player = zeboSimon (* Back *); OnlyScoresFrom = None }
@@ -207,8 +208,7 @@ module ``Sweepstake 2015`` =
                                   { Player = williamsLiam (* Back *); OnlyScoresFrom = None }
                                   { Player = fitzgeraldLuke (* Back *); OnlyScoresFrom = None }
                                   { Player = priestlandRhys (* Back *); OnlyScoresFrom = None }
-                                  // TODO [NMB]: Denis' replacement for Liam Williams...
-                                   ] }
+                                  { Player = kearneyRob (* Back *); OnlyScoresFrom = Some (DateTime (2015, 10, 12)) } ] }
 
     let hughPicks2 = { Participant = hugh
                        CoachTeam = Some scotland
@@ -239,6 +239,7 @@ module ``Sweepstake 2015`` =
                                  { Player = bestRory (* Forward *); OnlyScoresFrom = None }
                                  { Player = gorgodzeMamuka (* Forward *); OnlyScoresFrom = None }
                                  { Player = tipuricJustin (* Forward *); OnlyScoresFrom = None }
+                                 // TODO [NMB]: Confirm replacement for Peter O'Mahony...
                                  { Player = pollardHandre (* Back *); OnlyScoresFrom = None }
                                  { Player = sanchezNicolas (* Back *); OnlyScoresFrom = None }
                                  { Player = mayJonny (* Back *); OnlyScoresFrom = None }
