@@ -239,7 +239,7 @@ module ``Sweepstake 2015`` =
                                  { Player = bestRory (* Forward *); OnlyScoresFrom = None }
                                  { Player = gorgodzeMamuka (* Forward *); OnlyScoresFrom = None }
                                  { Player = tipuricJustin (* Forward *); OnlyScoresFrom = None }
-                                 // TODO [NMB]: Confirm replacement for Peter O'Mahony...
+                                 { Player = slimaniRabah (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 10, 13)) }
                                  { Player = pollardHandre (* Back *); OnlyScoresFrom = None }
                                  { Player = sanchezNicolas (* Back *); OnlyScoresFrom = None }
                                  { Player = mayJonny (* Back *); OnlyScoresFrom = None }

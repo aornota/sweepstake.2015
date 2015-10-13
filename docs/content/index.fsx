@@ -31,6 +31,10 @@ Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australi
 
 ## Tuesday 13th October
 
+### Injury update #10
+
+Jack has picked Rabah Slimani (France) as his replacement for Peter O'Mahony.
+
 ### Injury update #9
 
 Paul O'Connell and Peter O'Mahony (both Ireland) have been withdrawn through injury and replaced by Mike McCarthy and Rhys Ruddock.
