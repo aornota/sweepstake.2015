@@ -21,13 +21,31 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 17th October at 20:00 -- Quarter-final 2: [New Zealand](teams.html#New Zealand) vs [France](teams.html#France)
-
 Sunday 18th October at 13:00 -- Quarter-final 3: [Ireland](teams.html#Ireland) vs [Argentina](teams.html#Argentina)
 
 Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australia) vs [Scotland](teams.html#Scotland)
 
+Saturday 24th October at 16:00 -- Semi-final 1: [South Africa](teams.html#South Africa) vs [New Zealand](teams.html#New Zealand)
+
+Sunday 25th October at 16:00 -- Semi-final 2: ([Ireland](teams.html#Ireland) or [Argentina](teams.html#Argentina)) vs 
+([Australia](teams.html#Australia) or [Scotland](teams.html#Scotland))
+
 ## Saturday 17th October
+
+### Game #42
+
+**Quarter-final 2: [New Zealand](teams.html#New Zealand) 62 - 13 [France](teams.html#France)**
+
+"I don't see a punch; I just see a fist in the face." They could do with the calm semantics of Nigel Owens' refereeing at kicking-out 
+time in Port Talbot tonight...
+
+Emphatically two-nil - and points for everyone other than Jack, Chad and Chris as the All Blacks turn on the style against a poor French 
+side. Jem leaps up to second thanks to three tries from man-of-the-match Julian Savea and one from Louis Picamoles (although the 
+latter's indiscipline costs him twice). Susie is up to sixth with the bonus point New Zealand win, a try from Brodie Retallick and 
+another monster kick from Scott Spedding. Hugh and Neph are tied for third after a try from Nehe Milner-Skudder for the former and a
+solid kicking display from Dan Carter for the latter. Rosie picks up a meagre haul via the boot of Morgan Parra. Denis makes up ground 
+on Chad with a try from Kieran Read. And Martyn finally moves off the bottom with a try from Jerome Kaino, leaving Chris staring at the 
+prestigious wooden spoon.
 
 ### Game #41
 

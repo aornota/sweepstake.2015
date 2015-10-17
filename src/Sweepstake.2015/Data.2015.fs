@@ -137,7 +137,7 @@ module ``Data 2015`` =
                                        bealeKurtley; giteauMatt; kuridraniTevita; toomuaMatt; ashleyCooperAdam; horneRob; mitchellDrew;
                                        speightHenry; tomaneJoe; folauIsrael ] }
 
-    let france = { Name = "France"; Status = Active; Seeding = Some 4; Coach = "Philippe Saint-André" }
+    let france = { Name = "France"; Status = Eliminated; Seeding = Some 4; Coach = "Philippe Saint-André" }
 
     let guiradoGuilhem = { Name = "Guilhem Guirado"; Team = france; Type = Forward; Status = OriginalSquad }
     let kayserBenjamin = { Name = "Benjamin Kayser"; Team = france; Type = Forward; Status = OriginalSquad }
@@ -1818,11 +1818,34 @@ module ``Data 2015`` =
                                            MissedPenalty biggarDan
                                            DropGoal biggarDan ] }
 
-    let quarterFinal2C1VsD2 = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (france, (*TODO*)0<point>)
+    let quarterFinal2C1VsD2 = { Team1Points = TeamPoints (newZealand, 62<point>); Team2Points = TeamPoints (france, 13<point>)
                                 Stage = QuarterFinal 2; KickOff = DateTime (2015, 10, 17, 20, 0, 0)
-                                Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* newZealand *)
-                                           (* TODO *) (* france *) ] }
+                                Events = [ ManOfTheMatch saveaJulian
+                                           Try (retallickBrodie, Some 11<min>) (* newZealand *)
+                                           Try (milnerSkudderNehe, Some 23<min>)
+                                           Try (saveaJulian, Some 29<min>)
+                                           Try (saveaJulian, Some 38<min>)
+                                           Try (kainoJerome, Some 50<min>)
+                                           Try (saveaJulian, Some 59<min>)
+                                           Try (readKieran, Some 64<min>)
+                                           Try (kerrBarlowTawera, Some 68<min>)
+                                           Try (kerrBarlowTawera, Some 71<min>)
+                                           Conversion carterDan
+                                           Conversion carterDan
+                                           Conversion carterDan
+                                           Conversion carterDan
+                                           Conversion carterDan
+                                           Conversion carterDan
+                                           Conversion carterDan
+                                           MissedConversion carterDan
+                                           MissedConversion carterDan
+                                           Penalty carterDan
+                                           Try (picamolesLouis, Some 36<min>) (* france *)
+                                           Conversion parraMorgan
+                                           Penalty speddingScott
+                                           Penalty parraMorgan
+                                           MissedPenalty parraMorgan
+                                           YellowCard (picamolesLouis, Some 47<min>) ] }
 
     let quarterFinal3D1VsC2 = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
                                 Stage = QuarterFinal 3; KickOff = DateTime (2015, 10, 18, 13, 0, 0)
@@ -1837,15 +1860,14 @@ module ``Data 2015`` =
                                            (* TODO *) (* scotland *) ] }
 
     // TODO [NMB]: Remove these once known...
-    let quarterFinal2Winner = { Name = "Quarter-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let quarterFinal3Winner = { Name = "Quarter-final 3 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let quarterFinal4Winner = { Name = "Quarter-final 4 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+    let quarterFinal3Winner = { Name = "Quarter-final 3 winner (Ireland or Argentina)"; Status = Active; Seeding = None; Coach = "N/A" }
+    let quarterFinal4Winner = { Name = "Quarter-final 4 winner (Australia or Scotland)"; Status = Active; Seeding = None; Coach = "N/A" }
 
-    let semiFinal1QF1VsQF2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (quarterFinal2Winner, (*TODO*)0<point>)
+    let semiFinal1QF1VsQF2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (newZealand, (*TODO*)0<point>)
                                Stage = SemiFinal 1; KickOff = DateTime (2015, 10, 24, 16, 0, 0)
                                Events = [ (*ManOfTheMatch ...*)
                                           (* TODO *) (* southAfrica *)
-                                          (* TODO *) (* qF2W *) ] }
+                                          (* TODO *) (* newZealand *) ] }
 
     let semiFinal2QF3VsQF4 = { Team1Points = TeamPoints (quarterFinal3Winner, (*TODO*)0<point>); Team2Points = TeamPoints (quarterFinal4Winner, (*TODO*)0<point>)
                                Stage = SemiFinal 2; KickOff = DateTime (2015, 10, 25, 16, 0, 0)
@@ -1854,10 +1876,10 @@ module ``Data 2015`` =
                                           (* TODO *) (* qF4W *) ] }
 
     // TODO [NMB]: Remove these once known...
-    let semiFinal1Winner = { Name = "Semi-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let semiFinal1Loser = { Name = "Semi-final 1 loser"; Status = Active; Seeding = None; Coach = "N/A" }
-    let semiFinal2Winner = { Name = "Semi-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
-    let semiFinal2Loser = { Name = "Semi-final 2 loser"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal1Winner = { Name = "Semi-final 1 winner (South Africa or New Zealand)"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal1Loser = { Name = "Semi-final 1 loser (South Africa or New Zealand)"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal2Winner = { Name = "Semi-final 2 winner ((Ireland or Argentina) or (Australia or Scotland))"; Status = Active; Seeding = None; Coach = "N/A" }
+    let semiFinal2Loser = { Name = "Semi-final 2 loser ((Ireland or Argentina) or (Australia or Scotland))"; Status = Active; Seeding = None; Coach = "N/A" }
 
     let bronzeFinal1SF1VsSF2 = { Team1Points = TeamPoints (semiFinal1Loser, (*TODO*)0<point>); Team2Points = TeamPoints (semiFinal2Loser, (*TODO*)0<point>)
                                  Stage = BronzeFinal; KickOff = DateTime (2015, 10, 30, 20, 0, 0)
