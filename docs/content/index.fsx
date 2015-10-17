@@ -29,6 +29,14 @@ Sunday 18th October at 13:00 -- Quarter-final 3: [Ireland](teams.html#Ireland) v
 
 Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australia) vs [Scotland](teams.html#Scotland)
 
+## Saturday 17th October
+
+### Injury update #11
+
+Nahuel Tetaz Chaparro (Argentina) has been withdrawn through injury and replaced by Juan Figallo.
+
+The replacement for Jared Payne (Ireland) has been confirmed as Isaac Boss.
+
 ## Tuesday 13th October
 
 ### Injury update #10

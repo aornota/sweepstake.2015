@@ -243,6 +243,7 @@ module ``Data 2015`` =
     let ruddockRhys = { Name = "Rhys Ruddock"; Team = ireland; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 12))) }
     let heaslipJamie = { Name = "Jamie Heaslip"; Team = ireland; Type = Forward; Status = OriginalSquad }
     let murrayConor = { Name = "Conor Murray"; Team = ireland; Type = Back; Status = OriginalSquad }
+    let bossIsaac = { Name = "Isaac Boss"; Team = ireland; Type = Back; Status = Replacement (Some (DateTime (2015, 10, 17))) }
     let reddanEoin = { Name = "Eoin Reddan"; Team = ireland; Type = Back; Status = OriginalSquad }
     let jacksonPaddy = { Name = "Paddy Jackson"; Team = ireland; Type = Back; Status = OriginalSquad }
     let madiganIan = { Name = "Ian Madigan"; Team = ireland; Type = Back; Status = OriginalSquad }
@@ -250,8 +251,6 @@ module ``Data 2015`` =
     let caveDarren = { Name = "Darren Cave"; Team = ireland; Type = Back; Status = OriginalSquad }
     let earlsKeith = { Name = "Keith Earls"; Team = ireland; Type = Back; Status = OriginalSquad }
     let henshawRobbie = { Name = "Robbie Henshaw"; Team = ireland; Type = Back; Status = OriginalSquad }
-    // TODO [NMB]: Confirm replacement for Jared Payne...
-    let replacementJP = { Name = "(Replacement for Jared Payne TBC...)"; Team = ireland; Type = Back; Status = Replacement (Some (DateTime (2015, 10, 10))) }
     let payneJared = { Name = "Jared Payne"; Team = ireland; Type = Back; Status = Withdrawn (Some (DateTime (2015, 10, 10))) }
     let boweTommy = { Name = "Tommy Bowe"; Team = ireland; Type = Back; Status = OriginalSquad }
     let fitzgeraldLuke = { Name = "Luke Fitzgerald"; Team = ireland; Type = Back; Status = OriginalSquad }
@@ -262,8 +261,8 @@ module ``Data 2015`` =
     let irelandSquad = { Team = ireland
                          Players = [ bestRory; croninSean; straussRichardt; whiteNathan; furlongTadhg; healyCian; mcGrathJack; rossMike
                                      hendersonIain; o'ConnellPaul; mcCarthyMike; ryanDonnacha; tonerDevin; henryChris; murphyJordi
-                                     o'BrienSean; o'MahonyPeter; ruddockRhys; heaslipJamie; murrayConor; reddanEoin; jacksonPaddy
-                                     madiganIan; sextonJonathan; caveDarren; earlsKeith; henshawRobbie; replacementJP; payneJared
+                                     o'BrienSean; o'MahonyPeter; ruddockRhys; heaslipJamie; murrayConor; bossIsaac; reddanEoin
+                                     jacksonPaddy; madiganIan; sextonJonathan; caveDarren; earlsKeith; henshawRobbie; payneJared
                                      boweTommy; fitzgeraldLuke; kearneyDavid; zeboSimon; kearneyRob ] }
 
     let samoa = { Name = "Samoa"; Status = Eliminated; Seeding = Some 7; Coach = "Stephan Betham" }
@@ -312,10 +311,11 @@ module ``Data 2015`` =
     let creevyAgustin = { Name = "Agustín Creevy"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let montoyaJulian = { Name = "Julián Montoya"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let ayerzaMarcos = { Name = "Marcos Ayerza"; Team = argentina; Type = Forward; Status = OriginalSquad }
+    let figalloJuan = { Name = "Juan Figallo"; Team = argentina; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 15))) }
     let orlandiJuanPablo = { Name = "Juan Pablo Orlandi"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let herreraRamiro = { Name = "Ramiro Herrera"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let pazLucasNoguera = { Name = "Lucas Noguera Paz"; Team = argentina; Type = Forward; Status = OriginalSquad }
-    let chaparroNahuelTetaz = { Name = "Nahuel Tetaz Chaparro"; Team = argentina; Type = Forward; Status = OriginalSquad }
+    let chaparroNahuelTetaz = { Name = "Nahuel Tetaz Chaparro"; Team = argentina; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 15))) }
     let alemannoMatias = { Name = "Matías Alemanno"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let galarzaMariano = { Name = "Mariano Galarza"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let lavaniniTomas = { Name = "Tomás Lavanini"; Team = argentina; Type = Forward; Status = OriginalSquad }
@@ -342,12 +342,13 @@ module ``Data 2015`` =
     let tuculetJoaquin = { Name = "Joaquín Tuculet"; Team = argentina; Type = Back; Status = OriginalSquad }
 
     let argentinaSquad = { Team = argentina
-                           Players = [ creevyAgustin; montoyaJulian; ayerzaMarcos; orlandiJuanPablo; herreraRamiro; pazLucasNoguera
-                                       chaparroNahuelTetaz; alemannoMatias; galarzaMariano; lavaniniTomas; pagadizabalGuidoPetti
-                                       lobbeJuanMartinFernandez; leguizamonJuanManuel; materaPablo; desioJavierOrtega; isaFacundo
-                                       senatoreLeonardo; cubelliTomas; landajoMartin; iglesiasSantiagoGonzalez; sanchezNicolas; boschMarcelo
-                                       delaFuenteJeronimo; hernandezJuanMartin; moronoMatias; socinoJuanPablo; agullaHoracio
-                                       corderoSantiago; imhoffJuan; amorosinoLucasGonzalez; tuculetJoaquin ] }
+                           Players = [ creevyAgustin; montoyaJulian; ayerzaMarcos; figalloJuan; orlandiJuanPablo; herreraRamiro
+                                       pazLucasNoguera; chaparroNahuelTetaz; alemannoMatias; galarzaMariano; lavaniniTomas
+                                       pagadizabalGuidoPetti; lobbeJuanMartinFernandez; leguizamonJuanManuel; materaPablo
+                                       desioJavierOrtega; isaFacundo; senatoreLeonardo; cubelliTomas; landajoMartin
+                                       iglesiasSantiagoGonzalez; sanchezNicolas; boschMarcelo; delaFuenteJeronimo; hernandezJuanMartin
+                                       moronoMatias; socinoJuanPablo; agullaHoracio; corderoSantiago; imhoffJuan; amorosinoLucasGonzalez
+                                       tuculetJoaquin ] }
 
     let wales = { Name = "Wales"; Status = Active; Seeding = Some 9; Coach = "Warren Gatland" }
 
