@@ -350,7 +350,7 @@ module ``Data 2015`` =
                                        moronoMatias; socinoJuanPablo; agullaHoracio; corderoSantiago; imhoffJuan; amorosinoLucasGonzalez
                                        tuculetJoaquin ] }
 
-    let wales = { Name = "Wales"; Status = Active; Seeding = Some 9; Coach = "Warren Gatland" }
+    let wales = { Name = "Wales"; Status = Eliminated; Seeding = Some 9; Coach = "Warren Gatland" }
 
     let baldwinScott = { Name = "Scott Baldwin"; Team = wales; Type = Forward; Status = OriginalSquad }
     let owensKen = { Name = "Ken Owens"; Team = wales; Type = Forward; Status = OriginalSquad }
@@ -1797,63 +1797,79 @@ module ``Data 2015`` =
 
     // Knockout matches: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_knockout_stage...
 
-    let quarterFinal1B1VsA2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (wales, (*TODO*)0<point>)
+    let quarterFinal1B1VsA2 = { Team1Points = TeamPoints (southAfrica, 23<point>); Team2Points = TeamPoints (wales, 19<point>)
                                 Stage = QuarterFinal 1; KickOff = DateTime (2015, 10, 17, 16, 0, 0)
-                                Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* B1 [TBC] *)
-                                           (* TODO *) (* A2 [TBC] *) ] }
+                                Events = [ ManOfTheMatch burgerSchalk
+                                           Try (duPreezFourie, Some 75<min>) (* southAfrica *)
+                                           MissedConversion pollardHandre
+                                           Penalty pollardHandre
+                                           Penalty pollardHandre
+                                           Penalty pollardHandre
+                                           Penalty pollardHandre
+                                           Penalty pollardHandre
+                                           MissedPenalty pollardHandre
+                                           MissedPenalty pollardHandre
+                                           DropGoal pollardHandre
+                                           Try (daviesGareth, Some 18<min>) (* wales *)
+                                           Conversion biggarDan
+                                           Penalty biggarDan
+                                           Penalty biggarDan
+                                           Penalty biggarDan
+                                           MissedPenalty biggarDan
+                                           DropGoal biggarDan ] }
 
     let quarterFinal2C1VsD2 = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (france, (*TODO*)0<point>)
                                 Stage = QuarterFinal 2; KickOff = DateTime (2015, 10, 17, 20, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* C1 [TBC] *)
-                                           (* TODO *) (* D2 [TBC] *) ] }
+                                           (* TODO *) (* newZealand *)
+                                           (* TODO *) (* france *) ] }
 
     let quarterFinal3D1VsC2 = { Team1Points = TeamPoints (ireland, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
                                 Stage = QuarterFinal 3; KickOff = DateTime (2015, 10, 18, 13, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* D1 [TBC] *)
-                                           (* TODO *) (* C2 [TBC] *) ] }
+                                           (* TODO *) (* ireland *)
+                                           (* TODO *) (* argentina *) ] }
 
     let quarterFinal4A1VsB2 = { Team1Points = TeamPoints (australia, (*TODO*)0<point>); Team2Points = TeamPoints (scotland, (*TODO*)0<point>)
                                 Stage = QuarterFinal 4; KickOff = DateTime (2015, 10, 18, 16, 0, 0)
                                 Events = [ (*ManOfTheMatch ...*)
-                                           (* TODO *) (* A1 [TBC] *)
-                                           (* TODO *) (* B2 [TBC] *) ] }
+                                           (* TODO *) (* australia *)
+                                           (* TODO *) (* scotland *) ] }
 
     // TODO [NMB]: Remove these once known...
-    let quarterFinal1Winner = { Name = "Quarter-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal2Winner = { Name = "Quarter-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal3Winner = { Name = "Quarter-final 3 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let quarterFinal4Winner = { Name = "Quarter-final 4 winner"; Status = Active; Seeding = None; Coach = "N/A" }
+
+    let semiFinal1QF1VsQF2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (quarterFinal2Winner, (*TODO*)0<point>)
+                               Stage = SemiFinal 1; KickOff = DateTime (2015, 10, 24, 16, 0, 0)
+                               Events = [ (*ManOfTheMatch ...*)
+                                          (* TODO *) (* southAfrica *)
+                                          (* TODO *) (* qF2W *) ] }
+
+    let semiFinal2QF3VsQF4 = { Team1Points = TeamPoints (quarterFinal3Winner, (*TODO*)0<point>); Team2Points = TeamPoints (quarterFinal4Winner, (*TODO*)0<point>)
+                               Stage = SemiFinal 2; KickOff = DateTime (2015, 10, 25, 16, 0, 0)
+                               Events = [ (*ManOfTheMatch ...*)
+                                          (* TODO *) (* qF3W *)
+                                          (* TODO *) (* qF4W *) ] }
+
+    // TODO [NMB]: Remove these once known...
     let semiFinal1Winner = { Name = "Semi-final 1 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let semiFinal1Loser = { Name = "Semi-final 1 loser"; Status = Active; Seeding = None; Coach = "N/A" }
     let semiFinal2Winner = { Name = "Semi-final 2 winner"; Status = Active; Seeding = None; Coach = "N/A" }
     let semiFinal2Loser = { Name = "Semi-final 2 loser"; Status = Active; Seeding = None; Coach = "N/A" }
 
-    let semiFinal1QF1VsQF2 = { Team1Points = TeamPoints (quarterFinal1Winner, (*TODO*)0<point>); Team2Points = TeamPoints (quarterFinal2Winner, (*TODO*)0<point>)
-                               Stage = SemiFinal 1; KickOff = DateTime (2015, 10, 24, 16, 0, 0)
-                               Events = [ (*ManOfTheMatch ...*)
-                                          (* TODO *) (* QF1 [TBC] *)
-                                          (* TODO *) (* QF2 [TBC] *) ] }
-
-    let semiFinal2QF3VsQF4 = { Team1Points = TeamPoints (quarterFinal3Winner, (*TODO*)0<point>); Team2Points = TeamPoints (quarterFinal4Winner, (*TODO*)0<point>)
-                               Stage = SemiFinal 2; KickOff = DateTime (2015, 10, 25, 16, 0, 0)
-                               Events = [ (*ManOfTheMatch ...*)
-                                          (* TODO *) (* QF3 [TBC] *)
-                                          (* TODO *) (* QF4 [TBC] *) ] }
-
     let bronzeFinal1SF1VsSF2 = { Team1Points = TeamPoints (semiFinal1Loser, (*TODO*)0<point>); Team2Points = TeamPoints (semiFinal2Loser, (*TODO*)0<point>)
                                  Stage = BronzeFinal; KickOff = DateTime (2015, 10, 30, 20, 0, 0)
                                  Events = [ (*ManOfTheMatch ...*)
-                                            (* TODO *) (* SF1 [TBC] *)
-                                            (* TODO *) (* SF2 [TBC] *) ] }
+                                            (* TODO *) (* sF1L *)
+                                            (* TODO *) (* sF2L *) ] }
 
     let final1SF1VsSF2 = { Team1Points = TeamPoints (semiFinal1Winner, (*TODO*)0<point>); Team2Points = TeamPoints (semiFinal2Winner, (*TODO*)0<point>)
                            Stage = Final; KickOff = DateTime (2015, 10, 31, 16, 0, 0)
                            Events = [ (*ManOfTheMatch ...*)
-                                      (* TODO *) (* SF1 [TBC] *)
-                                      (* TODO *) (* SF2 [TBC] *) ] }
+                                      (* TODO *) (* sF1W *)
+                                      (* TODO *) (* sF2W *) ] }
 
     let knockoutMatches = [ quarterFinal1B1VsA2; quarterFinal2C1VsD2; quarterFinal3D1VsC2; quarterFinal4A1VsB2
                             semiFinal1QF1VsQF2; semiFinal2QF3VsQF4; bronzeFinal1SF1VsSF2; final1SF1VsSF2 ]

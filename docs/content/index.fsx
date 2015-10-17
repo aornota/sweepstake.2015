@@ -21,8 +21,6 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 17th October at 16:00 -- Quarter-final 1: [South Africa](teams.html#South Africa) vs [Wales](teams.html#Wales)
-
 Saturday 17th October at 20:00 -- Quarter-final 2: [New Zealand](teams.html#New Zealand) vs [France](teams.html#France)
 
 Sunday 18th October at 13:00 -- Quarter-final 3: [Ireland](teams.html#Ireland) vs [Argentina](teams.html#Argentina)
@@ -30,6 +28,15 @@ Sunday 18th October at 13:00 -- Quarter-final 3: [Ireland](teams.html#Ireland) v
 Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australia) vs [Scotland](teams.html#Scotland)
 
 ## Saturday 17th October
+
+### Game #41
+
+**Quarter-final 1: [South Africa](teams.html#South Africa) 23 - 19 [Wales](teams.html#Wales)**
+
+One-nil to the Southern Hemisphere after a brilliant bit of improvisation from Duane Vermeulen and Fourie de Preez. Jack stretches his 
+lead with a mixed kicking display from Handre Pollard and a thoroughly deserved man-of-the-match performance from Schalk Burger. Hugh 
+moves up to second thanks to the boot of Dan Biggar (though he might be concerned about how rapidly he's haemorrhaging players). Rosie 
+remains in fourth despite the South African win - and a Welsh bonus point in defeat is not enough to drag Martyn off the bottom.
 
 ### Injury update #11
 
