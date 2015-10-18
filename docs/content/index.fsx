@@ -21,14 +21,27 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australia) vs [Scotland](teams.html#Scotland)
-
 Saturday 24th October at 16:00 -- Semi-final 1: [South Africa](teams.html#South Africa) vs [New Zealand](teams.html#New Zealand)
 
-Sunday 25th October at 16:00 -- Semi-final 2: [Argentina](teams.html#Argentina) vs ([Australia](teams.html#Australia) or 
-[Scotland](teams.html#Scotland))
+Sunday 25th October at 16:00 -- Semi-final 2: [Argentina](teams.html#Argentina) vs [Australia](teams.html#Australia)
 
 ## Sunday 18th October
+
+### Game #44
+
+**Quarter-final 4: [Australia](teams.html#Australia) 35 - 34 [Scotland](teams.html#Scotland)**
+
+Was that the Scottish dressing room at half-time - or a homeless shelter in Govan?
+
+Four-nil. A brilliant quarter-final weekend comes to a nerve-shredding (and somewhat contentious) end as an intelligent and committed 
+Scottish display ends in disappointment, leaving Australia shaken but somehow unbeaten - and ensuring that the Webb Ellis Cup remains in 
+the southern hemisphere. As you were in the table, albeit with Jack's lead trimmed and Martyn further adrift at the bottom. Chris gets 
+the bonus point Australian win, plus a man-of-the-match performance from Matt Giteau. Hugh picks up a Scottish bonus point in defeat, 
+sullied by a marginal yellow card for Sean Maitland. Susie scores via the dependable boot of Greig Laidlaw - and Rosie via the less 
+dependable kicking of Bernard Foley. Neph, Jem and Chad get tries from Adam Ashley-Cooper, Tevita Kuridrani and Michael Hooper 
+respectively.
+
+The semi-finals have a lot to live up to...
 
 ### Game #43
 
