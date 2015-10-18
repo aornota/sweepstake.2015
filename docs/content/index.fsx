@@ -21,14 +21,26 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Sunday 18th October at 13:00 -- Quarter-final 3: [Ireland](teams.html#Ireland) vs [Argentina](teams.html#Argentina)
-
 Sunday 18th October at 16:00 -- Quarter-final 4: [Australia](teams.html#Australia) vs [Scotland](teams.html#Scotland)
 
 Saturday 24th October at 16:00 -- Semi-final 1: [South Africa](teams.html#South Africa) vs [New Zealand](teams.html#New Zealand)
 
-Sunday 25th October at 16:00 -- Semi-final 2: ([Ireland](teams.html#Ireland) or [Argentina](teams.html#Argentina)) vs 
-([Australia](teams.html#Australia) or [Scotland](teams.html#Scotland))
+Sunday 25th October at 16:00 -- Semi-final 2: [Argentina](teams.html#Argentina) vs ([Australia](teams.html#Australia) or 
+[Scotland](teams.html#Scotland))
+
+## Sunday 18th October
+
+### Game #43
+
+**Quarter-final 3: [Ireland](teams.html#Ireland) 20 - 43 [Argentina](teams.html#Argentina)**
+
+Almost an incredible comeback from Ireland - but a deserved Argentine victory makes it three-nil and leaves the hopes of the northern 
+hemisphere in the hands of Scotland (who have recorded two extremely dull wins over Australia in their last three meetings). Jack 
+stretches his lead with a near-flawless kicking display from Nicolas Sanchez, who also gets a rather questionable man-of-the-match 
+award. (To be fair, he was very good; I just think that Pablo Matera and Joaquin Tuculet were even better.) Chris picks up two tries 
+from Juan Imhoff, leaving Martyn in last place once again. Denis gets a try from Luke Fitzgerald - but with only four players left, 
+he's still in contention for the wooden spoon. The bonus point Argentine win (offset by a yellow card for Ramiro Herrera) takes Neph up 
+to second. Chad trundles on with a few points via the boot of Ian Madigan.
 
 ## Saturday 17th October
 
@@ -51,7 +63,7 @@ prestigious wooden spoon.
 
 **Quarter-final 1: [South Africa](teams.html#South Africa) 23 - 19 [Wales](teams.html#Wales)**
 
-One-nil to the Southern Hemisphere after a brilliant bit of improvisation from Duane Vermeulen and Fourie de Preez. Jack stretches his 
+One-nil to the southern hemisphere after a brilliant bit of improvisation from Duane Vermeulen and Fourie de Preez. Jack stretches his 
 lead with a mixed kicking display from Handre Pollard and a thoroughly deserved man-of-the-match performance from Schalk Burger. Hugh 
 moves up to second thanks to the boot of Dan Biggar (though he might be concerned about how rapidly he's haemorrhaging players). Rosie 
 remains in fourth despite the South African win - and a Welsh bonus point in defeat is not enough to drag Martyn off the bottom.
