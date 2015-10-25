@@ -21,9 +21,32 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Saturday 24th October at 16:00 -- Semi-final 1: [South Africa](teams.html#South Africa) vs [New Zealand](teams.html#New Zealand)
+Friday 30th October at 20:00 -- Bronze final: [South Africa](teams.html#South Africa) vs [Argentina](teams.html#Argentina)
 
-Sunday 25th October at 16:00 -- Semi-final 2: [Argentina](teams.html#Argentina) vs [Australia](teams.html#Australia)
+Saturday 31st October at 16:00 -- Final: [New Zealand](teams.html#New Zealand)** vs [Australia](teams.html#Australia)
+
+## Sunday 25th October
+
+### Game #46
+
+**Semi-final 2: [Argentina](teams.html#Argentina) 15 - 29 [Australia](teams.html#Australia)**
+
+A shaky start leaves Argentina too much to do as Australia's experience and composure take them into the final. Jack benefits from the 
+boot of Nicolas Sanchez, though Neph trims his lead a little with three tries and a man-of-the-match performance from Adam Ashley-Cooper 
+(offset by a yellow card for Tomas Lavanini). Rosie picks up a few points after a mixed kicking display from Bernard Foley. Chris moves 
+up to eighth with the Australia bonus point win.
+
+## Saturday 24th October
+
+### Game #45
+
+**Semi-final 1: [South Africa](teams.html#South Africa) 18 - 20 [New Zealand](teams.html#New Zealand)**
+
+After the excitement of the quarter-finals, a tense and scrappy game sees the All Blacks through to the final. Jack extends his lead 
+with another fine kicking display from Handre Pollard. Jem gets a try from the brilliant Beauden Barrett but Neph hangs on to second 
+thanks to the dependable boot of Dan Carter. Rosie slips back despite the South African bonus point in defeat as a yellow card for Bryan 
+Habana proves doubly costly. Susie gets the New Zealand win, offset by a yellow card for Jerome Kaino - which also costs Martyn, though 
+he does get a try from the same player plus a solitary Pat Lambie kick. Chris scores for a man-of-the-match performance from Ben Smith.
 
 ## Sunday 18th October
 
