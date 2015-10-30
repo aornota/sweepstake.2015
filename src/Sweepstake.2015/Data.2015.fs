@@ -15,10 +15,11 @@ module ``Data 2015`` =
     let colesDane = { Name = "Dane Coles"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let mealamuKeven = { Name = "Keven Mealamu"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let taylorCodie = { Name = "Codie Taylor"; Team = newZealand; Type = Forward; Status = OriginalSquad }
-    let crockettWyatt = { Name = "Wyatt Crockett"; Team = newZealand; Type = Forward; Status = OriginalSquad }
+    let crockettWyatt = { Name = "Wyatt Crockett"; Team = newZealand; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 29))) }
     let faumuinaCharlie = { Name = "Charlie Faumuina"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let franksBen = { Name = "Ben Franks"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let franksOwen = { Name = "Owen Franks"; Team = newZealand; Type = Forward; Status = OriginalSquad }
+    let manuPauliasi = { Name = "Pauliasi Manu"; Team = newZealand; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 29))) }
     let moodyJoe = { Name = "Joe Moody"; Team = newZealand; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 10))) }
     let woodcockTony = { Name = "Tony Woodcock"; Team = newZealand; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 10))) }
     let retallickBrodie = { Name = "Brodie Retallick"; Team = newZealand; Type = Forward; Status = OriginalSquad }
@@ -47,10 +48,10 @@ module ``Data 2015`` =
 
     let newZealandSquad = { Team = newZealand
                             Players = [ colesDane; mealamuKeven; taylorCodie; crockettWyatt; faumuinaCharlie; franksBen; franksOwen
-                                        moodyJoe; woodcockTony; retallickBrodie; romanoLuke; whitelockSam; caneSam; kainoJerome
-                                        mcCawRichie; messamLiam; readKieran; vitoVictor; kerrBarlowTawera; perenaraTJ; smithAaron
-                                        barrettBeauden; carterDan; sladeColin; fekitoaMalakai; nonuMa'a; smithConrad; williamsSonnyBill
-                                        naholoWaisake; saveaJulian; milnerSkudderNehe; smithBen ] }
+                                        manuPauliasi; moodyJoe; woodcockTony; retallickBrodie; romanoLuke; whitelockSam; caneSam
+                                        kainoJerome; mcCawRichie; messamLiam; readKieran; vitoVictor; kerrBarlowTawera; perenaraTJ
+                                        smithAaron; barrettBeauden; carterDan; sladeColin; fekitoaMalakai; nonuMa'a; smithConrad
+                                        williamsSonnyBill; naholoWaisake; saveaJulian; milnerSkudderNehe; smithBen ] }
 
     let southAfrica = { Name = "South Africa"; Status = Active; Seeding = Some 2; Coach = "Heyneke Meyer" }
 
@@ -310,8 +311,9 @@ module ``Data 2015`` =
 
     let creevyAgustin = { Name = "Agustín Creevy"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let montoyaJulian = { Name = "Julián Montoya"; Team = argentina; Type = Forward; Status = OriginalSquad }
-    let ayerzaMarcos = { Name = "Marcos Ayerza"; Team = argentina; Type = Forward; Status = OriginalSquad }
+    let ayerzaMarcos = { Name = "Marcos Ayerza"; Team = argentina; Type = Forward; Status = Withdrawn (Some (DateTime (2015, 10, 29))) }
     let figalloJuan = { Name = "Juan Figallo"; Team = argentina; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 15))) }
+    let bottaSantiagoGarcia = { Name = "Santiago García Botta"; Team = argentina; Type = Forward; Status = Replacement (Some (DateTime (2015, 10, 29))) }
     let orlandiJuanPablo = { Name = "Juan Pablo Orlandi"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let herreraRamiro = { Name = "Ramiro Herrera"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let pazLucasNoguera = { Name = "Lucas Noguera Paz"; Team = argentina; Type = Forward; Status = OriginalSquad }
@@ -342,8 +344,8 @@ module ``Data 2015`` =
     let tuculetJoaquin = { Name = "Joaquín Tuculet"; Team = argentina; Type = Back; Status = OriginalSquad }
 
     let argentinaSquad = { Team = argentina
-                           Players = [ creevyAgustin; montoyaJulian; ayerzaMarcos; figalloJuan; orlandiJuanPablo; herreraRamiro
-                                       pazLucasNoguera; chaparroNahuelTetaz; alemannoMatias; galarzaMariano; lavaniniTomas
+                           Players = [ creevyAgustin; montoyaJulian; ayerzaMarcos; figalloJuan; bottaSantiagoGarcia; orlandiJuanPablo
+                                       herreraRamiro; pazLucasNoguera; chaparroNahuelTetaz; alemannoMatias; galarzaMariano; lavaniniTomas
                                        pagadizabalGuidoPetti; lobbeJuanMartinFernandez; leguizamonJuanManuel; materaPablo
                                        desioJavierOrtega; isaFacundo; senatoreLeonardo; cubelliTomas; landajoMartin
                                        iglesiasSantiagoGonzalez; sanchezNicolas; boschMarcelo; delaFuenteJeronimo; hernandezJuanMartin

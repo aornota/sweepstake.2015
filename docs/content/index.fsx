@@ -25,6 +25,19 @@ Friday 30th October at 20:00 -- Bronze final: [South Africa](teams.html#South Af
 
 Saturday 31st October at 16:00 -- Final: [New Zealand](teams.html#New Zealand)** vs [Australia](teams.html#Australia)
 
+## Friday 30th October
+
+### Injury update #12
+
+Marcos Ayerza (Argentina) and Wyatt Crockett (New Zealand) have been withdrawn through injury and replaced by Santiago Garcia Botta and 
+Pauliasi Manu respectively.
+
+(Note that although Santiago Garcia Botta was called up less than 48 hours before the Bronze final kick-off, he will be allowed to play 
+"if absolutely required" because Lucas Noguera Paz will cover hooker from the bench, leaving Argentina with too few fit props.)
+
+Awaiting clarification from Rosie and Martyn as to their replacements for Marcos Ayerza and Wyatt Crockett respectively. (Given that 
+Martyn is apparently building houses in Nepal, I'll unilaterally pick a replacement if I haven't heard from him before the final.)
+
 ## Sunday 25th October
 
 ### Game #46

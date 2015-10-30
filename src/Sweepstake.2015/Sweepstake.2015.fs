@@ -279,6 +279,7 @@ module ``Sweepstake 2015`` =
                                    { Player = crockettWyatt (* Forward *); OnlyScoresFrom = None }
                                    { Player = mealamuKeven (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 9, 29)) }
                                    { Player = mummDean (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 10, 11)) }
+                                   // TODO [NMB]: Replacement for Wyatt Crockett...
                                    { Player = lambiePat (* Back *); OnlyScoresFrom = None }
                                    { Player = farrellOwen (* Back *); OnlyScoresFrom = None }
                                    { Player = cooperQuade (* Back *); OnlyScoresFrom = None }
@@ -315,6 +316,7 @@ module ``Sweepstake 2015`` =
                                   { Player = straussAdriaan (* Forward *); OnlyScoresFrom = None }
                                   { Player = fordRoss (* Forward *); OnlyScoresFrom = None }
                                   { Player = flanquartAlexandre (* Forward *); OnlyScoresFrom = None }
+                                  // TODO [NMB]: Replacement for Marcos Ayerza...
                                   { Player = vunipolaMako (* Forward *); OnlyScoresFrom = None }
                                   { Player = habanaBryan (* Back *); OnlyScoresFrom = None }
                                   { Player = folauIsrael (* Back *); OnlyScoresFrom = None }
