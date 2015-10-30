@@ -21,11 +21,23 @@ Latest news
 (**
 #### Upcoming fixtures
 
-Friday 30th October at 20:00 -- Bronze final: [South Africa](teams.html#South Africa) vs [Argentina](teams.html#Argentina)
-
 Saturday 31st October at 16:00 -- Final: [New Zealand](teams.html#New Zealand)** vs [Australia](teams.html#Australia)
 
 ## Friday 30th October
+
+### Game #47
+
+**Bronze final: [South Africa](teams.html#South Africa) 24 - 13 [Argentina](teams.html#Argentina)**
+
+Rosie picked Julian Montoya (Argentina) as her replacement for Marcos Ayerza before kick-off.
+
+A game too far for a much-changed Argentina sees South Africa finish third. Jack needlessly extends his lead thanks to the reliable boot 
+of the wonderful Nicolas Sanchez and the slightly flakier kicking of Handre Pollard. (Let's not mention the worst kick for touch in 
+recent memory.) Neph drops a couple of points as a result of Tomas Cubelli's early yellow card. Jem closes the gap to second with tries 
+from JP Pietersen and Eben Etzebeth. Rosie picks up the South African win and still has faint hopes of a top-three finish. Chad scores 
+via man-of-the-match (and star of the future) Damian de Allende.
+
+Unless I hear from Martyn before kick-off tomorrow, I'll give him Sekope Kepu (Australia) as his replacement for Wyatt Crockett.
 
 ### Injury update #12
 

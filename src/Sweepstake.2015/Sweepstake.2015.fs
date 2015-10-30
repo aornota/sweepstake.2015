@@ -316,8 +316,8 @@ module ``Sweepstake 2015`` =
                                   { Player = straussAdriaan (* Forward *); OnlyScoresFrom = None }
                                   { Player = fordRoss (* Forward *); OnlyScoresFrom = None }
                                   { Player = flanquartAlexandre (* Forward *); OnlyScoresFrom = None }
-                                  // TODO [NMB]: Replacement for Marcos Ayerza...
                                   { Player = vunipolaMako (* Forward *); OnlyScoresFrom = None }
+                                  { Player = montoyaJulian (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 10, 30)) }
                                   { Player = habanaBryan (* Back *); OnlyScoresFrom = None }
                                   { Player = folauIsrael (* Back *); OnlyScoresFrom = None }
                                   { Player = tuilagiAlesana (* Back *); OnlyScoresFrom = None }

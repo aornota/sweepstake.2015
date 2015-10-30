@@ -53,7 +53,7 @@ module ``Data 2015`` =
                                         smithAaron; barrettBeauden; carterDan; sladeColin; fekitoaMalakai; nonuMa'a; smithConrad
                                         williamsSonnyBill; naholoWaisake; saveaJulian; milnerSkudderNehe; smithBen ] }
 
-    let southAfrica = { Name = "South Africa"; Status = Active; Seeding = Some 2; Coach = "Heyneke Meyer" }
+    let southAfrica = { Name = "South Africa"; Status = Eliminated; Seeding = Some 2; Coach = "Heyneke Meyer" }
 
     let britsSchalk = { Name = "Schalk Brits"; Team = southAfrica; Type = Forward; Status = OriginalSquad }
     let duPlessisBismarck = { Name = "Bismarck du Plessis"; Team = southAfrica; Type = Forward; Status = OriginalSquad }
@@ -307,7 +307,7 @@ module ``Data 2015`` =
                                    fa'apalePatrick; pisiTusi; stanleyMichael; leeLoRey; leotaJohnny; perezPaul; pisiGeorge
                                    autagavaiaFa'atoina; pisiKen; tuilagiAlesana; nanaiWilliamsTim ] }
 
-    let argentina = { Name = "Argentina"; Status = Active; Seeding = Some 8; Coach = "Daniel Hourcade" }
+    let argentina = { Name = "Argentina"; Status = Eliminated; Seeding = Some 8; Coach = "Daniel Hourcade" }
 
     let creevyAgustin = { Name = "Agustín Creevy"; Team = argentina; Type = Forward; Status = OriginalSquad }
     let montoyaJulian = { Name = "Julián Montoya"; Team = argentina; Type = Forward; Status = OriginalSquad }
@@ -1944,17 +1944,29 @@ module ``Data 2015`` =
                                           Penalty foleyBernard
                                           MissedPenalty foleyBernard ] }
 
-    let bronzeFinal1SF1VsSF2 = { Team1Points = TeamPoints (southAfrica, (*TODO*)0<point>); Team2Points = TeamPoints (argentina, (*TODO*)0<point>)
+    let bronzeFinal1SF1VsSF2 = { Team1Points = TeamPoints (southAfrica, 24<point>); Team2Points = TeamPoints (argentina, 13<point>)
                                  Stage = BronzeFinal; KickOff = DateTime (2015, 10, 30, 20, 0, 0)
-                                 Events = [ (*ManOfTheMatch ...*)
-                                            (* TODO *) (* sF1L *)
-                                            (* TODO *) (* sF2L *) ] }
+                                 Events = [ ManOfTheMatch deAllendeDamian
+                                            Try (pietersenJP, Some 6<min>) (* southAfrica *)
+                                            Try (etzebethEben, Some 43<min>)
+                                            Conversion pollardHandre
+                                            MissedConversion pollardHandre
+                                            Penalty pollardHandre
+                                            Penalty pollardHandre
+                                            Penalty pollardHandre
+                                            Penalty pollardHandre
+                                            MissedPenalty pollardHandre
+                                            Try (orlandiJuanPablo, Some 80<min>) (* argentina *)
+                                            Conversion sanchezNicolas
+                                            Penalty sanchezNicolas
+                                            DropGoal sanchezNicolas
+                                            YellowCard (cubelliTomas, Some 5<min>) ] }
 
     let final1SF1VsSF2 = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (australia, (*TODO*)0<point>)
                            Stage = Final; KickOff = DateTime (2015, 10, 31, 16, 0, 0)
                            Events = [ (*ManOfTheMatch ...*)
-                                      (* TODO *) (* sF1W *)
-                                      (* TODO *) (* sF2W *) ] }
+                                      (* TODO *) (* newZealand *)
+                                      (* TODO *) (* australia *) ] }
 
     let knockoutMatches = [ quarterFinal1B1VsA2; quarterFinal2C1VsD2; quarterFinal3D1VsC2; quarterFinal4A1VsB2
                             semiFinal1QF1VsQF2; semiFinal2QF3VsQF4; bronzeFinal1SF1VsSF2; final1SF1VsSF2 ]
