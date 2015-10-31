@@ -279,7 +279,7 @@ module ``Sweepstake 2015`` =
                                    { Player = crockettWyatt (* Forward *); OnlyScoresFrom = None }
                                    { Player = mealamuKeven (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 9, 29)) }
                                    { Player = mummDean (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 10, 11)) }
-                                   // TODO [NMB]: Replacement for Wyatt Crockett...
+                                   { Player = moodyJoe (* Forward *); OnlyScoresFrom = Some (DateTime (2015, 10, 31)) }
                                    { Player = lambiePat (* Back *); OnlyScoresFrom = None }
                                    { Player = farrellOwen (* Back *); OnlyScoresFrom = None }
                                    { Player = cooperQuade (* Back *); OnlyScoresFrom = None }

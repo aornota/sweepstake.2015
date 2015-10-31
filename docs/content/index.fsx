@@ -19,9 +19,15 @@ Latest news
 (*** include-value: indexStandingsAndLinksHtml ***)
 
 (**
-#### Upcoming fixtures
+### Upcoming fixtures
 
-Saturday 31st October at 16:00 -- Final: [New Zealand](teams.html#New Zealand)** vs [Australia](teams.html#Australia)
+Saturday 31st October at 16:00 -- Final: [New Zealand](teams.html#New Zealand) vs [Australia](teams.html#Australia)
+
+## Saturday 31st October
+
+### Injury update #13
+
+Martyn has picked Joe Moody (New Zealand) as his replacement for Wyatt Crockett.
 
 ## Friday 30th October
 

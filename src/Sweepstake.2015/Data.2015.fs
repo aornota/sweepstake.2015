@@ -1962,7 +1962,7 @@ module ``Data 2015`` =
                                             DropGoal sanchezNicolas
                                             YellowCard (cubelliTomas, Some 5<min>) ] }
 
-    let final1SF1VsSF2 = { Team1Points = TeamPoints (newZealand, (*TODO*)0<point>); Team2Points = TeamPoints (australia, (*TODO*)0<point>)
+    let final1SF1VsSF2 = { Team1Points = TeamPoints (newZealand, 0<point>); Team2Points = TeamPoints (australia, 0<point>)
                            Stage = Final; KickOff = DateTime (2015, 10, 31, 16, 0, 0)
                            Events = [ (*ManOfTheMatch ...*)
                                       (* TODO *) (* newZealand *)
