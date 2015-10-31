@@ -21,6 +21,63 @@ Latest news
 (**
 ## Saturday 31st October
 
+### Editor's note
+
+The six-week feast of rugby ends with a truly wonderful New Zealand team triumphant once more. Amongst others, we say farewell to 
+perhaps the greatest centre pairing, fly-half and captain of all time - and welcome a host of youngsters with very bright futures.
+
+Several games will live long in the memory, including Samoa vs Scotland, Tonga vs Georgia, New Zealand vs Argentina, Namibia vs Georgia 
+and Australia vs Scotland. My top three highlights (in no particular order) would be: Johnny Redelinghuys' attempted conversion; Karne 
+Hesketh's match-winning try for Japan against South Africa; and the entirety of the Ireland vs Argentina quarter-final. (Denis may 
+disagree.)
+
+My "matchday squad" of the tournament:
+
++ Coach: Eddie Jones (Japan)
+
++ FB -- 15: Ben Smith (New Zealand)
++ RW -- 14: Santiago Cordero (Argentina)
++ OC -- 13: Conrad Smith (New Zealand)
++ IC -- 12: Ma'a Nonu (New Zealand)
++ LW -- 11: Nemani Nadolo (Fiji)
++ FH -- 10: Nicolas Sanchez (Argentina)
++ SH -- 9: Greig Laidlaw (Scotland)
++ N8 -- 8: Mamuka Gorgodze (captain) (Georgia)
++ OF -- 7: David Pocock (Australia)
++ BF -- 6: Francois Louw (South Africa)
++ RL -- 5: Sam Whitelock (New Zealand)
++ LL -- 4: Eben Etzebeth (South Africa)
++ TP -- 3: Davit Zirakashvili (Georgia)
++ HK -- 2: Agustin Creevy (Argentina)
++ LP -- 1: Alasdair Dickinson (Scotland)
+
++ HK -- 16: Shota Horie (Japan)
++ PR -- 17: Marcos Ayerza (Argentina)
++ PR -- 18: Manasa Saulo (Fiji)
++ LK -- 19: Leone Nakarawa (Fiji)
++ FL -- 20: Schalk Burger (South Africa)
++ SH -- 21: Gareth Davies (Wales)
++ FH -- 22: Beauden Barrett (New Zealand)
++ CE -- 23: Matt Giteau (Australia)
+
+As for the sweepstake, well, it wasn't as close at the end as it might have been - but I'd say it worked out pretty well for a first 
+attempt ;) ... I doubt Martyn will be too distraught at winning the wooden spoon of shame, whilst Rosie narrowly pips Hugh to bragging 
+rights in the Hemmings-Bettesworth household.
+
+Despite a poor showing from his forwards, Jem wins twenty quid for third thanks to strong contributions from Julian Savea, JP Pietersen, 
+Frederic Michalak and Beauden Barrett.
+
+Neph wins thirty quid for second with big scores from Dan Carter, Adam Ashley-Cooper, Jonathan Sexton, Nemani Nadolo and Francois Louw.
+
+And congratulations to Jack, who takes home fifty quid for first thanks to the efforts of Nicolas Sanchez, Handre Pollard, David Pocock, 
+Mamuka Gorgodze and Schalk Burger.
+
+In terms of sorting out the prize money, I'm assuming that Susie will bung a tenner to Jem, so I'll e-mail the rest of you shortly with 
+my bank details - and then pass on most of what I receive to Jack when next I see him.
+
+Thanks everyone for playing. Let's do it again for Japan 2019 - but in the meantime, there's the 20th Anniversary Euro 2016 Sweepstake 
+to look forward to next summer. Details to follow nearer the time...
+
 ### Game #48
 
 **Final: [New Zealand](teams.html#New Zealand) 34 - 17 [Australia](teams.html#Australia)**
