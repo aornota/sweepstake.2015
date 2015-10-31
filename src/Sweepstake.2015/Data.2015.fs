@@ -8,9 +8,7 @@ module ``Data 2015`` =
 
     // 2015 squads: https://en.wikipedia.org/wiki/2015_Rugby_World_Cup_squads...
 
-    // TODO [NMB]: Update Status(es) as Teams are Eliminated...
-
-    let newZealand = { Name = "New Zealand"; Status = Active; Seeding = Some 1; Coach = "Steve Hansen" }
+    let newZealand = { Name = "New Zealand"; Status = Eliminated; Seeding = Some 1; Coach = "Steve Hansen" }
 
     let colesDane = { Name = "Dane Coles"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let mealamuKeven = { Name = "Keven Mealamu"; Team = newZealand; Type = Forward; Status = OriginalSquad }
@@ -95,7 +93,7 @@ module ``Data 2015`` =
                                          pienaarRuan; lambiePat; pollardHandre; steynMorne; deAllendeDamian; deVilliersJean; krielJesse
                                          serfonteinJan; habanaBryan; mvovoLwazi; pietersenJP; kirchnerZane; leRouxWillie ] }
 
-    let australia = { Name = "Australia"; Status = Active; Seeding = Some 3; Coach = "Michael Cheika" }
+    let australia = { Name = "Australia"; Status = Eliminated; Seeding = Some 3; Coach = "Michael Cheika" }
 
     let hansonJames = { Name = "James Hanson"; Team = australia; Type = Forward; Status = Replacement (Some (DateTime (2015, 9, 29))) }
     let mooreStephen = { Name = "Stephen Moore"; Team = australia; Type = Forward; Status = OriginalSquad }
@@ -1962,11 +1960,26 @@ module ``Data 2015`` =
                                             DropGoal sanchezNicolas
                                             YellowCard (cubelliTomas, Some 5<min>) ] }
 
-    let final1SF1VsSF2 = { Team1Points = TeamPoints (newZealand, 0<point>); Team2Points = TeamPoints (australia, 0<point>)
+    let final1SF1VsSF2 = { Team1Points = TeamPoints (newZealand, 34<point>); Team2Points = TeamPoints (australia, 17<point>)
                            Stage = Final; KickOff = DateTime (2015, 10, 31, 16, 0, 0)
-                           Events = [ (*ManOfTheMatch ...*)
-                                      (* TODO *) (* newZealand *)
-                                      (* TODO *) (* australia *) ] }
+                           Events = [ ManOfTheMatch carterDan
+                                      Try (milnerSkudderNehe, Some 39<min>) (* newZealand *)
+                                      Try (nonuMa'a, Some 42<min>)
+                                      Try (barrettBeauden, Some 79<min>)
+                                      Conversion carterDan
+                                      Conversion carterDan
+                                      MissedConversion carterDan
+                                      Penalty carterDan
+                                      Penalty carterDan
+                                      Penalty carterDan
+                                      Penalty carterDan
+                                      DropGoal carterDan
+                                      YellowCard (smithBen, Some 52<min>)
+                                      Try (pocockDavid, Some 53<min>) (* australia *)
+                                      Try (kuridraniTevita, Some 64<min>)
+                                      Conversion foleyBernard
+                                      Conversion foleyBernard
+                                      Penalty foleyBernard ] }
 
     let knockoutMatches = [ quarterFinal1B1VsA2; quarterFinal2C1VsD2; quarterFinal3D1VsC2; quarterFinal4A1VsB2
                             semiFinal1QF1VsQF2; semiFinal2QF3VsQF4; bronzeFinal1SF1VsSF2; final1SF1VsSF2 ]

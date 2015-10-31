@@ -8,7 +8,7 @@ module ``Data 2011`` =
 
     // 2011 squads: https://en.wikipedia.org/wiki/2011_Rugby_World_Cup_squads...
 
-    let newZealand = { Name = "New Zealand"; Status = Active; Seeding = Some 1; Coach = "Graham Henry" }
+    let newZealand = { Name = "New Zealand"; Status = Eliminated; Seeding = Some 1; Coach = "Graham Henry" }
 
     let flynnCorey = { Name = "Corey Flynn"; Team = newZealand; Type = Forward; Status = OriginalSquad }
     let horeAndrew = { Name = "Andrew Hore"; Team = newZealand; Type = Forward; Status = OriginalSquad }

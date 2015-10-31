@@ -19,11 +19,17 @@ Latest news
 (*** include-value: indexStandingsAndLinksHtml ***)
 
 (**
-### Upcoming fixtures
-
-Saturday 31st October at 16:00 -- Final: [New Zealand](teams.html#New Zealand) vs [Australia](teams.html#Australia)
-
 ## Saturday 31st October
+
+### Game #48
+
+**Final: [New Zealand](teams.html#New Zealand) 34 - 17 [Australia](teams.html#Australia)**
+
+A stirring second-half fightback from Australia led by the incredible Kurtley Beale falls short as the All Blacks retain the Webb Ellis 
+Cup in some style. Susie gets the New Zealand win, offset by a yellow card for Ben Smith - which also costs Chris. Hugh picks up a try 
+from Nehe Milner-Skudder but is pipped to fourth by Rosie thanks to the boot of Bernard Foley. Jem finishes in third after tries from 
+Tevita Kuridrani and Beauden Barrett. Neph takes second with a brilliant kicking display from man-of-the-match Dan Carter and a superb 
+try from Ma'a Nonu. And Jack rounds off a dominant performance with a try from David Pocock.
 
 ### Injury update #13
 
