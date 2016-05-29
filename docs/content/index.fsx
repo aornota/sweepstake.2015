@@ -75,7 +75,7 @@ Mamuka Gorgodze and Schalk Burger.
 In terms of sorting out the prize money, I'm assuming that Susie will bung a tenner to Jem, so I'll e-mail the rest of you shortly with 
 my bank details - and then pass on most of what I receive to Jack when next I see him.
 
-Thanks everyone for playing. Let's do it again for Japan 2019 - but in the meantime, there's the 20th Anniversary Euro 2016 Sweepstake 
+Thanks everyone for playing. Let's do it again for Japan 2019 - but in the meantime, there's the 18th Anniversary Euro 2016 Sweepstake 
 to look forward to next summer. Details to follow nearer the time...
 
 ### Game #48
