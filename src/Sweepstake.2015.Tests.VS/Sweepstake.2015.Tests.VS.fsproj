@@ -45,6 +45,7 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Data.2011.Tests.VS.fs" />
     <Compile Include="Data.2015.Tests.VS.fs" />
   </ItemGroup>

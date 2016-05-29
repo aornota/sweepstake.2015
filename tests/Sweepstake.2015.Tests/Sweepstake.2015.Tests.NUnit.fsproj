@@ -57,6 +57,7 @@
   <Import Project="$(FSharpTargetsPath)" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Data.2011.Tests.NUnit.fs" />
     <Compile Include="Data.2015.Tests.NUnit.fs" />
     <None Include="paket.references" />
